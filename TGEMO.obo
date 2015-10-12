@@ -1,61 +1,80 @@
 format-version: 1.2
-date: 13:09:2015 08:22
+date: 11:10:2015 19:35
 auto-generated-by: OBO-Edit 2.3.1
 
 [Term]
 id: TGEMO:00000
 name: TGEMO Root
-namespace: TGEMO
 def: "Root node for Temporary Gemma Ontology." []
 
 [Term]
 id: TGEMO:00001
 name: Homozygous negative
-namespace: TGEMO
-def: "Double negative allele. May apply to double knock-outs." []
+def: "Double negative allele or double severe loss-of-function allele. May apply to double knock-outs." []
 synonym: "-/-" EXACT []
 synonym: "Complete knockout" EXACT []
 synonym: "Complete null" EXACT []
 synonym: "Double negative" EXACT []
 synonym: "Homozygous knockout" EXACT []
+synonym: "Homozygous loss-of-function." EXACT []
 synonym: "Homozygous null" EXACT []
-is_a: TGEMO:00000 ! TGEMO Root
+is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
 
 [Term]
 id: TGEMO:00002
 name: Heterozygous
-namespace: TGEMO
 def: "Heterozygous allele. May apply to knock-outs also." []
 synonym: "-/+" EXACT []
 synonym: "Heterozygous knockout" EXACT []
+synonym: "Heterozygous loss-of-function." EXACT []
 synonym: "Heterozygous null" EXACT []
-is_a: TGEMO:00000 ! TGEMO Root
+is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
 
 [Term]
 id: TGEMO:00003
 name: Overexpression
-namespace: TGEMO
 def: "Overexpression of a gene. May include non-canonical promoter driven expression." []
-is_a: TGEMO:00000 ! TGEMO Root
+is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
 
 [Term]
 id: TGEMO:00004
 name: Knockdown
-namespace: TGEMO
 def: "Knock-down of gene. Methods may include siRNA, shRNA, miRNA, RNAi etc." []
-is_a: TGEMO:00000 ! TGEMO Root
+is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
 
 [Term]
 id: TGEMO:00005
 name: Dominant negative mutation
-namespace: TGEMO
 def: "Dominant negative mutation or allele for a gene." []
-is_a: TGEMO:00000 ! TGEMO Root
+is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
 
 [Term]
 id: TGEMO:00006
 name: Constitutive active mutation
-namespace: TGEMO
 def: "Constitutive active mutation or allele for a gene." []
+is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
+
+[Term]
+id: TGEMO:00007
+name: TGEMO Genetics/Mutations
+def: "Root node for all TGEMO genetic and mutations descriptors." []
+is_a: TGEMO:00000 ! TGEMO Root
+
+[Term]
+id: TGEMO:00008
+name: Immunodepletion
+def: "Removal of proteins using antibodies." [BAO:0002505]
+is_a: TGEMO:00009 ! TGEMO Methods
+
+[Term]
+id: TGEMO:00009
+name: TGEMO Methods
+def: "Root node for all TGEMO method descriptors." []
+is_a: TGEMO:00000 ! TGEMO Root
+
+[Term]
+id: TGEMO:00010
+name: TGEMO Internals
+def: "Root node for all TGEMO internal descriptors. Used primarily for behind-the-scenes standardization." []
 is_a: TGEMO:00000 ! TGEMO Root
 
