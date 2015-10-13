@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/TEMP#"
+     xml:base="http://purl.obolibrary.org/obo/TEMP"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP">
+        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12:10:2015 18:36</oboInOwl:date>
+        <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Root</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Root node for Temporary Gemma Ontology.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00000</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homozygous negative</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00001</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Genetics/Mutations</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO genetic and mutation descriptors.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00002</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterozygous</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterozygous allele. Applies to both genetic or functional null heterozygotes. Not applicable for single-copy &quot;overexpression&quot; of transgenes.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00003</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00004">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overexpression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overexpression of a gene. Includes non-canonical promoter driven expression.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00004</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00005">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Single-copy overexpression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00004"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overexpression of a gene. Organism is known to have only one copy of the gene.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00005</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00006">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Double-copy overexpression</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00004"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overexpression of a gene. Organism is known to have only two copies of the gene.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00006</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00007">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knockdown</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knock-down of a gene. Methods may include siRNA, shRNA, miRNA, RNAi etc.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00007</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00008">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constitutive active mutation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constitutive active mutation or allele for a gene.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00008</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00009">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dominant negative mutation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dominant negative mutation or allele for a gene.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00009</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00010">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Methods</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO method descriptors.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00010</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Internals</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO internal descriptors. Used primarily for behind-the-scenes standardization.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00011</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00012">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunodepletion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00010"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Removal of proteins using antibodies.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00012</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00013">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DE_Include</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samples to include in Differential Expression Analysis.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00013</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00014">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DE_Exclude</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samples to exclude in Differential Expression Analysis.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00014</oboInOwl:id>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

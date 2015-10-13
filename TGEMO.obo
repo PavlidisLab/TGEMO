@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 11:10:2015 19:35
+date: 12:10:2015 18:34
 auto-generated-by: OBO-Edit 2.3.1
 
 [Term]
@@ -10,71 +10,84 @@ def: "Root node for Temporary Gemma Ontology." []
 [Term]
 id: TGEMO:00001
 name: Homozygous negative
-def: "Double negative allele or double severe loss-of-function allele. May apply to double knock-outs." []
-synonym: "-/-" EXACT []
-synonym: "Complete knockout" EXACT []
-synonym: "Complete null" EXACT []
-synonym: "Double negative" EXACT []
-synonym: "Homozygous knockout" EXACT []
-synonym: "Homozygous loss-of-function." EXACT []
-synonym: "Homozygous null" EXACT []
-is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
+def: "Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also." []
+is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 
 [Term]
 id: TGEMO:00002
-name: Heterozygous
-def: "Heterozygous allele. May apply to knock-outs also." []
-synonym: "-/+" EXACT []
-synonym: "Heterozygous knockout" EXACT []
-synonym: "Heterozygous loss-of-function." EXACT []
-synonym: "Heterozygous null" EXACT []
-is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
+name: TGEMO Genetics/Mutations
+def: "Parent node for all TGEMO genetic and mutation descriptors." []
+is_a: TGEMO:00000 ! TGEMO Root
 
 [Term]
 id: TGEMO:00003
-name: Overexpression
-def: "Overexpression of a gene. May include non-canonical promoter driven expression." []
-is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
+name: Heterozygous
+def: "Heterozygous allele. Applies to both genetic or functional null heterozygotes. Not applicable for single-copy \"overexpression\" of transgenes." []
+is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 
 [Term]
 id: TGEMO:00004
-name: Knockdown
-def: "Knock-down of gene. Methods may include siRNA, shRNA, miRNA, RNAi etc." []
-is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
+name: Overexpression
+def: "Overexpression of a gene. Includes non-canonical promoter driven expression." []
+is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 
 [Term]
 id: TGEMO:00005
-name: Dominant negative mutation
-def: "Dominant negative mutation or allele for a gene." []
-is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
+name: Single-copy overexpression
+def: "Overexpression of a gene. Organism is known to have only one copy of the gene." []
+is_a: TGEMO:00004 ! Overexpression
 
 [Term]
 id: TGEMO:00006
-name: Constitutive active mutation
-def: "Constitutive active mutation or allele for a gene." []
-is_a: TGEMO:00007 ! TGEMO Genetics/Mutations
+name: Double-copy overexpression
+def: "Overexpression of a gene. Organism is known to have only two copies of the gene." []
+is_a: TGEMO:00004 ! Overexpression
 
 [Term]
 id: TGEMO:00007
-name: TGEMO Genetics/Mutations
-def: "Root node for all TGEMO genetic and mutations descriptors." []
-is_a: TGEMO:00000 ! TGEMO Root
+name: Knockdown
+def: "Knock-down of a gene. Methods may include siRNA, shRNA, miRNA, RNAi etc." []
+is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 
 [Term]
 id: TGEMO:00008
-name: Immunodepletion
-def: "Removal of proteins using antibodies." [BAO:0002505]
-is_a: TGEMO:00009 ! TGEMO Methods
+name: Constitutive active mutation
+def: "Constitutive active mutation or allele for a gene." []
+is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 
 [Term]
 id: TGEMO:00009
-name: TGEMO Methods
-def: "Root node for all TGEMO method descriptors." []
-is_a: TGEMO:00000 ! TGEMO Root
+name: Dominant negative mutation
+def: "Dominant negative mutation or allele for a gene." []
+is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 
 [Term]
 id: TGEMO:00010
-name: TGEMO Internals
-def: "Root node for all TGEMO internal descriptors. Used primarily for behind-the-scenes standardization." []
+name: TGEMO Methods
+def: "Parent node for all TGEMO method descriptors." []
 is_a: TGEMO:00000 ! TGEMO Root
+
+[Term]
+id: TGEMO:00011
+name: TGEMO Internals
+def: "Parent node for all TGEMO internal descriptors. Used primarily for behind-the-scenes standardization." []
+is_a: TGEMO:00000 ! TGEMO Root
+
+[Term]
+id: TGEMO:00012
+name: Immunodepletion
+def: "Removal of proteins using antibodies." []
+is_a: TGEMO:00010 ! TGEMO Methods
+
+[Term]
+id: TGEMO:00013
+name: DE_Include
+def: "Samples to include in Differential Expression Analysis." []
+is_a: TGEMO:00011 ! TGEMO Internals
+
+[Term]
+id: TGEMO:00014
+name: DE_Exclude
+def: "Samples to exclude in Differential Expression Analysis." []
+is_a: TGEMO:00011 ! TGEMO Internals
 
