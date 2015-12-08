@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:10:2015 18:34
+date: 08:12:2015 10:33
 auto-generated-by: OBO-Edit 2.3.1
 
 [Term]
@@ -11,6 +11,7 @@ def: "Root node for Temporary Gemma Ontology." []
 id: TGEMO:00001
 name: Homozygous negative
 def: "Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also." []
+synonym: "-/-" EXACT []
 is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 
 [Term]
@@ -23,6 +24,7 @@ is_a: TGEMO:00000 ! TGEMO Root
 id: TGEMO:00003
 name: Heterozygous
 def: "Heterozygous allele. Applies to both genetic or functional null heterozygotes. Not applicable for single-copy \"overexpression\" of transgenes." []
+synonym: "+/-" EXACT []
 is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 
 [Term]

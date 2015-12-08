@@ -8,8 +8,8 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP">
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">08:12:2015 10:33</oboInOwl:date>
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12:10:2015 18:36</oboInOwl:date>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
     </owl:Ontology>
     
@@ -36,6 +36,9 @@
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
@@ -78,6 +81,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00001">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homozygous negative</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-/-</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00001</oboInOwl:id>
     </owl:Class>
@@ -100,6 +104,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00003">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterozygous</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">+/-</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterozygous allele. Applies to both genetic or functional null heterozygotes. Not applicable for single-copy &quot;overexpression&quot; of transgenes.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00003</oboInOwl:id>
     </owl:Class>
