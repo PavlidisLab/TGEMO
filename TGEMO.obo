@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:12:2015 10:33
+date: 14:03:2017 12:52
 auto-generated-by: OBO-Edit 2.3.1
 
 [Term]
@@ -11,7 +11,6 @@ def: "Root node for Temporary Gemma Ontology." []
 id: TGEMO:00001
 name: Homozygous negative
 def: "Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also." []
-synonym: "-/-" EXACT []
 is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 
 [Term]
@@ -24,7 +23,6 @@ is_a: TGEMO:00000 ! TGEMO Root
 id: TGEMO:00003
 name: Heterozygous
 def: "Heterozygous allele. Applies to both genetic or functional null heterozygotes. Not applicable for single-copy \"overexpression\" of transgenes." []
-synonym: "+/-" EXACT []
 is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 
 [Term]
@@ -92,4 +90,118 @@ id: TGEMO:00014
 name: DE_Exclude
 def: "Samples to exclude in Differential Expression Analysis." []
 is_a: TGEMO:00011 ! TGEMO Internals
+
+[Term]
+id: TGEMO:00015
+name: TGEMO Mouse Strains
+def: "Parent node for all TGEMO mouse strains." []
+is_a: TGEMO:00000 ! TGEMO Root
+
+[Term]
+id: TGEMO:00016
+name: C57BL/6
+def: "Inbred Strain. MGI:2159769." []
+is_a: TGEMO:00018 ! C57BL
+
+[Term]
+id: TGEMO:00017
+name: DBA/2
+def: "Inbred Strain. MGI:2159768." []
+is_a: TGEMO:00019 ! DBA
+
+[Term]
+id: TGEMO:00018
+name: C57BL
+def: "Inbred Strain. MGI:2160085." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00019
+name: DBA
+def: "Inbred Strain. MGI:2159849." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00020
+name: [Sample Study]
+def: "Indicator for studies containing a collection of samples without an obvious experimental design." []
+is_a: TGEMO:00011 ! TGEMO Internals
+
+[Term]
+id: TGEMO:00021
+name: [Complex Design]
+def: "Indicator for studies that have a complex experimental design, and are currently incompletely curated." []
+is_a: TGEMO:00011 ! TGEMO Internals
+
+[Term]
+id: TGEMO:00022
+name: [SUBSET]
+def: "Indicator (Temporary Placeholder) for experiments that are a collection of studies, and will be separated internally." []
+is_a: TGEMO:00011 ! TGEMO Internals
+
+[Term]
+id: TGEMO:00023
+name: AKR
+def: "Inbred Strain. MGI:2159767." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00024
+name: AKR/J
+def: "Inbred Strain. MGI:2159745." []
+is_a: TGEMO:00023 ! AKR
+
+[Term]
+id: TGEMO:00025
+name: Crl:CD1(ICR)
+def: "Outbred Strain. Charles River:CD-1." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00026
+name: BALB/c
+def: "Inbred Strain. MGI:2161072." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00027
+name: NOD
+def: "Inbred Strain. MGI:2159775." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00028
+name: BALB/cJ
+def: "Inbred Strain. MGI:2159737." []
+is_a: TGEMO:00026 ! BALB/c
+
+[Term]
+id: TGEMO:00029
+name: NOD/Shi
+def: "Inbred Strain. MGI:2160550." []
+is_a: TGEMO:00027 ! NOD
+
+[Term]
+id: TGEMO:00030
+name: NOD/ShiLt
+def: "Inbred Strain. MGI:2162728." []
+is_a: TGEMO:00029 ! NOD/Shi
+
+[Term]
+id: TGEMO:00031
+name: NOD/ShiLtJ
+def: "Inbred Strain. MGI:2162056." []
+is_a: TGEMO:00030 ! NOD/ShiLt
+
+[Term]
+id: TGEMO:00032
+name: [Benchmark Study]
+def: "Indicator for studies that are benchmarking two methods against each other, and are unlikely to be informative in terms of differential expression." []
+is_a: TGEMO:00011 ! TGEMO Internals
+
+[Term]
+id: TGEMO:00033
+name: [Cell Line Sample Study]
+def: "Indicator for sample studies containing a collection of various cell lines." []
+is_a: TGEMO:00020 ! [Sample Study]
 
