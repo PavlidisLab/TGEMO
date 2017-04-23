@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 14:03:2017 12:52
+date: 23:04:2017 09:42
 auto-generated-by: OBO-Edit 2.3.1
 
 [Term]
@@ -204,4 +204,142 @@ id: TGEMO:00033
 name: [Cell Line Sample Study]
 def: "Indicator for sample studies containing a collection of various cell lines." []
 is_a: TGEMO:00020 ! [Sample Study]
+
+[Term]
+id: TGEMO:00034
+name: 129
+def: "Inbred Strain. MGI:2160041." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00035
+name: 129S/Sv
+def: "Inbred Strain. MGI:2165020." []
+is_a: TGEMO:00034 ! 129
+
+[Term]
+id: TGEMO:00036
+name: 129S/SvEv
+def: "Inbred Strain. MGI:3050593." []
+is_a: TGEMO:00035 ! 129S/Sv
+
+[Term]
+id: TGEMO:00037
+name: C57BL/6J
+def: "Inbred Strain. MGI:3028467." []
+is_a: TGEMO:00016 ! C57BL/6
+
+[Term]
+id: TGEMO:00038
+name: TGEMO Hybrid Mouse Strains
+def: "Subsidiary parent node for all TGEMO hybrid mouse strains." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00039
+name: B6129SF?
+def: "Cross between C57BL/6 and 129S. Generation Unknown." []
+is_a: TGEMO:00038 ! TGEMO Hybrid Mouse Strains
+
+[Term]
+id: TGEMO:00040
+name: B6J129SF?
+def: "Cross between C57BL/6J and 129S. Generation Unknown." []
+is_a: TGEMO:00038 ! TGEMO Hybrid Mouse Strains
+
+[Term]
+id: TGEMO:00041
+name: FVB
+def: "Inbred Strain. MGI:3609372." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00042
+name: FVB/N
+def: "Inbred Strain. MGI:2160001." []
+is_a: TGEMO:00041 ! FVB
+
+[Term]
+id: TGEMO:00043
+name: FVB/NJ
+def: "Inbred Strain. MGI:2163709." []
+is_a: TGEMO:00042 ! FVB/N
+
+[Term]
+id: TGEMO:00044
+name: SPRET
+def: "Inbred Strain. MGI:2160669." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00045
+name: SPRET/Ei
+def: "Inbred Strain. MGI:3510421." []
+is_a: TGEMO:00044 ! SPRET
+
+[Term]
+id: TGEMO:00046
+name: SPRET/EiJ
+def: "Inbred Strain. MGI:2160671." []
+is_a: TGEMO:00045 ! SPRET/Ei
+
+[Term]
+id: TGEMO:00047
+name: MMTV-PyMT
+def: "Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00048
+name: 129S6/SvEvTac
+def: "Inbred Strain. MGI:3044417." []
+is_a: TGEMO:00036 ! 129S/SvEv
+
+[Term]
+id: TGEMO:00049
+name: 129S2/SvPas
+def: "Inbred Strain. MGI:2161070." []
+is_a: TGEMO:00035 ! 129S/Sv
+
+[Term]
+id: TGEMO:00050
+name: NOR
+def: "Inbred Strain. MGI:2160604." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00051
+name: NOR1/Lt
+def: "Inbred Strain. MGI:2162611." []
+is_a: TGEMO:00050 ! NOR
+
+[Term]
+id: TGEMO:00052
+name: NOR/LtJ
+def: "Inbred Strain. MGI:2162087." []
+is_a: TGEMO:00051 ! NOR1/Lt
+
+[Term]
+id: TGEMO:00053
+name: C3H
+def: "Inbred Strain. MGI:2160217." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00054
+name: C3H/He
+def: "Inbred Strain. MGI:2159866." []
+is_a: TGEMO:00053 ! C3H
+
+[Term]
+id: TGEMO:00055
+name: C3H/HeJ
+def: "Inbred Strain. MGI:2159741." []
+is_a: TGEMO:00054 ! C3H/He
+
+[Term]
+id: TGEMO:00056
+name: NOD.CB17-Prkdc<scid>/NcrCrl
+def: "Congenic Strain. Charles River:NOD SCID." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
 
