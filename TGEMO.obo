@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:04:2017 09:42
+date: 21:06:2017 08:46
 auto-generated-by: OBO-Edit 2.3.1
 
 [Term]
@@ -342,4 +342,16 @@ id: TGEMO:00056
 name: NOD.CB17-Prkdc<scid>/NcrCrl
 def: "Congenic Strain. Charles River:NOD SCID." []
 is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00057
+name: TGEMO Unclassified
+def: "Parent node for all TGEMO terms that are currently not assigned a parent class." []
+is_a: TGEMO:00000 ! TGEMO Root
+
+[Term]
+id: TGEMO:00058
+name: Adjacent tissue
+def: "Tissue that is spatially located adjacent to the tissue of interest. Adjacent tissue are assumed to be normal, but that is not necessarily always the case." []
+is_a: TGEMO:00057 ! TGEMO Unclassified
 
