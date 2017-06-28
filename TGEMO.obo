@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 21:06:2017 08:46
+date: 28:06:2017 15:36
 auto-generated-by: OBO-Edit 2.3.1
 
 [Term]
@@ -354,4 +354,252 @@ id: TGEMO:00058
 name: Adjacent tissue
 def: "Tissue that is spatially located adjacent to the tissue of interest. Adjacent tissue are assumed to be normal, but that is not necessarily always the case." []
 is_a: TGEMO:00057 ! TGEMO Unclassified
+
+[Term]
+id: TGEMO:00059
+name: Chromosome 1
+def: "Chromosome 1." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00060
+name: Chromosome 2
+def: "Chromosome 2." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00061
+name: Chromosome 3
+def: "Chromosome 3." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00062
+name: Chromosome 4
+def: "Chromosome 4." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00063
+name: Chromosome 5
+def: "Chromosome 5." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00064
+name: Chromosome 6
+def: "Chromosome 6." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00065
+name: Chromosome 7
+def: "Chromosome 7." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00066
+name: Chromosome 8
+def: "Chromosome 8." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00067
+name: Chromosome 9
+def: "Chromosome 9." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00068
+name: Chromosome 10
+def: "Chromosome 10." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00069
+name: Chromosome 11
+def: "Chromosome 11." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00070
+name: Chromosome 12
+def: "Chromosome 12." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00071
+name: Chromosome 13
+def: "Chromosome 13." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00072
+name: Chromosome 14
+def: "Chromosome 14." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00073
+name: Chromosome 15
+def: "Chromosome 15." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00074
+name: Chromosome 16
+def: "Chromosome 16." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00075
+name: Chromosome 17
+def: "Chromosome 17." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00076
+name: Chromosome 18
+def: "Chromosome 18." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00077
+name: Chromosome 19
+def: "Chromosome 19." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00078
+name: Chromosome 20
+def: "Chromosome 20." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00079
+name: Chromosome 21
+def: "Chromosome 21." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00080
+name: Chromosome 22
+def: "Chromosome 22." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00081
+name: Chromosome X
+def: "Chromosome X." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00082
+name: Chromosome Y
+def: "Chromosome Y." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00083
+name: Mitochondrial DNA
+def: "Mitochondrial DNA." []
+is_a: TGEMO:00087 ! TGEMO Chromosomes
+
+[Term]
+id: TGEMO:00084
+name: DBA/2J
+def: "Inbred Strain. MGI:2684695." []
+is_a: TGEMO:00017 ! DBA/2
+
+[Term]
+id: TGEMO:00085
+name: CFW
+def: "Inbred Strain. MGI:2161001." []
+synonym: "Crl:CFW(SW)." RELATED []
+synonym: "Swiss Webster." EXACT []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00086
+name: TGEMO Rat Strains
+def: "Parent node for all TGEMO rat strains." []
+is_a: TGEMO:00000 ! TGEMO Root
+
+[Term]
+id: TGEMO:00087
+name: TGEMO Chromosomes
+def: "Parent node for all Chromosome Numbers, regardless of originating taxa." []
+is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
+
+[Term]
+id: TGEMO:00088
+name: [Time Consuming]
+def: "Indicator (Temporary Placeholder) for experiments that are identified to be time consuming for curation, and will be revisited at a later time." []
+is_a: TGEMO:00011 ! TGEMO Internals
+
+[Term]
+id: TGEMO:00089
+name: WSB
+def: "Inbred Strain. MGI:2160618." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00090
+name: WSB/Ei
+def: "[Strain Not Recorded in MGI]." []
+is_a: TGEMO:00089 ! WSB
+
+[Term]
+id: TGEMO:00091
+name: WSB/EiJ
+def: "Inbred Strain. MGI:2160667." []
+is_a: TGEMO:00090 ! WSB/Ei
+
+[Term]
+id: TGEMO:00092
+name: A
+def: "Inbred Strain. MGI:2159959." []
+is_a: TGEMO:00015 ! TGEMO Mouse Strains
+
+[Term]
+id: TGEMO:00093
+name: A/J
+def: "Inbred Strain. MGI:2159747." []
+is_a: TGEMO:00092 ! A
+
+[Term]
+id: TGEMO:00094
+name: C57BL/10
+def: "Inbred Strain. MGI:2159788." []
+is_a: TGEMO:00018 ! C57BL
+
+[Term]
+id: TGEMO:00095
+name: C57BL/10J
+def: "Inbred Strain. MGI:2159754." []
+is_a: TGEMO:00094 ! C57BL/10
+
+[Term]
+id: TGEMO:00096
+name: Wistar
+def: "Wistar Rat." []
+is_a: TGEMO:00086 ! TGEMO Rat Strains
+
+[Term]
+id: TGEMO:00097
+name: Long Evans
+def: "Long Evans Rat." []
+is_a: TGEMO:00086 ! TGEMO Rat Strains
+
+[Term]
+id: TGEMO:00098
+name: Wistar-Kyoto
+def: "Wistar-Kyoto Rat." []
+is_a: TGEMO:00096 ! Wistar
+
+[Term]
+id: TGEMO:00099
+name: Sprague Dawley
+def: "Sprague Dawley Rat." []
+is_a: TGEMO:00086 ! TGEMO Rat Strains
 

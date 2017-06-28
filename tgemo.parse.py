@@ -67,6 +67,7 @@ with open(file = tempPath, mode = 'rt', encoding = 'utf-8', newline = '\n') as i
 				newTerm.Name = everyLine.partition('name: ')[2]
 				continue
 			
+			# Definition Parser
 			if everyLine.startswith('def:'):
 				newTerm.Def = everyLine.partition('def: ')[2].strip('" []').replace('\\"', '"')
 				continue

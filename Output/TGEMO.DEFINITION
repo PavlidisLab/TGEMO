@@ -1,59 +1,100 @@
-TGEMO_00053	C3H	Inbred Strain. MGI:2160217.
-TGEMO_00017	DBA/2	Inbred Strain. MGI:2159768.
-TGEMO_00032	[Benchmark Study]	Indicator for studies that are benchmarking two methods against each other, and are unlikely to be informative in terms of differential expression.
-TGEMO_00044	SPRET	Inbred Strain. MGI:2160669.
-TGEMO_00014	DE_Exclude	Samples to exclude in Differential Expression Analysis.
-TGEMO_00056	NOD.CB17-Prkdc<scid>/NcrCrl	Congenic Strain. Charles River:NOD SCID.
-TGEMO_00057	TGEMO Unclassified	Parent node for all TGEMO terms that are currently not assigned a parent class.
-TGEMO_00006	Double-copy overexpression	Overexpression of a gene. Organism is known to have only two copies of the gene.
-TGEMO_00007	Knockdown	Knock-down of a gene. Methods may include siRNA, shRNA, miRNA, RNAi etc.
-TGEMO_00009	Dominant negative mutation	Dominant negative mutation or allele for a gene.
-TGEMO_00039	B6129SF?	Cross between C57BL/6 and 129S. Generation Unknown.
-TGEMO_00054	C3H/He	Inbred Strain. MGI:2159866.
-TGEMO_00000	TGEMO Root	Root node for Temporary Gemma Ontology.
-TGEMO_00016	C57BL/6	Inbred Strain. MGI:2159769.
-TGEMO_00005	Single-copy overexpression	Overexpression of a gene. Organism is known to have only one copy of the gene.
-TGEMO_00027	NOD	Inbred Strain. MGI:2159775.
-TGEMO_00048	129S6/SvEvTac	Inbred Strain. MGI:3044417.
-TGEMO_00003	Heterozygous	Heterozygous allele. Applies to both genetic or functional null heterozygotes. Not applicable for single-copy "overexpression" of transgenes.
-TGEMO_00045	SPRET/Ei	Inbred Strain. MGI:3510421.
-TGEMO_00033	[Cell Line Sample Study]	Indicator for sample studies containing a collection of various cell lines.
-TGEMO_00040	B6J129SF?	Cross between C57BL/6J and 129S. Generation Unknown.
-TGEMO_00029	NOD/Shi	Inbred Strain. MGI:2160550.
 TGEMO_00050	NOR	Inbred Strain. MGI:2160604.
-TGEMO_00024	AKR/J	Inbred Strain. MGI:2159745.
-TGEMO_00015	TGEMO Mouse Strains	Parent node for all TGEMO mouse strains.
-TGEMO_00038	TGEMO Hybrid Mouse Strains	Subsidiary parent node for all TGEMO hybrid mouse strains.
-TGEMO_00046	SPRET/EiJ	Inbred Strain. MGI:2160671.
-TGEMO_00042	FVB/N	Inbred Strain. MGI:2160001.
-TGEMO_00018	C57BL	Inbred Strain. MGI:2160085.
-TGEMO_00037	C57BL/6J	Inbred Strain. MGI:3028467.
-TGEMO_00020	[Sample Study]	Indicator for studies containing a collection of samples without an obvious experimental design.
-TGEMO_00041	FVB	Inbred Strain. MGI:3609372.
-TGEMO_00010	TGEMO Methods	Parent node for all TGEMO method descriptors.
-TGEMO_00030	NOD/ShiLt	Inbred Strain. MGI:2162728.
-TGEMO_00013	DE_Include	Samples to include in Differential Expression Analysis.
 TGEMO_00043	FVB/NJ	Inbred Strain. MGI:2163709.
-TGEMO_00035	129S/Sv	Inbred Strain. MGI:2165020.
-TGEMO_00026	BALB/c	Inbred Strain. MGI:2161072.
-TGEMO_00004	Overexpression	Overexpression of a gene. Includes non-canonical promoter driven expression.
-TGEMO_00019	DBA	Inbred Strain. MGI:2159849.
-TGEMO_00008	Constitutive active mutation	Constitutive active mutation or allele for a gene.
-TGEMO_00055	C3H/HeJ	Inbred Strain. MGI:2159741.
-TGEMO_00052	NOR/LtJ	Inbred Strain. MGI:2162087.
-TGEMO_00002	TGEMO Genetics/Mutations	Parent node for all TGEMO genetic and mutation descriptors.
-TGEMO_00012	Immunodepletion	Removal of proteins using antibodies.
-TGEMO_00036	129S/SvEv	Inbred Strain. MGI:3050593.
-TGEMO_00051	NOR1/Lt	Inbred Strain. MGI:2162611.
-TGEMO_00022	[SUBSET]	Indicator (Temporary Placeholder) for experiments that are a collection of studies, and will be separated internally.
+TGEMO_00040	B6J129SF?	Cross between C57BL/6J and 129S. Generation Unknown.
+TGEMO_00079	Chromosome 21	Chromosome 21.
+TGEMO_00054	C3H/He	Inbred Strain. MGI:2159866.
+TGEMO_00059	Chromosome 1	Chromosome 1.
+TGEMO_00047	MMTV-PyMT	Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul.
 TGEMO_00011	TGEMO Internals	Parent node for all TGEMO internal descriptors. Used primarily for behind-the-scenes standardization.
-TGEMO_00049	129S2/SvPas	Inbred Strain. MGI:2161070.
-TGEMO_00028	BALB/cJ	Inbred Strain. MGI:2159737.
-TGEMO_00034	129	Inbred Strain. MGI:2160041.
-TGEMO_00021	[Complex Design]	Indicator for studies that have a complex experimental design, and are currently incompletely curated.
 TGEMO_00001	Homozygous negative	Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also.
 TGEMO_00023	AKR	Inbred Strain. MGI:2159767.
-TGEMO_00031	NOD/ShiLtJ	Inbred Strain. MGI:2162056.
-TGEMO_00047	MMTV-PyMT	Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul.
+TGEMO_00006	Double-copy overexpression	Overexpression of a gene. Organism is known to have only two copies of the gene.
+TGEMO_00067	Chromosome 9	Chromosome 9.
+TGEMO_00018	C57BL	Inbred Strain. MGI:2160085.
+TGEMO_00049	129S2/SvPas	Inbred Strain. MGI:2161070.
+TGEMO_00029	NOD/Shi	Inbred Strain. MGI:2160550.
+TGEMO_00021	[Complex Design]	Indicator for studies that have a complex experimental design, and are currently incompletely curated.
+TGEMO_00052	NOR/LtJ	Inbred Strain. MGI:2162087.
+TGEMO_00015	TGEMO Mouse Strains	Parent node for all TGEMO mouse strains.
+TGEMO_00083	Mitochondrial DNA	Mitochondrial DNA.
+TGEMO_00065	Chromosome 7	Chromosome 7.
+TGEMO_00019	DBA	Inbred Strain. MGI:2159849.
+TGEMO_00034	129	Inbred Strain. MGI:2160041.
+TGEMO_00081	Chromosome X	Chromosome X.
+TGEMO_00041	FVB	Inbred Strain. MGI:3609372.
+TGEMO_00012	Immunodepletion	Removal of proteins using antibodies.
+TGEMO_00063	Chromosome 5	Chromosome 5.
+TGEMO_00097	Long Evans	Long Evans Rat.
+TGEMO_00010	TGEMO Methods	Parent node for all TGEMO method descriptors.
+TGEMO_00062	Chromosome 4	Chromosome 4.
+TGEMO_00026	BALB/c	Inbred Strain. MGI:2161072.
+TGEMO_00055	C3H/HeJ	Inbred Strain. MGI:2159741.
+TGEMO_00037	C57BL/6J	Inbred Strain. MGI:3028467.
+TGEMO_00024	AKR/J	Inbred Strain. MGI:2159745.
+TGEMO_00051	NOR1/Lt	Inbred Strain. MGI:2162611.
 TGEMO_00025	Crl:CD1(ICR)	Outbred Strain. Charles River:CD-1.
+TGEMO_00070	Chromosome 12	Chromosome 12.
+TGEMO_00009	Dominant negative mutation	Dominant negative mutation or allele for a gene.
+TGEMO_00014	DE_Exclude	Samples to exclude in Differential Expression Analysis.
+TGEMO_00098	Wistar-Kyoto	Wistar-Kyoto Rat.
+TGEMO_00092	A	Inbred Strain. MGI:2159959.
 TGEMO_00058	Adjacent tissue	Tissue that is spatially located adjacent to the tissue of interest. Adjacent tissue are assumed to be normal, but that is not necessarily always the case.
+TGEMO_00068	Chromosome 10	Chromosome 10.
+TGEMO_00086	TGEMO Rat Strains	Parent node for all TGEMO rat strains.
+TGEMO_00091	WSB/EiJ	Inbred Strain. MGI:2160667.
+TGEMO_00002	TGEMO Genetics/Mutations	Parent node for all TGEMO genetic and mutation descriptors.
+TGEMO_00069	Chromosome 11	Chromosome 11.
+TGEMO_00099	Sprague Dawley	Sprague Dawley Rat.
+TGEMO_00089	WSB	Inbred Strain. MGI:2160618.
+TGEMO_00013	DE_Include	Samples to include in Differential Expression Analysis.
+TGEMO_00038	TGEMO Hybrid Mouse Strains	Subsidiary parent node for all TGEMO hybrid mouse strains.
+TGEMO_00073	Chromosome 15	Chromosome 15.
+TGEMO_00094	C57BL/10	Inbred Strain. MGI:2159788.
+TGEMO_00096	Wistar	Wistar Rat.
+TGEMO_00000	TGEMO Root	Root node for Temporary Gemma Ontology.
+TGEMO_00071	Chromosome 13	Chromosome 13.
+TGEMO_00085	CFW	Inbred Strain. MGI:2161001.
+TGEMO_00080	Chromosome 22	Chromosome 22.
+TGEMO_00039	B6129SF?	Cross between C57BL/6 and 129S. Generation Unknown.
+TGEMO_00022	[SUBSET]	Indicator (Temporary Placeholder) for experiments that are a collection of studies, and will be separated internally.
+TGEMO_00044	SPRET	Inbred Strain. MGI:2160669.
+TGEMO_00090	WSB/Ei	Strain Not Recorded in MGI].
+TGEMO_00028	BALB/cJ	Inbred Strain. MGI:2159737.
+TGEMO_00008	Constitutive active mutation	Constitutive active mutation or allele for a gene.
+TGEMO_00046	SPRET/EiJ	Inbred Strain. MGI:2160671.
+TGEMO_00045	SPRET/Ei	Inbred Strain. MGI:3510421.
+TGEMO_00042	FVB/N	Inbred Strain. MGI:2160001.
+TGEMO_00053	C3H	Inbred Strain. MGI:2160217.
+TGEMO_00017	DBA/2	Inbred Strain. MGI:2159768.
+TGEMO_00066	Chromosome 8	Chromosome 8.
+TGEMO_00031	NOD/ShiLtJ	Inbred Strain. MGI:2162056.
+TGEMO_00033	[Cell Line Sample Study]	Indicator for sample studies containing a collection of various cell lines.
+TGEMO_00074	Chromosome 16	Chromosome 16.
+TGEMO_00003	Heterozygous	Heterozygous allele. Applies to both genetic or functional null heterozygotes. Not applicable for single-copy "overexpression" of transgenes.
+TGEMO_00035	129S/Sv	Inbred Strain. MGI:2165020.
+TGEMO_00036	129S/SvEv	Inbred Strain. MGI:3050593.
+TGEMO_00072	Chromosome 14	Chromosome 14.
+TGEMO_00027	NOD	Inbred Strain. MGI:2159775.
+TGEMO_00007	Knockdown	Knock-down of a gene. Methods may include siRNA, shRNA, miRNA, RNAi etc.
+TGEMO_00048	129S6/SvEvTac	Inbred Strain. MGI:3044417.
+TGEMO_00087	TGEMO Chromosomes	Parent node for all Chromosome Numbers, regardless of originating taxa.
+TGEMO_00005	Single-copy overexpression	Overexpression of a gene. Organism is known to have only one copy of the gene.
+TGEMO_00004	Overexpression	Overexpression of a gene. Includes non-canonical promoter driven expression.
+TGEMO_00030	NOD/ShiLt	Inbred Strain. MGI:2162728.
+TGEMO_00075	Chromosome 17	Chromosome 17.
+TGEMO_00088	[Time Consuming]	Indicator (Temporary Placeholder) for experiments that are identified to be time consuming for curation, and will be revisited at a later time.
+TGEMO_00064	Chromosome 6	Chromosome 6.
+TGEMO_00061	Chromosome 3	Chromosome 3.
+TGEMO_00020	[Sample Study]	Indicator for studies containing a collection of samples without an obvious experimental design.
+TGEMO_00077	Chromosome 19	Chromosome 19.
+TGEMO_00084	DBA/2J	Inbred Strain. MGI:2684695.
+TGEMO_00095	C57BL/10J	Inbred Strain. MGI:2159754.
+TGEMO_00076	Chromosome 18	Chromosome 18.
+TGEMO_00060	Chromosome 2	Chromosome 2.
+TGEMO_00082	Chromosome Y	Chromosome Y.
+TGEMO_00032	[Benchmark Study]	Indicator for studies that are benchmarking two methods against each other, and are unlikely to be informative in terms of differential expression.
+TGEMO_00016	C57BL/6	Inbred Strain. MGI:2159769.
+TGEMO_00093	A/J	Inbred Strain. MGI:2159747.
+TGEMO_00078	Chromosome 20	Chromosome 20.
+TGEMO_00056	NOD.CB17-Prkdc<scid>/NcrCrl	Congenic Strain. Charles River:NOD SCID.
+TGEMO_00057	TGEMO Unclassified	Parent node for all TGEMO terms that are currently not assigned a parent class.

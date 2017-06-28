@@ -9,7 +9,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP">
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21:06:2017 08:46</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28:06:2017 15:36</oboInOwl:date>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
     </owl:Ontology>
     
@@ -23,22 +23,28 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
     
 
@@ -696,7 +702,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00057">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Unclassified</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-21T07:45:33Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO terms that are currently not assigned a parent class.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00057</oboInOwl:id>
     </owl:Class>
@@ -708,9 +713,477 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00058">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adjacent tissue</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00057"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-21T07:47:08Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00058</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue that is spatially located adjacent to the tissue of interest. Adjacent tissue are assumed to be normal, but that is not necessarily always the case.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00059">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 1.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00059</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00060">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 2.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00060</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00061">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 3.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00061</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00062">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 4.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00062</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00063">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 5.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00063</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00064">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 6.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00064</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00065">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 7</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 7.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00065</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00066">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 8</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 8.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00066</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00067">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 9</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 9.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00067</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00068">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 10</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 10.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00068</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00069">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 11</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 11.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00069</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00070">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 12</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 12.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00070</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00071">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 13</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 13.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00071</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00072">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 14</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 14.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00072</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00073">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 15</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 15.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00073</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00074">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 16</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 16.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00074</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00075">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 17</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 17.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00075</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00076">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 18</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 18.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00076</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00077">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 19</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 19.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00077</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00078">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 20</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 20.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00078</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00079">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 21</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 21.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00079</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00080">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 22</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 22.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00080</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00081">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome X</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome X.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00081</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00082">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome Y</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome Y.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00082</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00083">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitochondrial DNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitochondrial DNA.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00083</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00084">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DBA/2J</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00017"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T14:50:27Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2684695.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00084</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00085">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFW</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T14:54:32Z</oboInOwl:creation_date>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crl:CFW(SW).</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2161001.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss Webster.</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00085</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00086">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Rat Strains</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T14:58:11Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO rat strains.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00086</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00087">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Chromosomes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T14:58:45Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all Chromosome Numbers, regardless of originating taxa.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00087</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00088">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Time Consuming]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:03:14Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator (Temporary Placeholder) for experiments that are identified to be time consuming for curation, and will be revisited at a later time.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00088</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00089">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WSB</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:11:04Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160618.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00089</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00090">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WSB/Ei</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00089"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:11:59Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00090</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Strain Not Recorded in MGI].</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00091">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WSB/EiJ</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00090"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:12:26Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160667.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00091</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00092">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:13:39Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159959.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00092</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00093">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A/J</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00092"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:14:06Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159747.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00093</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00094">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C57BL/10</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00018"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:16:58Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159788.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00094</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00095">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C57BL/10J</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00094"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:17:44Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159754.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00095</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00096">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00086"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:29:20Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00096</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar Rat.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00097">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long Evans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00086"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:30:48Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long Evans Rat.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00097</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00098">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar-Kyoto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00096"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:32:41Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00098</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar-Kyoto Rat.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00099">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprague Dawley</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00086"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:33:09Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprague Dawley Rat.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00099</oboInOwl:id>
     </owl:Class>
 </rdf:RDF>
 
