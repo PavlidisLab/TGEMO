@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:06:2017 15:36
+date: 18:04:2018 15:59
 auto-generated-by: OBO-Edit 2.3.1
 
 [Term]
@@ -602,4 +602,10 @@ id: TGEMO:00099
 name: Sprague Dawley
 def: "Sprague Dawley Rat." []
 is_a: TGEMO:00086 ! TGEMO Rat Strains
+
+[Term]
+id: TGEMO:00100
+name: [BLACKLIST]
+def: "Indicator for studies that are considered unusable and are blacklisted to avoid reloading into Gemma." []
+is_a: TGEMO:00011 ! TGEMO Internals
 

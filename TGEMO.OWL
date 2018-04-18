@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/TEMP#"
      xml:base="http://purl.obolibrary.org/obo/TEMP"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP">
         <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28:06:2017 15:36</oboInOwl:date>
+        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18:04:2018 16:00</oboInOwl:date>
         <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
     </owl:Ontology>
     
@@ -23,29 +23,29 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
     </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
     
 
 
@@ -999,7 +999,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00084">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DBA/2J</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00017"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T14:50:27Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2684695.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00084</oboInOwl:id>
     </owl:Class>
@@ -1011,7 +1010,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00085">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFW</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T14:54:32Z</oboInOwl:creation_date>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crl:CFW(SW).</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2161001.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss Webster.</oboInOwl:hasExactSynonym>
@@ -1025,7 +1023,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00086">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Rat Strains</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T14:58:11Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO rat strains.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00086</oboInOwl:id>
     </owl:Class>
@@ -1037,7 +1034,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00087">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Chromosomes</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T14:58:45Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all Chromosome Numbers, regardless of originating taxa.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00087</oboInOwl:id>
     </owl:Class>
@@ -1049,7 +1045,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00088">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Time Consuming]</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:03:14Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator (Temporary Placeholder) for experiments that are identified to be time consuming for curation, and will be revisited at a later time.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00088</oboInOwl:id>
     </owl:Class>
@@ -1061,7 +1056,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00089">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WSB</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:11:04Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160618.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00089</oboInOwl:id>
     </owl:Class>
@@ -1073,7 +1067,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00090">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WSB/Ei</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00089"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:11:59Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00090</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Strain Not Recorded in MGI].</obo:IAO_0000115>
     </owl:Class>
@@ -1085,7 +1078,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00091">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WSB/EiJ</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00090"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:12:26Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160667.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00091</oboInOwl:id>
     </owl:Class>
@@ -1097,7 +1089,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00092">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:13:39Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159959.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00092</oboInOwl:id>
     </owl:Class>
@@ -1109,7 +1100,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00093">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A/J</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00092"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:14:06Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159747.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00093</oboInOwl:id>
     </owl:Class>
@@ -1121,7 +1111,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00094">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C57BL/10</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00018"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:16:58Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159788.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00094</oboInOwl:id>
     </owl:Class>
@@ -1133,7 +1122,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00095">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C57BL/10J</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00094"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:17:44Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159754.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00095</oboInOwl:id>
     </owl:Class>
@@ -1145,7 +1133,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00096">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00086"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:29:20Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00096</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar Rat.</obo:IAO_0000115>
     </owl:Class>
@@ -1157,7 +1144,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00097">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long Evans</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00086"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:30:48Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long Evans Rat.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00097</oboInOwl:id>
     </owl:Class>
@@ -1169,7 +1155,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00098">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar-Kyoto</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00096"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:32:41Z</oboInOwl:creation_date>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00098</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar-Kyoto Rat.</obo:IAO_0000115>
     </owl:Class>
@@ -1181,9 +1166,20 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00099">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprague Dawley</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00086"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-06-28T15:33:09Z</oboInOwl:creation_date>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprague Dawley Rat.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00099</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TGEMO_00100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00100">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[BLACKLIST]</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-04-18T15:52:43Z</oboInOwl:creation_date>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator for studies that are considered unusable and are blacklisted to avoid reloading into Gemma.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00100</oboInOwl:id>
     </owl:Class>
 </rdf:RDF>
 
