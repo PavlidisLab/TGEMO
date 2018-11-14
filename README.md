@@ -1,2 +1,2 @@
 # TGEMO
-Temporary Ontology for the Gemma Platform
+The Gemma Ontology (for Gemma Platform)
