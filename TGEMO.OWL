@@ -1,1189 +1,2718 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/TEMP#"
-     xml:base="http://purl.obolibrary.org/obo/TEMP"
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.obolibrary.org/obo/TGEMO"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/TEMP">
-        <oboInOwl:hasOBOFormatVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:hasOBOFormatVersion>
-        <oboInOwl:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18:04:2018 16:00</oboInOwl:date>
-        <oboInOwl:auto-generated-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBO-Edit 2.3.1</oboInOwl:auto-generated-by>
-    </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_format_version</rdfs:label>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Root</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Root node for Temporary Gemma Ontology.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00000</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00001">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homozygous negative</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00001</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00002">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Genetics/Mutations</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO genetic and mutation descriptors.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00002</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00003">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterozygous</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterozygous allele. Applies to both genetic or functional null heterozygotes. Not applicable for single-copy &quot;overexpression&quot; of transgenes.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00003</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00004">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overexpression</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overexpression of a gene. Includes non-canonical promoter driven expression.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00004</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00005">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Single-copy overexpression</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overexpression of a gene. Organism is known to have only one copy of the gene.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00005</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00006 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00006">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Double-copy overexpression</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00004"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overexpression of a gene. Organism is known to have only two copies of the gene.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00006</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00007 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00007">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knockdown</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knock-down of a gene. Methods may include siRNA, shRNA, miRNA, RNAi etc.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00007</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00008">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constitutive active mutation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Constitutive active mutation or allele for a gene.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00008</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00009">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dominant negative mutation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dominant negative mutation or allele for a gene.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00009</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00010">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Methods</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO method descriptors.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00010</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00011">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Internals</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO internal descriptors. Used primarily for behind-the-scenes standardization.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00011</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00012">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunodepletion</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00010"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Removal of proteins using antibodies.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00012</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00013">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DE_Include</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samples to include in Differential Expression Analysis.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00013</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00014">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DE_Exclude</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Samples to exclude in Differential Expression Analysis.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00014</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00015">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Mouse Strains</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO mouse strains.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00015</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00016 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00016">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C57BL/6</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00018"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159769.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00016</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00017 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00017">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DBA/2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00019"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159768.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00017</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00018 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00018">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C57BL</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160085.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00018</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00019">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DBA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159849.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00019</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00020 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00020">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Sample Study]</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator for studies containing a collection of samples without an obvious experimental design.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00020</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00021">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Complex Design]</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator for studies that have a complex experimental design, and are currently incompletely curated.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00021</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00022">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[SUBSET]</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator (Temporary Placeholder) for experiments that are a collection of studies, and will be separated internally.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00022</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00023 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00023">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AKR</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159767.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00023</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00024 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00024">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AKR/J</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00023"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159745.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00024</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00025 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00025">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crl:CD1(ICR)</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outbred Strain. Charles River:CD-1.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00025</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00026">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BALB/c</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2161072.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00026</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00027 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00027">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOD</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159775.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00027</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00028 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00028">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BALB/cJ</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00026"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159737.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00028</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00029 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00029">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOD/Shi</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00027"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160550.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00029</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00030">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOD/ShiLt</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00029"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2162728.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00030</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00031 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00031">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOD/ShiLtJ</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00030"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2162056.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00031</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00032 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00032">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Benchmark Study]</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator for studies that are benchmarking two methods against each other, and are unlikely to be informative in terms of differential expression.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00032</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00033 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00033">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Cell Line Sample Study]</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00020"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator for sample studies containing a collection of various cell lines.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00033</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00034 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00034">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160041.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00034</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00035">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129S/Sv</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00034"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2165020.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00035</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00036 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00036">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129S/SvEv</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00035"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:3050593.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00036</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00037 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00037">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C57BL/6J</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00016"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:3028467.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00037</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00038 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00038">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Hybrid Mouse Strains</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Subsidiary parent node for all TGEMO hybrid mouse strains.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00038</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00039">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B6129SF?</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00038"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cross between C57BL/6 and 129S. Generation Unknown.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00039</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00040 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00040">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B6J129SF?</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00038"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cross between C57BL/6J and 129S. Generation Unknown.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00040</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00041 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00041">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FVB</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:3609372.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00041</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00042 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00042">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FVB/N</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00041"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160001.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00042</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00043 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00043">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FVB/NJ</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00042"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2163709.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00043</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00044">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPRET</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160669.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00044</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00045 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00045">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPRET/Ei</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00044"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:3510421.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00045</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00046 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00046">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SPRET/EiJ</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00045"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160671.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00046</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00047 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00047">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMTV-PyMT</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00047</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00048 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00048">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129S6/SvEvTac</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00036"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:3044417.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00048</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00049 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00049">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">129S2/SvPas</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00035"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2161070.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00049</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00050">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOR</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160604.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00050</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00051 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00051">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOR1/Lt</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00050"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2162611.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00051</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00052 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00052">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOR/LtJ</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00051"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2162087.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00052</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00053">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3H</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160217.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00053</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00054 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00054">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3H/He</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00053"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159866.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00054</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00055 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00055">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3H/HeJ</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00054"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159741.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00055</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00056 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00056">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NOD.CB17-Prkdc&lt;scid&gt;/NcrCrl</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congenic Strain. Charles River:NOD SCID.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00056</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00057 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00057">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Unclassified</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO terms that are currently not assigned a parent class.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00057</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00058 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00058">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adjacent tissue</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00057"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00058</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tissue that is spatially located adjacent to the tissue of interest. Adjacent tissue are assumed to be normal, but that is not necessarily always the case.</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00059 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00059">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 1.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00059</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00060 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00060">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 2.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00060</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00061 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00061">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 3</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 3.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00061</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00062 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00062">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 4</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 4.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00062</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00063 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00063">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 5</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 5.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00063</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00064 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00064">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 6</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 6.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00064</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00065 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00065">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 7</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 7.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00065</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00066 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00066">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 8</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 8.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00066</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00067 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00067">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 9</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 9.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00067</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00068 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00068">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 10</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 10.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00068</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00069 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00069">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 11</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 11.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00069</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00070 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00070">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 12</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 12.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00070</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00071 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00071">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 13</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 13.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00071</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00072 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00072">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 14</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 14.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00072</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00073 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00073">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 15</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 15.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00073</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00074 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00074">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 16</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 16.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00074</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00075 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00075">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 17</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 17.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00075</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00076 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00076">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 18</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 18.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00076</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00077 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00077">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 19</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 19.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00077</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00078 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00078">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 20</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 20.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00078</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00079 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00079">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 21</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 21.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00079</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00080 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00080">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 22</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome 22.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00080</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00081 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00081">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome X</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome X.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00081</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00082 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00082">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome Y</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chromosome Y.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00082</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00083 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00083">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitochondrial DNA</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00087"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mitochondrial DNA.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00083</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00084 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00084">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DBA/2J</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00017"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2684695.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00084</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00085 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00085">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CFW</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crl:CFW(SW).</oboInOwl:hasRelatedSynonym>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2161001.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss Webster.</oboInOwl:hasExactSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00085</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00086 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00086">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Rat Strains</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00000"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all TGEMO rat strains.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00086</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00087 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00087">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO Chromosomes</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parent node for all Chromosome Numbers, regardless of originating taxa.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00087</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00088 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00088">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Time Consuming]</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator (Temporary Placeholder) for experiments that are identified to be time consuming for curation, and will be revisited at a later time.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00088</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00089 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00089">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WSB</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160618.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00089</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00090 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00090">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WSB/Ei</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00089"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00090</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Strain Not Recorded in MGI].</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00091 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00091">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WSB/EiJ</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00090"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2160667.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00091</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00092 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00092">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00015"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159959.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00092</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00093 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00093">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A/J</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00092"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159747.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00093</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00094 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00094">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C57BL/10</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00018"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159788.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00094</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00095 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00095">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C57BL/10J</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00094"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inbred Strain. MGI:2159754.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00095</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00096 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00096">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00086"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00096</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar Rat.</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00097 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00097">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long Evans</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00086"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Long Evans Rat.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00097</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00098 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00098">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar-Kyoto</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00096"/>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00098</oboInOwl:id>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wistar-Kyoto Rat.</obo:IAO_0000115>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00099 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00099">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprague Dawley</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00086"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprague Dawley Rat.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00099</oboInOwl:id>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TGEMO_00100 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TGEMO_00100">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[BLACKLIST]</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TGEMO_00011"/>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-04-18T15:52:43Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indicator for studies that are considered unusable and are blacklisted to avoid reloading into Gemma.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGEMO:00100</oboInOwl:id>
-    </owl:Class>
-</rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+     ontologyIRI="http://purl.obolibrary.org/obo/TGEMO">
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Declaration>
+        <Class IRI="_00000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00024"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00029"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00030"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00031"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00032"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00033"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00034"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00035"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00036"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00037"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00038"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00041"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00043"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00046"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00047"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00048"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00049"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00050"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00051"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00052"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00053"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00054"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00055"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00056"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00057"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00058"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00059"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00060"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00061"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00062"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00063"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00064"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00065"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00066"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00068"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00069"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00070"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00071"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00072"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00073"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00074"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00075"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00076"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00077"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00078"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00079"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00080"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00081"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00082"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00083"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00084"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00085"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00086"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00087"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00088"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00089"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00090"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00091"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00092"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00093"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00094"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00096"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00098"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:auto-generated-by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:created_by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:date"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:default-namespace"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBOFormatVersion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:saved-by"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="_00001"/>
+        <Class IRI="_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00002"/>
+        <Class IRI="_00000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00003"/>
+        <Class IRI="_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00004"/>
+        <Class IRI="_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00005"/>
+        <Class IRI="_00004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00006"/>
+        <Class IRI="_00004"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00007"/>
+        <Class IRI="_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00008"/>
+        <Class IRI="_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00009"/>
+        <Class IRI="_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00010"/>
+        <Class IRI="_00000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00011"/>
+        <Class IRI="_00000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00012"/>
+        <Class IRI="_00010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00013"/>
+        <Class IRI="_00011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00014"/>
+        <Class IRI="_00011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00015"/>
+        <Class IRI="_00000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00016"/>
+        <Class IRI="_00018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00017"/>
+        <Class IRI="_00019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00018"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00019"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00020"/>
+        <Class IRI="_00011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00021"/>
+        <Class IRI="_00011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00022"/>
+        <Class IRI="_00011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00023"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00024"/>
+        <Class IRI="_00023"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00025"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00026"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00027"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00028"/>
+        <Class IRI="_00026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00029"/>
+        <Class IRI="_00027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00030"/>
+        <Class IRI="_00029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00031"/>
+        <Class IRI="_00030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00032"/>
+        <Class IRI="_00011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00033"/>
+        <Class IRI="_00020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00034"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00035"/>
+        <Class IRI="_00034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00036"/>
+        <Class IRI="_00035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00037"/>
+        <Class IRI="_00016"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00038"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00039"/>
+        <Class IRI="_00038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00040"/>
+        <Class IRI="_00038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00041"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00042"/>
+        <Class IRI="_00041"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00043"/>
+        <Class IRI="_00042"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00044"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00045"/>
+        <Class IRI="_00044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00046"/>
+        <Class IRI="_00045"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00047"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00048"/>
+        <Class IRI="_00036"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00049"/>
+        <Class IRI="_00035"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00050"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00051"/>
+        <Class IRI="_00050"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00052"/>
+        <Class IRI="_00051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00053"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00054"/>
+        <Class IRI="_00053"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00055"/>
+        <Class IRI="_00054"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00056"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00057"/>
+        <Class IRI="_00000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00058"/>
+        <Class IRI="_00057"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00059"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00060"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00061"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00062"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00063"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00064"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00065"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00066"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00067"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00068"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00069"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00070"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00071"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00072"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00073"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00074"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00075"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00076"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00077"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00078"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00079"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00080"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00081"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00082"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00083"/>
+        <Class IRI="_00087"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00084"/>
+        <Class IRI="_00017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00085"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00086"/>
+        <Class IRI="_00000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00087"/>
+        <Class IRI="_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00088"/>
+        <Class IRI="_00011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00089"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00090"/>
+        <Class IRI="_00089"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00091"/>
+        <Class IRI="_00090"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00092"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00093"/>
+        <Class IRI="_00092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00094"/>
+        <Class IRI="_00018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00095"/>
+        <Class IRI="_00094"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00096"/>
+        <Class IRI="_00086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00097"/>
+        <Class IRI="_00086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00098"/>
+        <Class IRI="_00096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00099"/>
+        <Class IRI="_00086"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00100"/>
+        <Class IRI="_00011"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00101"/>
+        <Class IRI="_00010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00102"/>
+        <Class IRI="_00002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00103"/>
+        <Class IRI="_00010"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00104"/>
+        <Class IRI="_00034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00105"/>
+        <Class IRI="_00034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00106"/>
+        <Class IRI="_00019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00107"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00108"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00109"/>
+        <Class IRI="_00108"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00110"/>
+        <Class IRI="_00107"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00111"/>
+        <Class IRI="_00034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00112"/>
+        <Class IRI="_00034"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00113"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00114"/>
+        <Class IRI="_00092"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00115"/>
+        <Class IRI="_00015"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:IAO_0000115</AbbreviatedIRI>
+        <Literal>definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00000</IRI>
+        <Literal>Root node for Temporary Gemma Ontology.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00000</IRI>
+        <Literal>TGEMO:00000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00000</IRI>
+        <Literal>TGEMO Root</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00001</IRI>
+        <Literal>Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00001</IRI>
+        <Literal>TGEMO:00001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00001</IRI>
+        <Literal>Homozygous negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00002</IRI>
+        <Literal>Parent node for all TGEMO genetic and mutation descriptors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00002</IRI>
+        <Literal>TGEMO:00002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00002</IRI>
+        <Literal>TGEMO Genetics/Mutations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00003</IRI>
+        <Literal>Heterozygous allele. Applies to both genetic or functional null heterozygotes. Not applicable for single-copy &quot;overexpression&quot; of transgenes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00003</IRI>
+        <Literal>TGEMO:00003</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00003</IRI>
+        <Literal>Heterozygous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00004</IRI>
+        <Literal>Overexpression of a gene. Includes non-canonical promoter driven expression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00004</IRI>
+        <Literal>TGEMO:00004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00004</IRI>
+        <Literal>Overexpression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00005</IRI>
+        <Literal>Overexpression of a gene. Organism is known to have only one copy of the gene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00005</IRI>
+        <Literal>TGEMO:00005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00005</IRI>
+        <Literal>Single-copy overexpression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00006</IRI>
+        <Literal>Overexpression of a gene. Organism is known to have only two copies of the gene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00006</IRI>
+        <Literal>TGEMO:00006</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00006</IRI>
+        <Literal>Double-copy overexpression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00007</IRI>
+        <Literal>Knock-down of a gene. Methods may include siRNA, shRNA, miRNA, RNAi etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00007</IRI>
+        <Literal>TGEMO:00007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00007</IRI>
+        <Literal>Knockdown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00008</IRI>
+        <Literal>Constitutive active mutation or allele for a gene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00008</IRI>
+        <Literal>TGEMO:00008</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00008</IRI>
+        <Literal>Constitutive active mutation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00009</IRI>
+        <Literal>Dominant negative mutation or allele for a gene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00009</IRI>
+        <Literal>TGEMO:00009</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00009</IRI>
+        <Literal>Dominant negative mutation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00010</IRI>
+        <Literal>Parent node for all TGEMO method descriptors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00010</IRI>
+        <Literal>TGEMO:00010</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00010</IRI>
+        <Literal>TGEMO Methods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00011</IRI>
+        <Literal>Parent node for all TGEMO internal descriptors. Used primarily for behind-the-scenes standardization.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00011</IRI>
+        <Literal>TGEMO:00011</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00011</IRI>
+        <Literal>TGEMO Internals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00012</IRI>
+        <Literal>Removal of proteins using antibodies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00012</IRI>
+        <Literal>TGEMO:00012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00012</IRI>
+        <Literal>Immunodepletion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00013</IRI>
+        <Literal>Samples to include in Differential Expression Analysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00013</IRI>
+        <Literal>TGEMO:00013</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00013</IRI>
+        <Literal>DE_Include</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00014</IRI>
+        <Literal>Samples to exclude in Differential Expression Analysis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00014</IRI>
+        <Literal>TGEMO:00014</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00014</IRI>
+        <Literal>DE_Exclude</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00015</IRI>
+        <Literal>Parent node for all TGEMO mouse strains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00015</IRI>
+        <Literal>TGEMO:00015</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00015</IRI>
+        <Literal>TGEMO Mouse Strains</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00016</IRI>
+        <Literal>Inbred Strain. MGI:2159769.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00016</IRI>
+        <Literal>TGEMO:00016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00016</IRI>
+        <Literal>C57BL/6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00017</IRI>
+        <Literal>Inbred Strain. MGI:2159768.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00017</IRI>
+        <Literal>TGEMO:00017</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00017</IRI>
+        <Literal>DBA/2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00018</IRI>
+        <Literal>Inbred Strain. MGI:2160085.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00018</IRI>
+        <Literal>TGEMO:00018</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00018</IRI>
+        <Literal>C57BL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00019</IRI>
+        <Literal>Inbred Strain. MGI:2159849.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00019</IRI>
+        <Literal>TGEMO:00019</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00019</IRI>
+        <Literal>DBA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00020</IRI>
+        <Literal>Indicator for studies containing a collection of samples without an obvious experimental design.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00020</IRI>
+        <Literal>TGEMO:00020</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00020</IRI>
+        <Literal>[Sample Study]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00021</IRI>
+        <Literal>Indicator for studies that have a complex experimental design, and are currently incompletely curated.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00021</IRI>
+        <Literal>TGEMO:00021</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00021</IRI>
+        <Literal>[Complex Design]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00022</IRI>
+        <Literal>Indicator (Temporary Placeholder) for experiments that are a collection of studies, and will be separated internally.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00022</IRI>
+        <Literal>TGEMO:00022</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00022</IRI>
+        <Literal>[SUBSET]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00023</IRI>
+        <Literal>Inbred Strain. MGI:2159767.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00023</IRI>
+        <Literal>TGEMO:00023</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00023</IRI>
+        <Literal>AKR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00024</IRI>
+        <Literal>Inbred Strain. MGI:2159745.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00024</IRI>
+        <Literal>TGEMO:00024</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00024</IRI>
+        <Literal>AKR/J</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00025</IRI>
+        <Literal>Outbred Strain. Charles River:CD-1.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00025</IRI>
+        <Literal>TGEMO:00025</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00025</IRI>
+        <Literal>Crl:CD1(ICR)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00026</IRI>
+        <Literal>Inbred Strain. MGI:2161072.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00026</IRI>
+        <Literal>TGEMO:00026</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00026</IRI>
+        <Literal>BALB/c</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00027</IRI>
+        <Literal>Inbred Strain. MGI:2159775.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00027</IRI>
+        <Literal>TGEMO:00027</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00027</IRI>
+        <Literal>NOD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00028</IRI>
+        <Literal>Inbred Strain. MGI:2159737.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00028</IRI>
+        <Literal>TGEMO:00028</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00028</IRI>
+        <Literal>BALB/cJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00029</IRI>
+        <Literal>Inbred Strain. MGI:2160550.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00029</IRI>
+        <Literal>TGEMO:00029</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00029</IRI>
+        <Literal>NOD/Shi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00030</IRI>
+        <Literal>Inbred Strain. MGI:2162728.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00030</IRI>
+        <Literal>TGEMO:00030</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00030</IRI>
+        <Literal>NOD/ShiLt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00031</IRI>
+        <Literal>Inbred Strain. MGI:2162056.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00031</IRI>
+        <Literal>TGEMO:00031</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00031</IRI>
+        <Literal>NOD/ShiLtJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00032</IRI>
+        <Literal>Indicator for studies that are benchmarking two methods against each other, and are unlikely to be informative in terms of differential expression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00032</IRI>
+        <Literal>TGEMO:00032</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00032</IRI>
+        <Literal>[Benchmark Study]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00033</IRI>
+        <Literal>Indicator for sample studies containing a collection of various cell lines.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00033</IRI>
+        <Literal>TGEMO:00033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00033</IRI>
+        <Literal>[Cell Line Sample Study]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00034</IRI>
+        <Literal>Inbred Strain. MGI:2160041.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00034</IRI>
+        <Literal>TGEMO:00034</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00034</IRI>
+        <Literal>129</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00035</IRI>
+        <Literal>Inbred Strain. MGI:2165020.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00035</IRI>
+        <Literal>TGEMO:00035</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00035</IRI>
+        <Literal>129S/Sv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00036</IRI>
+        <Literal>Inbred Strain. MGI:3050593.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00036</IRI>
+        <Literal>TGEMO:00036</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00036</IRI>
+        <Literal>129S/SvEv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00037</IRI>
+        <Literal>Inbred Strain. MGI:3028467.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00037</IRI>
+        <Literal>TGEMO:00037</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00037</IRI>
+        <Literal>C57BL/6J</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00038</IRI>
+        <Literal>Subsidiary parent node for all TGEMO hybrid mouse strains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00038</IRI>
+        <Literal>TGEMO:00038</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00038</IRI>
+        <Literal>TGEMO Hybrid Mouse Strains</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00039</IRI>
+        <Literal>Cross between C57BL/6 and 129S. Generation Unknown.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00039</IRI>
+        <Literal>TGEMO:00039</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00039</IRI>
+        <Literal>B6129SF?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00040</IRI>
+        <Literal>Cross between C57BL/6J and 129S. Generation Unknown.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00040</IRI>
+        <Literal>TGEMO:00040</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00040</IRI>
+        <Literal>B6J129SF?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00041</IRI>
+        <Literal>Inbred Strain. MGI:3609372.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00041</IRI>
+        <Literal>TGEMO:00041</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00041</IRI>
+        <Literal>FVB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00042</IRI>
+        <Literal>Inbred Strain. MGI:2160001.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00042</IRI>
+        <Literal>TGEMO:00042</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00042</IRI>
+        <Literal>FVB/N</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00043</IRI>
+        <Literal>Inbred Strain. MGI:2163709.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00043</IRI>
+        <Literal>TGEMO:00043</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00043</IRI>
+        <Literal>FVB/NJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00044</IRI>
+        <Literal>Inbred Strain. MGI:2160669.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00044</IRI>
+        <Literal>TGEMO:00044</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00044</IRI>
+        <Literal>SPRET</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00045</IRI>
+        <Literal>Inbred Strain. MGI:3510421.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00045</IRI>
+        <Literal>TGEMO:00045</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00045</IRI>
+        <Literal>SPRET/Ei</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00046</IRI>
+        <Literal>Inbred Strain. MGI:2160671.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00046</IRI>
+        <Literal>TGEMO:00046</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00046</IRI>
+        <Literal>SPRET/EiJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00047</IRI>
+        <Literal>Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00047</IRI>
+        <Literal>TGEMO:00047</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00047</IRI>
+        <Literal>MMTV-PyMT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00048</IRI>
+        <Literal>Inbred Strain. MGI:3044417.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00048</IRI>
+        <Literal>TGEMO:00048</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00048</IRI>
+        <Literal>129S6/SvEvTac</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00049</IRI>
+        <Literal>Inbred Strain. MGI:2161070.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00049</IRI>
+        <Literal>TGEMO:00049</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00049</IRI>
+        <Literal>129S2/SvPas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00050</IRI>
+        <Literal>Inbred Strain. MGI:2160604.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00050</IRI>
+        <Literal>TGEMO:00050</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00050</IRI>
+        <Literal>NOR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00051</IRI>
+        <Literal>Inbred Strain. MGI:2162611.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00051</IRI>
+        <Literal>TGEMO:00051</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00051</IRI>
+        <Literal>NOR1/Lt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00052</IRI>
+        <Literal>Inbred Strain. MGI:2162087.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00052</IRI>
+        <Literal>TGEMO:00052</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00052</IRI>
+        <Literal>NOR/LtJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00053</IRI>
+        <Literal>Inbred Strain. MGI:2160217.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00053</IRI>
+        <Literal>TGEMO:00053</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00053</IRI>
+        <Literal>C3H</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00054</IRI>
+        <Literal>Inbred Strain. MGI:2159866.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00054</IRI>
+        <Literal>TGEMO:00054</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00054</IRI>
+        <Literal>C3H/He</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00055</IRI>
+        <Literal>Inbred Strain. MGI:2159741.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00055</IRI>
+        <Literal>TGEMO:00055</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00055</IRI>
+        <Literal>C3H/HeJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00056</IRI>
+        <Literal>Congenic Strain. Charles River:NOD SCID.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00056</IRI>
+        <Literal>TGEMO:00056</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00056</IRI>
+        <Literal>NOD.CB17-Prkdc&lt;scid&gt;/NcrCrl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00057</IRI>
+        <Literal>Parent node for all TGEMO terms that are currently not assigned a parent class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00057</IRI>
+        <Literal>TGEMO:00057</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00057</IRI>
+        <Literal>TGEMO Unclassified</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00058</IRI>
+        <Literal>Tissue that is spatially located adjacent to the tissue of interest. Adjacent tissue are assumed to be normal, but that is not necessarily always the case.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00058</IRI>
+        <Literal>TGEMO:00058</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00058</IRI>
+        <Literal>Adjacent tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00059</IRI>
+        <Literal>Chromosome 1.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00059</IRI>
+        <Literal>TGEMO:00059</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00059</IRI>
+        <Literal>Chromosome 1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00060</IRI>
+        <Literal>Chromosome 2.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00060</IRI>
+        <Literal>TGEMO:00060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00060</IRI>
+        <Literal>Chromosome 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00061</IRI>
+        <Literal>Chromosome 3.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00061</IRI>
+        <Literal>TGEMO:00061</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00061</IRI>
+        <Literal>Chromosome 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00062</IRI>
+        <Literal>Chromosome 4.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00062</IRI>
+        <Literal>TGEMO:00062</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00062</IRI>
+        <Literal>Chromosome 4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00063</IRI>
+        <Literal>Chromosome 5.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00063</IRI>
+        <Literal>TGEMO:00063</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00063</IRI>
+        <Literal>Chromosome 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00064</IRI>
+        <Literal>Chromosome 6.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00064</IRI>
+        <Literal>TGEMO:00064</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00064</IRI>
+        <Literal>Chromosome 6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00065</IRI>
+        <Literal>Chromosome 7.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00065</IRI>
+        <Literal>TGEMO:00065</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00065</IRI>
+        <Literal>Chromosome 7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00066</IRI>
+        <Literal>Chromosome 8.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00066</IRI>
+        <Literal>TGEMO:00066</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00066</IRI>
+        <Literal>Chromosome 8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00067</IRI>
+        <Literal>Chromosome 9.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00067</IRI>
+        <Literal>TGEMO:00067</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00067</IRI>
+        <Literal>Chromosome 9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00068</IRI>
+        <Literal>Chromosome 10.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00068</IRI>
+        <Literal>TGEMO:00068</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00068</IRI>
+        <Literal>Chromosome 10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00069</IRI>
+        <Literal>Chromosome 11.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00069</IRI>
+        <Literal>TGEMO:00069</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00069</IRI>
+        <Literal>Chromosome 11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00070</IRI>
+        <Literal>Chromosome 12.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00070</IRI>
+        <Literal>TGEMO:00070</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00070</IRI>
+        <Literal>Chromosome 12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00071</IRI>
+        <Literal>Chromosome 13.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00071</IRI>
+        <Literal>TGEMO:00071</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00071</IRI>
+        <Literal>Chromosome 13</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00072</IRI>
+        <Literal>Chromosome 14.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00072</IRI>
+        <Literal>TGEMO:00072</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00072</IRI>
+        <Literal>Chromosome 14</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00073</IRI>
+        <Literal>Chromosome 15.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00073</IRI>
+        <Literal>TGEMO:00073</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00073</IRI>
+        <Literal>Chromosome 15</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00074</IRI>
+        <Literal>Chromosome 16.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00074</IRI>
+        <Literal>TGEMO:00074</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00074</IRI>
+        <Literal>Chromosome 16</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00075</IRI>
+        <Literal>Chromosome 17.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00075</IRI>
+        <Literal>TGEMO:00075</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00075</IRI>
+        <Literal>Chromosome 17</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00076</IRI>
+        <Literal>Chromosome 18.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00076</IRI>
+        <Literal>TGEMO:00076</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00076</IRI>
+        <Literal>Chromosome 18</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00077</IRI>
+        <Literal>Chromosome 19.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00077</IRI>
+        <Literal>TGEMO:00077</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00077</IRI>
+        <Literal>Chromosome 19</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00078</IRI>
+        <Literal>Chromosome 20.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00078</IRI>
+        <Literal>TGEMO:00078</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00078</IRI>
+        <Literal>Chromosome 20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00079</IRI>
+        <Literal>Chromosome 21.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00079</IRI>
+        <Literal>TGEMO:00079</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00079</IRI>
+        <Literal>Chromosome 21</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00080</IRI>
+        <Literal>Chromosome 22.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00080</IRI>
+        <Literal>TGEMO:00080</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00080</IRI>
+        <Literal>Chromosome 22</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00081</IRI>
+        <Literal>Chromosome X.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00081</IRI>
+        <Literal>TGEMO:00081</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00081</IRI>
+        <Literal>Chromosome X</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00082</IRI>
+        <Literal>Chromosome Y.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00082</IRI>
+        <Literal>TGEMO:00082</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00082</IRI>
+        <Literal>Chromosome Y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00083</IRI>
+        <Literal>Mitochondrial DNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00083</IRI>
+        <Literal>TGEMO:00083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00083</IRI>
+        <Literal>Mitochondrial DNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00084</IRI>
+        <Literal>Inbred Strain. MGI:2684695.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00084</IRI>
+        <Literal>TGEMO:00084</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00084</IRI>
+        <Literal>DBA/2J</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00085</IRI>
+        <Literal>Inbred Strain. MGI:2161001.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00085</IRI>
+        <Literal>Swiss Webster.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasRelatedSynonym"/>
+        <IRI>_00085</IRI>
+        <Literal>Crl:CFW(SW).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00085</IRI>
+        <Literal>TGEMO:00085</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00085</IRI>
+        <Literal>CFW</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00086</IRI>
+        <Literal>Parent node for all TGEMO rat strains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00086</IRI>
+        <Literal>TGEMO:00086</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00086</IRI>
+        <Literal>TGEMO Rat Strains</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00087</IRI>
+        <Literal>Parent node for all Chromosome Numbers, regardless of originating taxa.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00087</IRI>
+        <Literal>TGEMO:00087</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00087</IRI>
+        <Literal>TGEMO Chromosomes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00088</IRI>
+        <Literal>Indicator (Temporary Placeholder) for experiments that are identified to be time consuming for curation, and will be revisited at a later time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00088</IRI>
+        <Literal>TGEMO:00088</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00088</IRI>
+        <Literal>[Time Consuming]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00089</IRI>
+        <Literal>Inbred Strain. MGI:2160618.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00089</IRI>
+        <Literal>TGEMO:00089</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00089</IRI>
+        <Literal>WSB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00090</IRI>
+        <Literal>[Strain Not Recorded in MGI].</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00090</IRI>
+        <Literal>TGEMO:00090</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00090</IRI>
+        <Literal>WSB/Ei</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00091</IRI>
+        <Literal>Inbred Strain. MGI:2160667.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00091</IRI>
+        <Literal>TGEMO:00091</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00091</IRI>
+        <Literal>WSB/EiJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00092</IRI>
+        <Literal>Inbred Strain. MGI:2159959.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00092</IRI>
+        <Literal>TGEMO:00092</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00092</IRI>
+        <Literal>A</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00093</IRI>
+        <Literal>Inbred Strain. MGI:2159747.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00093</IRI>
+        <Literal>TGEMO:00093</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00093</IRI>
+        <Literal>A/J</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00094</IRI>
+        <Literal>Inbred Strain. MGI:2159788.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00094</IRI>
+        <Literal>TGEMO:00094</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00094</IRI>
+        <Literal>C57BL/10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00095</IRI>
+        <Literal>Inbred Strain. MGI:2159754.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00095</IRI>
+        <Literal>TGEMO:00095</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00095</IRI>
+        <Literal>C57BL/10J</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00096</IRI>
+        <Literal>Wistar Rat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00096</IRI>
+        <Literal>TGEMO:00096</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00096</IRI>
+        <Literal>Wistar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00097</IRI>
+        <Literal>Long Evans Rat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00097</IRI>
+        <Literal>TGEMO:00097</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00097</IRI>
+        <Literal>Long Evans</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00098</IRI>
+        <Literal>Wistar-Kyoto Rat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00098</IRI>
+        <Literal>TGEMO:00098</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00098</IRI>
+        <Literal>Wistar-Kyoto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00099</IRI>
+        <Literal>Sprague Dawley Rat.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00099</IRI>
+        <Literal>TGEMO:00099</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00099</IRI>
+        <Literal>Sprague Dawley</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00100</IRI>
+        <Literal>Indicator for studies that are considered unusable and are blacklisted to avoid reloading into Gemma.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:creation_date"/>
+        <IRI>_00100</IRI>
+        <Literal>2018-04-18T15:52:43Z</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00100</IRI>
+        <Literal>TGEMO:00100</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00100</IRI>
+        <Literal>[BLACKLIST]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00101</IRI>
+        <Literal>A biological system intended as a model of a human disease.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00101</IRI>
+        <Literal>TGEMO:00101</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00101</IRI>
+        <Literal>Disease model</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00102</IRI>
+        <Literal>An experimental design where instead of rescue via genetic manipulation (e.g. a transgene), a protein is directly introduced.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00102</IRI>
+        <Literal>TGEMO:00102</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00102</IRI>
+        <Literal>Rescue by external protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00102</IRI>
+        <Literal>Unspecified sample characteristic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00103</IRI>
+        <Literal>A transcriptome analysis method based on the isolation of RNA associated wtih ribosomes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00103</IRI>
+        <Literal>Ribo-Seq</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00103</IRI>
+        <Literal>Ribosome Immunoprecipitation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00103</IRI>
+        <Literal>Ribosome-Associated mRNA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00103</IRI>
+        <Literal>TGEMO:00103</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00103</IRI>
+        <Literal>Ribosomal profiling</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00104</IRI>
+        <Literal>Inbred strain. MGI:3037980</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00104</IRI>
+        <Literal>TGEMO:00104</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00104</IRI>
+        <Literal>129S1/SvlmJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00105</IRI>
+        <Literal>Inbred strain. MGI:3044210</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00105</IRI>
+        <Literal>TGEMO:00105</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00105</IRI>
+        <Literal>129X1/SvJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00106</IRI>
+        <Literal>Inbred Strain. MGI:2159784</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00106</IRI>
+        <Literal>TGEMO:00106</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00106</IRI>
+        <Literal>DBA/1LacJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00107</IRI>
+        <Literal>Strain family. MGI:2159833</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00107</IRI>
+        <Literal>TGEMO:00107</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00107</IRI>
+        <Literal>SJL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00108</IRI>
+        <Literal>Strain family. MGI:2159850</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00108</IRI>
+        <Literal>TGEMO:00108</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00108</IRI>
+        <Literal>CBA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00109</IRI>
+        <Literal>Inbred strain. MGI:2159756</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00109</IRI>
+        <Literal>TGEMO:00109</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00109</IRI>
+        <Literal>CBA/J</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00110</IRI>
+        <Literal>Inbred strain. MGI:2159739</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00110</IRI>
+        <Literal>SJL/J-Pde6b^rd1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00110</IRI>
+        <Literal>Swiss Jim Lambert</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00110</IRI>
+        <Literal>TGEMO:00110</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00110</IRI>
+        <Literal>SJL/J</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00111</IRI>
+        <Literal>Inbred strain. MGI:2165253</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00111</IRI>
+        <Literal>129/SvEms-Ter+/J</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00111</IRI>
+        <Literal>129T2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00111</IRI>
+        <Literal>TGEMO:00111</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00111</IRI>
+        <Literal>129T2/SvEmsJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00112</IRI>
+        <Literal>Inbred strain, segregating inbred. MGI:2661783</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00112</IRI>
+        <Literal>129/J</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00112</IRI>
+        <Literal>TGEMO:00112</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00112</IRI>
+        <Literal>129P3/J</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00113</IRI>
+        <Literal>Inbred strain. MGI:2159873</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00113</IRI>
+        <Literal>C3Fe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00113</IRI>
+        <Literal>C3H Fekete</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00113</IRI>
+        <Literal>HeB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00113</IRI>
+        <Literal>TGEMO:00113</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00113</IRI>
+        <Literal>C3HeB/FeJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00114</IRI>
+        <Literal>Inbred strain. MGI:2159897</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00114</IRI>
+        <Literal>A Heston</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <IRI>_00114</IRI>
+        <Literal>AHe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00114</IRI>
+        <Literal>TGEMO:00114</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00114</IRI>
+        <Literal>A/HeJ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00115</IRI>
+        <Literal>Strain family. Recombinant inbred (RI). MGI:2164899</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>_00115</IRI>
+        <Literal>TGEMO:00115</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00115</IRI>
+        <Literal>BXD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:hasExactSynonym</AbbreviatedIRI>
+        <Literal>has_exact_synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:hasOBOFormatVersion</AbbreviatedIRI>
+        <Literal>has_obo_format_version</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:hasOBONamespace</AbbreviatedIRI>
+        <Literal>has_obo_namespace</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>oboInOwl:hasRelatedSynonym</AbbreviatedIRI>
+        <Literal>has_related_synonym</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
