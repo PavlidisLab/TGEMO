@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://purl.obolibrary.org/obo/TGEMO">
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/TEMP"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -360,6 +361,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="_00115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_00122"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -859,6 +863,10 @@
     <SubClassOf>
         <Class IRI="_00115"/>
         <Class IRI="_00015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="_00122"/>
+        <Class IRI="_00057"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2689,6 +2697,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_00115</IRI>
         <Literal>BXD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>_00122</IRI>
+        <Literal>Used to signify that a particular factor has no specified value for a particular sample. Intended as a less ambiguous alternative to &quot;NA&quot;, &quot;null&quot; or &quot;none&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>_00122</IRI>
+        <Literal xml:lang="en">Unspecified factor value</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
