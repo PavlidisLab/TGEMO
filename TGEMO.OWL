@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://purl.obolibrary.org/obo/TGEMO"
+     xml:base="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://purl.obolibrary.org/obo/TGEMO">
-    <Prefix name="" IRI="http://purl.obolibrary.org/obo/TEMP"/>
+     ontologyIRI="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL"
+     versionIRI="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL">
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/TGEMO"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
