@@ -8,8 +8,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL">
-        <owl:versionIRI rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL"/>
+    <owl:Ontology rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO">
+        <owl:versionIRI rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO"/>
     </owl:Ontology>
     
 
@@ -124,9 +124,9 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00000 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00000 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00000">
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00000">
         <obo:IAO_0000115>Root node for Temporary Gemma Ontology.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00000</oboInOwl:id>
         <rdfs:label>TGEMO Root</rdfs:label>
@@ -134,10 +134,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00001 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00001 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00001">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00002"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00001">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
         <obo:IAO_0000115>Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00001</oboInOwl:id>
         <rdfs:label>Homozygous negative</rdfs:label>
@@ -145,10 +145,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00002 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00002 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00002">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00000"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00002">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00000"/>
         <obo:IAO_0000115>Parent node for all TGEMO genetic and mutation descriptors.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00002</oboInOwl:id>
         <rdfs:label>TGEMO Genetics/Mutations</rdfs:label>
@@ -156,10 +156,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00003 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00003 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00003">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00002"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00003">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
         <obo:IAO_0000115>Heterozygous allele. Applies to both genetic or functional null heterozygotes. Not applicable for single-copy &quot;overexpression&quot; of transgenes.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00003</oboInOwl:id>
         <rdfs:label>Heterozygous</rdfs:label>
@@ -167,10 +167,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00004 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00004 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00004">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00002"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00004">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
         <obo:IAO_0000115>Overexpression of a gene. Includes non-canonical promoter driven expression.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00004</oboInOwl:id>
         <rdfs:label>Overexpression</rdfs:label>
@@ -178,10 +178,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00005 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00005 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00005">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00004"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00005">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00004"/>
         <obo:IAO_0000115>Overexpression of a gene. Organism is known to have only one copy of the gene.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00005</oboInOwl:id>
         <rdfs:label>Single-copy overexpression</rdfs:label>
@@ -189,10 +189,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00006 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00006 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00006">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00004"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00006">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00004"/>
         <obo:IAO_0000115>Overexpression of a gene. Organism is known to have only two copies of the gene.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00006</oboInOwl:id>
         <rdfs:label>Double-copy overexpression</rdfs:label>
@@ -200,10 +200,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00007 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00007 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00007">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00002"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00007">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
         <obo:IAO_0000115>Knock-down of a gene. Methods may include siRNA, shRNA, miRNA, RNAi etc.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00007</oboInOwl:id>
         <rdfs:label>Knockdown</rdfs:label>
@@ -211,10 +211,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00008 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00008 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00008">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00002"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00008">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
         <obo:IAO_0000115>Constitutive active mutation or allele for a gene.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00008</oboInOwl:id>
         <rdfs:label>Constitutive active mutation</rdfs:label>
@@ -222,10 +222,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00009 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00009 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00009">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00002"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00009">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
         <obo:IAO_0000115>Dominant negative mutation or allele for a gene.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00009</oboInOwl:id>
         <rdfs:label>Dominant negative mutation</rdfs:label>
@@ -233,10 +233,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00010 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00010 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00010">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00000"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00010">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00000"/>
         <obo:IAO_0000115>Parent node for all TGEMO method descriptors.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00010</oboInOwl:id>
         <rdfs:label>TGEMO Methods</rdfs:label>
@@ -244,10 +244,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00011 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00011 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00011">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00000"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00011">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00000"/>
         <obo:IAO_0000115>Parent node for all TGEMO internal descriptors. Used primarily for behind-the-scenes standardization.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00011</oboInOwl:id>
         <rdfs:label>TGEMO Internals</rdfs:label>
@@ -255,10 +255,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00012 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00012 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00012">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00010"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00012">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00010"/>
         <obo:IAO_0000115>Removal of proteins using antibodies.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00012</oboInOwl:id>
         <rdfs:label>Immunodepletion</rdfs:label>
@@ -266,10 +266,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00013 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00013 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00013">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00011"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00013">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
         <obo:IAO_0000115>Samples to include in Differential Expression Analysis.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00013</oboInOwl:id>
         <rdfs:label>DE_Include</rdfs:label>
@@ -277,10 +277,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00014 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00014 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00014">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00011"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00014">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
         <obo:IAO_0000115>Samples to exclude in Differential Expression Analysis.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00014</oboInOwl:id>
         <rdfs:label>DE_Exclude</rdfs:label>
@@ -288,10 +288,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00015 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00000"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00015">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00000"/>
         <obo:IAO_0000115>Parent node for all TGEMO mouse strains.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00015</oboInOwl:id>
         <rdfs:label>TGEMO Mouse Strains</rdfs:label>
@@ -299,10 +299,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00016 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00016 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00016">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00018"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00016">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00018"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159769.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00016</oboInOwl:id>
         <rdfs:label>C57BL/6</rdfs:label>
@@ -310,10 +310,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00017 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00017 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00017">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00019"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00017">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00019"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159768.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00017</oboInOwl:id>
         <rdfs:label>DBA/2</rdfs:label>
@@ -321,10 +321,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00018 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00018 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00018">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00018">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160085.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00018</oboInOwl:id>
         <rdfs:label>C57BL</rdfs:label>
@@ -332,10 +332,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00019 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00019 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00019">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00019">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159849.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00019</oboInOwl:id>
         <rdfs:label>DBA</rdfs:label>
@@ -343,10 +343,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00020 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00020 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00020">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00011"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00020">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
         <obo:IAO_0000115>Indicator for studies containing a collection of samples without an obvious experimental design.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00020</oboInOwl:id>
         <rdfs:label>[Sample Study]</rdfs:label>
@@ -354,10 +354,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00021 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00021 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00021">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00011"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00021">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
         <obo:IAO_0000115>Indicator for studies that have a complex experimental design, and are currently incompletely curated.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00021</oboInOwl:id>
         <rdfs:label>[Complex Design]</rdfs:label>
@@ -365,10 +365,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00022 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00022 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00022">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00011"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00022">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
         <obo:IAO_0000115>Indicator (Temporary Placeholder) for experiments that are a collection of studies, and will be separated internally.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00022</oboInOwl:id>
         <rdfs:label>[SUBSET]</rdfs:label>
@@ -376,10 +376,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00023 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00023 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00023">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00023">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159767.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00023</oboInOwl:id>
         <rdfs:label>AKR</rdfs:label>
@@ -387,10 +387,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00024 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00024 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00024">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00023"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00024">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00023"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159745.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00024</oboInOwl:id>
         <rdfs:label>AKR/J</rdfs:label>
@@ -398,10 +398,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00025 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00025 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00025">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00025">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Outbred Strain. Charles River:CD-1.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00025</oboInOwl:id>
         <rdfs:label>Crl:CD1(ICR)</rdfs:label>
@@ -409,10 +409,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00026 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00026 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00026">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00026">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2161072.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00026</oboInOwl:id>
         <rdfs:label>BALB/c</rdfs:label>
@@ -420,10 +420,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00027 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00027 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00027">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00027">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159775.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00027</oboInOwl:id>
         <rdfs:label>NOD</rdfs:label>
@@ -431,10 +431,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00028 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00028 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00028">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00026"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00028">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00026"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159737.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00028</oboInOwl:id>
         <rdfs:label>BALB/cJ</rdfs:label>
@@ -442,10 +442,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00029 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00029 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00029">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00027"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00029">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00027"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160550.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00029</oboInOwl:id>
         <rdfs:label>NOD/Shi</rdfs:label>
@@ -453,10 +453,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00030 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00030 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00030">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00029"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00030">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00029"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2162728.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00030</oboInOwl:id>
         <rdfs:label>NOD/ShiLt</rdfs:label>
@@ -464,10 +464,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00031 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00031 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00031">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00030"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00031">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00030"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2162056.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00031</oboInOwl:id>
         <rdfs:label>NOD/ShiLtJ</rdfs:label>
@@ -475,10 +475,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00032 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00032 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00032">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00011"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00032">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
         <obo:IAO_0000115>Indicator for studies that are benchmarking two methods against each other, and are unlikely to be informative in terms of differential expression.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00032</oboInOwl:id>
         <rdfs:label>[Benchmark Study]</rdfs:label>
@@ -486,10 +486,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00033 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00033 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00033">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00020"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00033">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00020"/>
         <obo:IAO_0000115>Indicator for sample studies containing a collection of various cell lines.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00033</oboInOwl:id>
         <rdfs:label>[Cell Line Sample Study]</rdfs:label>
@@ -497,10 +497,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00034 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00034 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00034">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00034">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160041.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00034</oboInOwl:id>
         <rdfs:label>129</rdfs:label>
@@ -508,10 +508,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00035 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00035 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00035">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00034"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00035">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00034"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2165020.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00035</oboInOwl:id>
         <rdfs:label>129S/Sv</rdfs:label>
@@ -519,10 +519,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00036 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00036 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00036">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00035"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00036">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00035"/>
         <obo:IAO_0000115>Inbred Strain. MGI:3050593.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00036</oboInOwl:id>
         <rdfs:label>129S/SvEv</rdfs:label>
@@ -530,10 +530,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00037 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00037 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00037">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00016"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00037">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00016"/>
         <obo:IAO_0000115>Inbred Strain. MGI:3028467.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00037</oboInOwl:id>
         <rdfs:label>C57BL/6J</rdfs:label>
@@ -541,10 +541,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00038 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00038 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00038">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00038">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Subsidiary parent node for all TGEMO hybrid mouse strains.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00038</oboInOwl:id>
         <rdfs:label>TGEMO Hybrid Mouse Strains</rdfs:label>
@@ -552,10 +552,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00039 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00039 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00039">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00038"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00039">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00038"/>
         <obo:IAO_0000115>Cross between C57BL/6 and 129S. Generation Unknown.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00039</oboInOwl:id>
         <rdfs:label>B6129SF?</rdfs:label>
@@ -563,10 +563,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00040 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00040 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00040">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00038"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00040">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00038"/>
         <obo:IAO_0000115>Cross between C57BL/6J and 129S. Generation Unknown.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00040</oboInOwl:id>
         <rdfs:label>B6J129SF?</rdfs:label>
@@ -574,10 +574,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00041 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00041 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00041">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00041">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:3609372.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00041</oboInOwl:id>
         <rdfs:label>FVB</rdfs:label>
@@ -585,10 +585,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00042 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00042 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00042">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00041"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00042">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00041"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160001.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00042</oboInOwl:id>
         <rdfs:label>FVB/N</rdfs:label>
@@ -596,10 +596,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00043 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00043 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00043">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00042"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00043">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00042"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2163709.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00043</oboInOwl:id>
         <rdfs:label>FVB/NJ</rdfs:label>
@@ -607,10 +607,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00044 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00044 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00044">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00044">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160669.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00044</oboInOwl:id>
         <rdfs:label>SPRET</rdfs:label>
@@ -618,10 +618,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00045 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00045 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00045">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00044"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00045">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00044"/>
         <obo:IAO_0000115>Inbred Strain. MGI:3510421.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00045</oboInOwl:id>
         <rdfs:label>SPRET/Ei</rdfs:label>
@@ -629,10 +629,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00046 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00046 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00046">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00045"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00046">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00045"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160671.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00046</oboInOwl:id>
         <rdfs:label>SPRET/EiJ</rdfs:label>
@@ -640,10 +640,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00047 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00047 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00047">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00047">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00047</oboInOwl:id>
         <rdfs:label>MMTV-PyMT</rdfs:label>
@@ -651,10 +651,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00048 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00048 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00048">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00036"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00048">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00036"/>
         <obo:IAO_0000115>Inbred Strain. MGI:3044417.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00048</oboInOwl:id>
         <rdfs:label>129S6/SvEvTac</rdfs:label>
@@ -662,10 +662,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00049 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00049 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00049">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00035"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00049">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00035"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2161070.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00049</oboInOwl:id>
         <rdfs:label>129S2/SvPas</rdfs:label>
@@ -673,10 +673,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00050 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00050 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00050">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00050">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160604.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00050</oboInOwl:id>
         <rdfs:label>NOR</rdfs:label>
@@ -684,10 +684,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00051 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00051 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00051">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00050"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00051">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00050"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2162611.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00051</oboInOwl:id>
         <rdfs:label>NOR1/Lt</rdfs:label>
@@ -695,10 +695,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00052 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00052 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00052">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00051"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00052">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00051"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2162087.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00052</oboInOwl:id>
         <rdfs:label>NOR/LtJ</rdfs:label>
@@ -706,10 +706,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00053 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00053 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00053">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00053">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160217.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00053</oboInOwl:id>
         <rdfs:label>C3H</rdfs:label>
@@ -717,10 +717,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00054 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00054 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00054">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00053"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00054">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00053"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159866.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00054</oboInOwl:id>
         <rdfs:label>C3H/He</rdfs:label>
@@ -728,10 +728,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00055 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00055 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00055">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00054"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00055">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00054"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159741.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00055</oboInOwl:id>
         <rdfs:label>C3H/HeJ</rdfs:label>
@@ -739,10 +739,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00056 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00056 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00056">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00056">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Congenic Strain. Charles River:NOD SCID.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00056</oboInOwl:id>
         <rdfs:label>NOD.CB17-Prkdc&lt;scid&gt;/NcrCrl</rdfs:label>
@@ -750,10 +750,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00057 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00057 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00057">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00000"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00057">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00000"/>
         <obo:IAO_0000115>Parent node for all TGEMO terms that are currently not assigned a parent class.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00057</oboInOwl:id>
         <rdfs:label>TGEMO Unclassified</rdfs:label>
@@ -761,10 +761,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00058 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00058 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00058">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00057"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00058">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00057"/>
         <obo:IAO_0000115>Tissue that is spatially located adjacent to the tissue of interest. Adjacent tissue are assumed to be normal, but that is not necessarily always the case.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00058</oboInOwl:id>
         <rdfs:label>Adjacent tissue</rdfs:label>
@@ -772,10 +772,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00059 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00059 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00059">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00059">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 1.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00059</oboInOwl:id>
         <rdfs:label>Chromosome 1</rdfs:label>
@@ -783,10 +783,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00060 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00060 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00060">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00060">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 2.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00060</oboInOwl:id>
         <rdfs:label>Chromosome 2</rdfs:label>
@@ -794,10 +794,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00061 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00061 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00061">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00061">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 3.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00061</oboInOwl:id>
         <rdfs:label>Chromosome 3</rdfs:label>
@@ -805,10 +805,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00062 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00062 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00062">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00062">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 4.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00062</oboInOwl:id>
         <rdfs:label>Chromosome 4</rdfs:label>
@@ -816,10 +816,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00063 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00063 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00063">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00063">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 5.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00063</oboInOwl:id>
         <rdfs:label>Chromosome 5</rdfs:label>
@@ -827,10 +827,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00064 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00064 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00064">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00064">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 6.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00064</oboInOwl:id>
         <rdfs:label>Chromosome 6</rdfs:label>
@@ -838,10 +838,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00065 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00065 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00065">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00065">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 7.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00065</oboInOwl:id>
         <rdfs:label>Chromosome 7</rdfs:label>
@@ -849,10 +849,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00066 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00066 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00066">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00066">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 8.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00066</oboInOwl:id>
         <rdfs:label>Chromosome 8</rdfs:label>
@@ -860,10 +860,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00067 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00067 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00067">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00067">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 9.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00067</oboInOwl:id>
         <rdfs:label>Chromosome 9</rdfs:label>
@@ -871,10 +871,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00068 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00068 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00068">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00068">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 10.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00068</oboInOwl:id>
         <rdfs:label>Chromosome 10</rdfs:label>
@@ -882,10 +882,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00069 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00069 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00069">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00069">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 11.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00069</oboInOwl:id>
         <rdfs:label>Chromosome 11</rdfs:label>
@@ -893,10 +893,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00070 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00070 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00070">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00070">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 12.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00070</oboInOwl:id>
         <rdfs:label>Chromosome 12</rdfs:label>
@@ -904,10 +904,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00071 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00071 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00071">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00071">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 13.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00071</oboInOwl:id>
         <rdfs:label>Chromosome 13</rdfs:label>
@@ -915,10 +915,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00072 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00072 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00072">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00072">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 14.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00072</oboInOwl:id>
         <rdfs:label>Chromosome 14</rdfs:label>
@@ -926,10 +926,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00073 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00073 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00073">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00073">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 15.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00073</oboInOwl:id>
         <rdfs:label>Chromosome 15</rdfs:label>
@@ -937,10 +937,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00074 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00074 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00074">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00074">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 16.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00074</oboInOwl:id>
         <rdfs:label>Chromosome 16</rdfs:label>
@@ -948,10 +948,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00075 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00075 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00075">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00075">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 17.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00075</oboInOwl:id>
         <rdfs:label>Chromosome 17</rdfs:label>
@@ -959,10 +959,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00076 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00076 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00076">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00076">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 18.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00076</oboInOwl:id>
         <rdfs:label>Chromosome 18</rdfs:label>
@@ -970,10 +970,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00077 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00077 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00077">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00077">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 19.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00077</oboInOwl:id>
         <rdfs:label>Chromosome 19</rdfs:label>
@@ -981,10 +981,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00078 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00078 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00078">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00078">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 20.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00078</oboInOwl:id>
         <rdfs:label>Chromosome 20</rdfs:label>
@@ -992,10 +992,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00079 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00079 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00079">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00079">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 21.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00079</oboInOwl:id>
         <rdfs:label>Chromosome 21</rdfs:label>
@@ -1003,10 +1003,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00080 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00080 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00080">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00080">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome 22.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00080</oboInOwl:id>
         <rdfs:label>Chromosome 22</rdfs:label>
@@ -1014,10 +1014,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00081 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00081 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00081">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00081">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome X.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00081</oboInOwl:id>
         <rdfs:label>Chromosome X</rdfs:label>
@@ -1025,10 +1025,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00082 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00082 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00082">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00082">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Chromosome Y.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00082</oboInOwl:id>
         <rdfs:label>Chromosome Y</rdfs:label>
@@ -1036,10 +1036,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00083 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00083 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00083">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00083">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
         <obo:IAO_0000115>Mitochondrial DNA.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00083</oboInOwl:id>
         <rdfs:label>Mitochondrial DNA</rdfs:label>
@@ -1047,10 +1047,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00084 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00084 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00084">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00017"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00084">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00017"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2684695.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00084</oboInOwl:id>
         <rdfs:label>DBA/2J</rdfs:label>
@@ -1058,10 +1058,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00085 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00085 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00085">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00085">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2161001.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Swiss Webster.</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Crl:CFW(SW).</oboInOwl:hasRelatedSynonym>
@@ -1071,10 +1071,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00086 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00086 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00086">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00000"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00086">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00000"/>
         <obo:IAO_0000115>Parent node for all TGEMO rat strains.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00086</oboInOwl:id>
         <rdfs:label>TGEMO Rat Strains</rdfs:label>
@@ -1082,10 +1082,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00087 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00087">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00002"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00087">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
         <obo:IAO_0000115>Parent node for all Chromosome Numbers, regardless of originating taxa.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00087</oboInOwl:id>
         <rdfs:label>TGEMO Chromosomes</rdfs:label>
@@ -1093,10 +1093,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00088 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00088 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00088">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00011"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00088">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
         <obo:IAO_0000115>Indicator (Temporary Placeholder) for experiments that are identified to be time consuming for curation, and will be revisited at a later time.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00088</oboInOwl:id>
         <rdfs:label>[Time Consuming]</rdfs:label>
@@ -1104,10 +1104,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00089 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00089 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00089">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00089">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160618.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00089</oboInOwl:id>
         <rdfs:label>WSB</rdfs:label>
@@ -1115,10 +1115,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00090 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00090 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00090">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00089"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00090">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00089"/>
         <obo:IAO_0000115>[Strain Not Recorded in MGI].</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00090</oboInOwl:id>
         <rdfs:label>WSB/Ei</rdfs:label>
@@ -1126,10 +1126,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00091 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00091 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00091">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00090"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00091">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00090"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160667.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00091</oboInOwl:id>
         <rdfs:label>WSB/EiJ</rdfs:label>
@@ -1137,10 +1137,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00092 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00092 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00092">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00092">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159959.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00092</oboInOwl:id>
         <rdfs:label>A</rdfs:label>
@@ -1148,10 +1148,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00093 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00093 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00093">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00092"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00093">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00092"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159747.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00093</oboInOwl:id>
         <rdfs:label>A/J</rdfs:label>
@@ -1159,10 +1159,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00094 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00094 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00094">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00018"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00094">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00018"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159788.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00094</oboInOwl:id>
         <rdfs:label>C57BL/10</rdfs:label>
@@ -1170,10 +1170,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00095 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00095 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00095">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00094"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00095">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00094"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159754.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00095</oboInOwl:id>
         <rdfs:label>C57BL/10J</rdfs:label>
@@ -1181,10 +1181,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00096 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00096 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00096">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00086"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00096">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00086"/>
         <obo:IAO_0000115>Wistar Rat.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00096</oboInOwl:id>
         <rdfs:label>Wistar</rdfs:label>
@@ -1192,10 +1192,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00097 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00097 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00097">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00086"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00097">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00086"/>
         <obo:IAO_0000115>Long Evans Rat.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00097</oboInOwl:id>
         <rdfs:label>Long Evans</rdfs:label>
@@ -1203,10 +1203,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00098 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00098 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00098">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00096"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00098">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00096"/>
         <obo:IAO_0000115>Wistar-Kyoto Rat.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00098</oboInOwl:id>
         <rdfs:label>Wistar-Kyoto</rdfs:label>
@@ -1214,10 +1214,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00099 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00099 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00099">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00086"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00099">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00086"/>
         <obo:IAO_0000115>Sprague Dawley Rat.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00099</oboInOwl:id>
         <rdfs:label>Sprague Dawley</rdfs:label>
@@ -1225,10 +1225,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00100 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00100 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00100">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00011"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00100">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
         <obo:IAO_0000115>Indicator for studies that are considered unusable and are blacklisted to avoid reloading into Gemma.</obo:IAO_0000115>
         <oboInOwl:creation_date>2018-04-18T15:52:43Z</oboInOwl:creation_date>
         <oboInOwl:id>TGEMO:00100</oboInOwl:id>
@@ -1237,10 +1237,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00101 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00101 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00101">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00010"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00101">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00010"/>
         <obo:IAO_0000115>A biological system intended as a model of a human disease.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00101</oboInOwl:id>
         <rdfs:label>Disease model</rdfs:label>
@@ -1248,10 +1248,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00102 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00102 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00102">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00002"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00102">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
         <obo:IAO_0000115>An experimental design where instead of rescue via genetic manipulation (e.g. a transgene), a protein is directly introduced.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00102</oboInOwl:id>
         <rdfs:label>Rescue by external protein</rdfs:label>
@@ -1260,10 +1260,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00103 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00103 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00103">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00010"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00103">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00010"/>
         <obo:IAO_0000115>A transcriptome analysis method based on the isolation of RNA associated wtih ribosomes.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Ribo-Seq</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Ribosome Immunoprecipitation</oboInOwl:hasExactSynonym>
@@ -1274,10 +1274,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00104 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00104 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00104">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00034"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00104">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00034"/>
         <obo:IAO_0000115>Inbred strain. MGI:3037980</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00104</oboInOwl:id>
         <rdfs:label>129S1/SvlmJ</rdfs:label>
@@ -1285,10 +1285,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00105 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00105 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00105">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00034"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00105">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00034"/>
         <obo:IAO_0000115>Inbred strain. MGI:3044210</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00105</oboInOwl:id>
         <rdfs:label>129X1/SvJ</rdfs:label>
@@ -1296,10 +1296,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00106 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00106 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00106">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00019"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00106">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00019"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159784</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00106</oboInOwl:id>
         <rdfs:label>DBA/1LacJ</rdfs:label>
@@ -1307,10 +1307,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00107 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00107 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00107">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00107">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Strain family. MGI:2159833</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00107</oboInOwl:id>
         <rdfs:label>SJL</rdfs:label>
@@ -1318,10 +1318,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00108 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00108 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00108">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00108">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Strain family. MGI:2159850</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00108</oboInOwl:id>
         <rdfs:label>CBA</rdfs:label>
@@ -1329,10 +1329,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00109 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00109 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00109">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00108"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00109">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00108"/>
         <obo:IAO_0000115>Inbred strain. MGI:2159756</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00109</oboInOwl:id>
         <rdfs:label>CBA/J</rdfs:label>
@@ -1340,10 +1340,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00110 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00110 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00110">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00107"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00110">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00107"/>
         <obo:IAO_0000115>Inbred strain. MGI:2159739</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>SJL/J-Pde6b^rd1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Swiss Jim Lambert</oboInOwl:hasExactSynonym>
@@ -1353,10 +1353,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00111 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00111 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00111">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00034"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00111">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00034"/>
         <obo:IAO_0000115>Inbred strain. MGI:2165253</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>129/SvEms-Ter+/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>129T2</oboInOwl:hasExactSynonym>
@@ -1366,10 +1366,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00112 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00112 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00112">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00034"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00112">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00034"/>
         <obo:IAO_0000115>Inbred strain, segregating inbred. MGI:2661783</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>129/J</oboInOwl:hasExactSynonym>
         <oboInOwl:id>TGEMO:00112</oboInOwl:id>
@@ -1378,10 +1378,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00113 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00113 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00113">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00113">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Inbred strain. MGI:2159873</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>C3Fe</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>C3H Fekete</oboInOwl:hasExactSynonym>
@@ -1392,10 +1392,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00114 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00114 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00114">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00092"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00114">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00092"/>
         <obo:IAO_0000115>Inbred strain. MGI:2159897</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>A Heston</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>AHe</oboInOwl:hasExactSynonym>
@@ -1405,10 +1405,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00115 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00115 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00115">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00015"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00115">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
         <obo:IAO_0000115>Strain family. Recombinant inbred (RI). MGI:2164899</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00115</oboInOwl:id>
         <rdfs:label>BXD</rdfs:label>
@@ -1416,10 +1416,10 @@
     
 
 
-    <!-- http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00122 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00122 -->
 
-    <owl:Class rdf:about="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00122">
-        <rdfs:subClassOf rdf:resource="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL_00057"/>
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00122">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00057"/>
         <obo:IAO_0000115>Used to signify that a particular factor has no specified value for a particular sample. Intended as a less ambiguous alternative to &quot;NA&quot;, &quot;null&quot; or &quot;none&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Unspecified factor value</rdfs:label>
     </owl:Class>
