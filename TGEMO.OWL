@@ -1255,7 +1255,6 @@
         <obo:IAO_0000115>An experimental design where instead of rescue via genetic manipulation (e.g. a transgene), a protein is directly introduced.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00102</oboInOwl:id>
         <rdfs:label>Rescue by external protein</rdfs:label>
-        <rdfs:label>Unspecified sample characteristic</rdfs:label>
     </owl:Class>
     
 
