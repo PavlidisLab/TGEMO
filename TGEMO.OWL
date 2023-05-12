@@ -10,6 +10,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO">
         <owl:versionIRI rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO"/>
+        <owl:imports rdf:resource="http://www.geneontology.org/formats/oboInOwl"/>
     </owl:Ontology>
     
 
@@ -775,10 +776,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00059 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00059">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 1.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00059</oboInOwl:id>
-        <rdfs:label>Chromosome 1</rdfs:label>
+        <rdfs:label>Human Chromosome 1</rdfs:label>
     </owl:Class>
     
 
@@ -786,10 +787,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00060 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00060">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 2.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00060</oboInOwl:id>
-        <rdfs:label>Chromosome 2</rdfs:label>
+        <rdfs:label>Human Chromosome 2</rdfs:label>
     </owl:Class>
     
 
@@ -797,10 +798,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00061 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00061">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 3.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00061</oboInOwl:id>
-        <rdfs:label>Chromosome 3</rdfs:label>
+        <rdfs:label>Human Chromosome 3</rdfs:label>
     </owl:Class>
     
 
@@ -808,10 +809,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00062 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00062">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 4.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00062</oboInOwl:id>
-        <rdfs:label>Chromosome 4</rdfs:label>
+        <rdfs:label>Human Chromosome 4</rdfs:label>
     </owl:Class>
     
 
@@ -819,10 +820,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00063 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00063">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 5.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00063</oboInOwl:id>
-        <rdfs:label>Chromosome 5</rdfs:label>
+        <rdfs:label>Human Chromosome 5</rdfs:label>
     </owl:Class>
     
 
@@ -830,10 +831,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00064 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00064">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 6.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00064</oboInOwl:id>
-        <rdfs:label>Chromosome 6</rdfs:label>
+        <rdfs:label>Human Chromosome 6</rdfs:label>
     </owl:Class>
     
 
@@ -841,10 +842,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00065 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00065">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 7.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00065</oboInOwl:id>
-        <rdfs:label>Chromosome 7</rdfs:label>
+        <rdfs:label>Human Chromosome 7</rdfs:label>
     </owl:Class>
     
 
@@ -852,10 +853,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00066 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00066">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 8.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00066</oboInOwl:id>
-        <rdfs:label>Chromosome 8</rdfs:label>
+        <rdfs:label>Human Chromosome 8</rdfs:label>
     </owl:Class>
     
 
@@ -863,10 +864,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00067 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00067">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 9.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00067</oboInOwl:id>
-        <rdfs:label>Chromosome 9</rdfs:label>
+        <rdfs:label>Human Chromosome 9</rdfs:label>
     </owl:Class>
     
 
@@ -874,10 +875,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00068 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00068">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 10.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00068</oboInOwl:id>
-        <rdfs:label>Chromosome 10</rdfs:label>
+        <rdfs:label>Human Chromosome 10</rdfs:label>
     </owl:Class>
     
 
@@ -885,10 +886,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00069 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00069">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 11.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00069</oboInOwl:id>
-        <rdfs:label>Chromosome 11</rdfs:label>
+        <rdfs:label>Human Chromosome 11</rdfs:label>
     </owl:Class>
     
 
@@ -896,10 +897,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00070 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00070">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 12.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00070</oboInOwl:id>
-        <rdfs:label>Chromosome 12</rdfs:label>
+        <rdfs:label>Human Chromosome 12</rdfs:label>
     </owl:Class>
     
 
@@ -907,10 +908,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00071 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00071">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 13.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00071</oboInOwl:id>
-        <rdfs:label>Chromosome 13</rdfs:label>
+        <rdfs:label>Human Chromosome 13</rdfs:label>
     </owl:Class>
     
 
@@ -918,10 +919,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00072 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00072">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 14.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00072</oboInOwl:id>
-        <rdfs:label>Chromosome 14</rdfs:label>
+        <rdfs:label>Human Chromosome 14</rdfs:label>
     </owl:Class>
     
 
@@ -929,10 +930,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00073 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00073">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 15.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00073</oboInOwl:id>
-        <rdfs:label>Chromosome 15</rdfs:label>
+        <rdfs:label>Human Chromosome 15</rdfs:label>
     </owl:Class>
     
 
@@ -940,10 +941,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00074 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00074">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 16.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00074</oboInOwl:id>
-        <rdfs:label>Chromosome 16</rdfs:label>
+        <rdfs:label>Human Chromosome 16</rdfs:label>
     </owl:Class>
     
 
@@ -951,10 +952,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00075 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00075">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 17.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00075</oboInOwl:id>
-        <rdfs:label>Chromosome 17</rdfs:label>
+        <rdfs:label>Human Chromosome 17</rdfs:label>
     </owl:Class>
     
 
@@ -962,10 +963,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00076 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00076">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 18.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00076</oboInOwl:id>
-        <rdfs:label>Chromosome 18</rdfs:label>
+        <rdfs:label>Human Chromosome 18</rdfs:label>
     </owl:Class>
     
 
@@ -973,10 +974,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00077 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00077">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 19.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00077</oboInOwl:id>
-        <rdfs:label>Chromosome 19</rdfs:label>
+        <rdfs:label>Human Chromosome 19</rdfs:label>
     </owl:Class>
     
 
@@ -984,10 +985,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00078 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00078">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 20.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00078</oboInOwl:id>
-        <rdfs:label>Chromosome 20</rdfs:label>
+        <rdfs:label>Human Chromosome 20</rdfs:label>
     </owl:Class>
     
 
@@ -995,10 +996,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00079 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00079">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 21.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00079</oboInOwl:id>
-        <rdfs:label>Chromosome 21</rdfs:label>
+        <rdfs:label>Human Chromosome 21</rdfs:label>
     </owl:Class>
     
 
@@ -1006,10 +1007,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00080 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00080">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome 22.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00080</oboInOwl:id>
-        <rdfs:label>Chromosome 22</rdfs:label>
+        <rdfs:label>Human Chromosome 22</rdfs:label>
     </owl:Class>
     
 
@@ -1017,10 +1018,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00081 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00081">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome X.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00081</oboInOwl:id>
-        <rdfs:label>Chromosome X</rdfs:label>
+        <rdfs:label>Human Chromosome X</rdfs:label>
     </owl:Class>
     
 
@@ -1028,10 +1029,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00082 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00082">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Chromosome Y.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00082</oboInOwl:id>
-        <rdfs:label>Chromosome Y</rdfs:label>
+        <rdfs:label>Human Chromosome Y</rdfs:label>
     </owl:Class>
     
 
@@ -1039,10 +1040,10 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00083 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00083">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00123"/>
         <obo:IAO_0000115>Mitochondrial DNA.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00083</oboInOwl:id>
-        <rdfs:label>Mitochondrial DNA</rdfs:label>
+        <rdfs:label>Human Mitochondrial chromosome</rdfs:label>
     </owl:Class>
     
 
@@ -1086,9 +1087,9 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00087">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
-        <obo:IAO_0000115>Parent node for all Chromosome Numbers, regardless of originating taxa.</obo:IAO_0000115>
+        <obo:IAO_0000115>Chromosome</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00087</oboInOwl:id>
-        <rdfs:label>TGEMO Chromosomes</rdfs:label>
+        <rdfs:label>Chromosome</rdfs:label>
     </owl:Class>
     
 
@@ -1344,11 +1345,18 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00110">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00107"/>
         <obo:IAO_0000115>Inbred strain. MGI:2159739</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>MGI:2159739</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>SJL/J-Pde6b^rd1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Swiss Jim Lambert</oboInOwl:hasExactSynonym>
         <oboInOwl:id>TGEMO:00110</oboInOwl:id>
         <rdfs:label>SJL/J</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00110"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>MGI:2159739</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://phenome.jax.org/strains/17</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1421,6 +1429,222 @@
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00057"/>
         <obo:IAO_0000115>Used to signify that a particular factor has no specified value for a particular sample. Intended as a less ambiguous alternative to &quot;NA&quot;, &quot;null&quot; or &quot;none&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Unspecified factor value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00123 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00123">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:label xml:lang="en">Human chromosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00124 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00124">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00087"/>
+        <rdfs:label xml:lang="en">Mouse chromosome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00125 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00125">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome Y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00126 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00126">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome X</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00127 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00127">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00128 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00128">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00129 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00129">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00130 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00130">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00131 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00131">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00132 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00132">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00133 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00133">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mosue Chromosome 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00134 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00134">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00135 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00135">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00136 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00136">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00137 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00137">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00138 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00138">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00139 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00139">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00140 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00140">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 14</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00141 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00141">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00142 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00142">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 16</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00143 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00143">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 17</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00144 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00144">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 18</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00145 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00145">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Chromosome 19</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00146 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00146">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00124"/>
+        <rdfs:label xml:lang="en">Mouse Mitochondrial Chromosome</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
