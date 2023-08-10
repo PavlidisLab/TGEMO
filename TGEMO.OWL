@@ -277,7 +277,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00016 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00016">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00018"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005181"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159769.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00016</oboInOwl:id>
         <rdfs:label>C57BL/6</rdfs:label>
@@ -292,18 +292,6 @@
         <obo:IAO_0000115>Inbred Strain. MGI:2159768.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00017</oboInOwl:id>
         <rdfs:label>DBA/2</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00018 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00018">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005181"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2160085.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00018</oboInOwl:id>
-        <rdfs:label>C57BL</rdfs:label>
     </owl:Class>
     
 
@@ -363,18 +351,6 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00024 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00024">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007726"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00023"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159745.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00024</oboInOwl:id>
-        <rdfs:label>AKR/J</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00025 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00025">
@@ -386,34 +362,10 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00026 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00026">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000602"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2161072.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00026</oboInOwl:id>
-        <rdfs:label>BALB/c</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00027 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00027">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002547"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159775.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00027</oboInOwl:id>
-        <rdfs:label>NOD</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00028 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00028">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00026"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000602"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159737.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00028</oboInOwl:id>
         <rdfs:label>BALB/cJ</rdfs:label>
@@ -424,7 +376,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00029 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00029">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00027"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002547"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160550.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00029</oboInOwl:id>
         <rdfs:label>NOD/Shi</rdfs:label>
@@ -439,18 +391,6 @@
         <obo:IAO_0000115>Inbred Strain. MGI:2162728.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00030</oboInOwl:id>
         <rdfs:label>NOD/ShiLt</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00031 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00031">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007736"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00030"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2162056.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00031</oboInOwl:id>
-        <rdfs:label>NOD/ShiLtJ</rdfs:label>
     </owl:Class>
     
 
@@ -495,18 +435,6 @@
         <obo:IAO_0000115>Inbred Strain. MGI:3050593.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00036</oboInOwl:id>
         <rdfs:label>129S/SvEv</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00037 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00037">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000606"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00016"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:3028467.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00037</oboInOwl:id>
-        <rdfs:label>C57BL/6J</rdfs:label>
     </owl:Class>
     
 
@@ -566,18 +494,6 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00043 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00043">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007728"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00042"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2163709.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00043</oboInOwl:id>
-        <rdfs:label>FVB/NJ</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00044 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00044">
@@ -596,18 +512,6 @@
         <obo:IAO_0000115>Inbred Strain. MGI:3510421.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00045</oboInOwl:id>
         <rdfs:label>SPRET/Ei</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00046 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00046">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007734"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00045"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2160671.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00046</oboInOwl:id>
-        <rdfs:label>SPRET/EiJ</rdfs:label>
     </owl:Class>
     
 
@@ -700,18 +604,6 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00055 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00055">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001329"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00054"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159741.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00055</oboInOwl:id>
-        <rdfs:label>C3H/HeJ</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00056 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00056">
@@ -741,18 +633,6 @@
         <obo:IAO_0000115>Tissue that is spatially located adjacent to the tissue of interest. Adjacent tissue are assumed to be normal, but that is not necessarily always the case.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00058</oboInOwl:id>
         <rdfs:label>Adjacent tissue</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00084 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00084">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005184"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00017"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2684695.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00084</oboInOwl:id>
-        <rdfs:label>DBA/2J</rdfs:label>
     </owl:Class>
     
 
@@ -836,49 +716,13 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00093 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00093">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001327"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00092"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159747.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00093</oboInOwl:id>
-        <rdfs:label>A/J</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00094 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00094">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000604"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00018"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159788.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00094</oboInOwl:id>
-        <rdfs:label>C57BL/10</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00095 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00095">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00094"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000604"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159754.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00095</oboInOwl:id>
         <rdfs:label>C57BL/10J</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00096 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00096">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001342"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00086"/>
-        <obo:IAO_0000115>Wistar Rat.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00096</oboInOwl:id>
-        <rdfs:label>Wistar</rdfs:label>
     </owl:Class>
     
 
@@ -890,30 +734,6 @@
         <obo:IAO_0000115>Long Evans Rat.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00097</oboInOwl:id>
         <rdfs:label>Long Evans</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00098 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00098">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001345"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00096"/>
-        <obo:IAO_0000115>Wistar-Kyoto Rat.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00098</oboInOwl:id>
-        <rdfs:label>Wistar-Kyoto</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00099 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00099">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001352"/>
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00086"/>
-        <obo:IAO_0000115>Sprague Dawley Rat.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00099</oboInOwl:id>
-        <rdfs:label>Sprague Dawley</rdfs:label>
     </owl:Class>
     
 
@@ -1112,96 +932,6 @@
         <obo:IAO_0000115>Used to signify that a particular factor has no specified value for a particular sample. Intended as a less ambiguous alternative to &quot;NA&quot;, &quot;null&quot; or &quot;none&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Unspecified factor value</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0000602 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000602"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0000604 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000604"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0000606 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000606"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0001327 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001327"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0001329 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001329"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0001342 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001342"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0001345 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001345"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0001352 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001352"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0002547 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0002547"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0005181 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0005181"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0005184 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0005184"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0007726 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0007726"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0007728 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0007728"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0007734 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0007734"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0007736 -->
-
-    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0007736"/>
 </rdf:RDF>
 
 
