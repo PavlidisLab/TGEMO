@@ -158,6 +158,7 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00001">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
         <obo:IAO_0000115>Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Nullizygous</oboInOwl:hasExactSynonym>
         <oboInOwl:id>TGEMO:00001</oboInOwl:id>
         <rdfs:label>Homozygous negative</rdfs:label>
     </owl:Class>
