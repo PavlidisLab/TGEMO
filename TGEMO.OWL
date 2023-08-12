@@ -830,17 +830,6 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00109 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00109">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00108"/>
-        <obo:IAO_0000115>Inbred strain. MGI:2159756</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00109</oboInOwl:id>
-        <rdfs:label>CBA/J</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00110 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00110">
