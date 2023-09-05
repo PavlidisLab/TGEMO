@@ -181,7 +181,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00004 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00004">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002694"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000510"/>
         <obo:IAO_0000115>Overexpression of a gene. Includes non-canonical promoter driven expression.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00004</oboInOwl:id>
         <rdfs:label>Overexpression</rdfs:label>
@@ -727,20 +727,6 @@
         <obo:IAO_0000115>An experimental design where instead of rescue via genetic manipulation (e.g. a transgene), a protein is directly introduced.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00102</oboInOwl:id>
         <rdfs:label>Rescue by external protein</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00103 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00103">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002694"/>
-        <obo:IAO_0000115>A transcriptome analysis method based on the isolation of RNA associated wtih ribosomes.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Ribo-Seq</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Ribosome Immunoprecipitation</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Ribosome-Associated mRNA</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>TGEMO:00103</oboInOwl:id>
-        <rdfs:label>Ribosomal profiling</rdfs:label>
     </owl:Class>
     
 
