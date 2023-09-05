@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL#"
      xml:base="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:so="http://purl.obolibrary.org/obo/so#"
      xmlns:efo="http://www.ebi.ac.uk/efo/#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -27,8 +28,9 @@
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO">
         <owl:versionIRI rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO"/>
-        <owl:imports rdf:resource="http://www.ebi.ac.uk/efo/releases/v3.56.0/efo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/so/2021-11-22/so.owl"/>
         <owl:imports rdf:resource="http://www.geneontology.org/formats/oboInOwl"/>
+        <owl:imports rdf:resource="https://www.ebi.ac.uk/efo/releases/v3.56.0/efo.owl"/>
     </owl:Ontology>
     
 
@@ -179,7 +181,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00004 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00004">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002694"/>
         <obo:IAO_0000115>Overexpression of a gene. Includes non-canonical promoter driven expression.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00004</oboInOwl:id>
         <rdfs:label>Overexpression</rdfs:label>
@@ -209,6 +211,17 @@
     
 
 
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00008 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002053"/>
+        <obo:IAO_0000115>A variant rendering the activity of the gene product (i.e. adoption of an active protein confirmation) independent of the need for activation such as ligand binding</obo:IAO_0000115>
+        <oboInOwl:id>TGEMO_00008</oboInOwl:id>
+        <rdfs:label xml:lang="en">Constitutive active mutation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00010 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00010">
@@ -234,7 +247,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00012 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00012">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00010"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002694"/>
         <obo:IAO_0000115>Removal of proteins using antibodies.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00012</oboInOwl:id>
         <rdfs:label>Immunodepletion</rdfs:label>
@@ -264,17 +277,6 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00015 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00015">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00000"/>
-        <obo:IAO_0000115>Parent node for all TGEMO mouse strains.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00015</oboInOwl:id>
-        <rdfs:label>TGEMO Mouse Strains</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00016 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00016">
@@ -300,7 +302,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00019 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00019">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159849.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00019</oboInOwl:id>
         <rdfs:label>DBA</rdfs:label>
@@ -344,7 +346,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00023 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00023">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159767.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00023</oboInOwl:id>
         <rdfs:label>AKR</rdfs:label>
@@ -355,7 +357,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00025 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00025">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Outbred Strain. Charles River:CD-1.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00025</oboInOwl:id>
         <rdfs:label>Crl:CD1(ICR)</rdfs:label>
@@ -440,21 +442,10 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00038 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00038">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
-        <obo:IAO_0000115>Subsidiary parent node for all TGEMO hybrid mouse strains.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00038</oboInOwl:id>
-        <rdfs:label>TGEMO Hybrid Mouse Strains</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00039 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00039">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00038"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Cross between C57BL/6 and 129S. Generation Unknown.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00039</oboInOwl:id>
         <rdfs:label>B6129SF?</rdfs:label>
@@ -465,7 +456,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00040 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00040">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00038"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Cross between C57BL/6J and 129S. Generation Unknown.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00040</oboInOwl:id>
         <rdfs:label>B6J129SF?</rdfs:label>
@@ -476,7 +467,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00041 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00041">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Inbred Strain. MGI:3609372.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00041</oboInOwl:id>
         <rdfs:label>FVB</rdfs:label>
@@ -495,21 +486,10 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00044 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00044">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2160669.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00044</oboInOwl:id>
-        <rdfs:label>SPRET</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00045 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00045">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00044"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10096"/>
         <obo:IAO_0000115>Inbred Strain. MGI:3510421.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00045</oboInOwl:id>
         <rdfs:label>SPRET/Ei</rdfs:label>
@@ -520,8 +500,8 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00047 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00047">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
-        <obo:IAO_0000115>Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <obo:IAO_0000115>Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul. MGI:002374</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00047</oboInOwl:id>
         <rdfs:label>MMTV-PyMT</rdfs:label>
     </owl:Class>
@@ -553,7 +533,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00050 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00050">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160604.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00050</oboInOwl:id>
         <rdfs:label>NOR</rdfs:label>
@@ -586,7 +566,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00053 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00053">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160217.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00053</oboInOwl:id>
         <rdfs:label>C3H</rdfs:label>
@@ -601,17 +581,6 @@
         <obo:IAO_0000115>Inbred Strain. MGI:2159866.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00054</oboInOwl:id>
         <rdfs:label>C3H/He</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00056 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00056">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
-        <obo:IAO_0000115>Congenic Strain. Charles River:NOD SCID.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00056</oboInOwl:id>
-        <rdfs:label>NOD.CB17-Prkdc&lt;scid&gt;/NcrCrl</rdfs:label>
     </owl:Class>
     
 
@@ -641,23 +610,12 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00085 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00085">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2161001.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Swiss Webster.</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>Crl:CFW(SW).</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>TGEMO:00085</oboInOwl:id>
         <rdfs:label>CFW</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00086 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00086">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00000"/>
-        <obo:IAO_0000115>Parent node for all TGEMO rat strains.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00086</oboInOwl:id>
-        <rdfs:label>TGEMO Rat Strains</rdfs:label>
     </owl:Class>
     
 
@@ -676,7 +634,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00089 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00089">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160618.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00089</oboInOwl:id>
         <rdfs:label>WSB</rdfs:label>
@@ -709,7 +667,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00092 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00092">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159959.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00092</oboInOwl:id>
         <rdfs:label>A</rdfs:label>
@@ -731,7 +689,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00097 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00097">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
         <obo:IAO_0000115>Long Evans Rat.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00097</oboInOwl:id>
         <rdfs:label>Long Evans</rdfs:label>
@@ -776,7 +734,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00103 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00103">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00010"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002694"/>
         <obo:IAO_0000115>A transcriptome analysis method based on the isolation of RNA associated wtih ribosomes.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Ribo-Seq</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Ribosome Immunoprecipitation</oboInOwl:hasExactSynonym>
@@ -812,7 +770,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00107 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00107">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Strain family. MGI:2159833</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00107</oboInOwl:id>
         <rdfs:label>SJL</rdfs:label>
@@ -823,7 +781,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00108 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00108">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Strain family. MGI:2159850</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00108</oboInOwl:id>
         <rdfs:label>CBA</rdfs:label>
@@ -879,7 +837,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00113 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00113">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Inbred strain. MGI:2159873</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>C3Fe</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>C3H Fekete</oboInOwl:hasExactSynonym>
@@ -906,7 +864,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00115 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00115">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00015"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004008"/>
         <obo:IAO_0000115>Strain family. Recombinant inbred (RI). MGI:2164899</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004008"/>
         <oboInOwl:id>TGEMO:00115</oboInOwl:id>
