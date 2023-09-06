@@ -1,6 +1,11 @@
 format-version: 1.2
 data-version: http://gemma.msl.ubc.ca/ont/TGEMO
+import: http://purl.obolibrary.org/obo/geno/releases/2023-02-21/geno.owl
+import: http://purl.obolibrary.org/obo/so/2021-11-22/so.owl
+import: http://www.geneontology.org/formats/oboInOwl
+import: https://www.ebi.ac.uk/efo/releases/v3.56.0/efo.owl
 ontology: http://gemma.msl.ubc.ca/ont/TGEMO
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://gemma.msl.ubc.ca/ont/TGEMO_00008> \"TGEMO_00008\")\n)
 
 [Term]
 id: TGEMO:00000
@@ -11,7 +16,8 @@ def: "Root node for Temporary Gemma Ontology." []
 id: TGEMO:00001
 name: Homozygous negative
 def: "Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also." []
-is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
+synonym: "Nullizygous" EXACT []
+is_a: GENO:0000136 ! homozygous
 
 [Term]
 id: TGEMO:00002
@@ -20,16 +26,10 @@ def: "Parent node for all TGEMO genetic and mutation descriptors." []
 is_a: TGEMO:00000 ! TGEMO Root
 
 [Term]
-id: TGEMO:00003
-name: Heterozygous
-def: "Heterozygous allele. Applies to both genetic or functional null heterozygotes. Not applicable for single-copy \"overexpression\" of transgenes." []
-is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
-
-[Term]
 id: TGEMO:00004
 name: Overexpression
 def: "Overexpression of a gene. Includes non-canonical promoter driven expression." []
-is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
+is_a: EFO:0000510
 
 [Term]
 id: TGEMO:00005
@@ -44,22 +44,10 @@ def: "Overexpression of a gene. Organism is known to have only two copies of the
 is_a: TGEMO:00004 ! Overexpression
 
 [Term]
-id: TGEMO:00007
-name: Knockdown
-def: "Knock-down of a gene. Methods may include siRNA, shRNA, miRNA, RNAi etc." []
-is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
-
-[Term]
 id: TGEMO:00008
 name: Constitutive active mutation
-def: "Constitutive active mutation or allele for a gene." []
-is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
-
-[Term]
-id: TGEMO:00009
-name: Dominant negative mutation
-def: "Dominant negative mutation or allele for a gene." []
-is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
+def: "A variant rendering the activity of the gene product (i.e. adoption of an active protein confirmation) independent of the need for activation such as ligand binding" []
+is_a: SO:0002053 ! gain_of_function_variant
 
 [Term]
 id: TGEMO:00010
@@ -77,7 +65,7 @@ is_a: TGEMO:00000 ! TGEMO Root
 id: TGEMO:00012
 name: Immunodepletion
 def: "Removal of proteins using antibodies." []
-is_a: TGEMO:00010 ! TGEMO Methods
+is_a: EFO:0002694
 
 [Term]
 id: TGEMO:00013
@@ -92,16 +80,10 @@ def: "Samples to exclude in Differential Expression Analysis." []
 is_a: TGEMO:00011 ! TGEMO Internals
 
 [Term]
-id: TGEMO:00015
-name: TGEMO Mouse Strains
-def: "Parent node for all TGEMO mouse strains." []
-is_a: TGEMO:00000 ! TGEMO Root
-
-[Term]
 id: TGEMO:00016
 name: C57BL/6
 def: "Inbred Strain. MGI:2159769." []
-is_a: TGEMO:00018 ! C57BL
+is_a: EFO:0005181
 
 [Term]
 id: TGEMO:00017
@@ -110,16 +92,10 @@ def: "Inbred Strain. MGI:2159768." []
 is_a: TGEMO:00019 ! DBA
 
 [Term]
-id: TGEMO:00018
-name: C57BL
-def: "Inbred Strain. MGI:2160085." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
-
-[Term]
 id: TGEMO:00019
 name: DBA
 def: "Inbred Strain. MGI:2159849." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00020
@@ -143,55 +119,31 @@ is_a: TGEMO:00011 ! TGEMO Internals
 id: TGEMO:00023
 name: AKR
 def: "Inbred Strain. MGI:2159767." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
-
-[Term]
-id: TGEMO:00024
-name: AKR/J
-def: "Inbred Strain. MGI:2159745." []
-is_a: TGEMO:00023 ! AKR
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00025
 name: Crl:CD1(ICR)
 def: "Outbred Strain. Charles River:CD-1." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
-
-[Term]
-id: TGEMO:00026
-name: BALB/c
-def: "Inbred Strain. MGI:2161072." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
-
-[Term]
-id: TGEMO:00027
-name: NOD
-def: "Inbred Strain. MGI:2159775." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00028
 name: BALB/cJ
 def: "Inbred Strain. MGI:2159737." []
-is_a: TGEMO:00026 ! BALB/c
+is_a: EFO:0000602
 
 [Term]
 id: TGEMO:00029
 name: NOD/Shi
 def: "Inbred Strain. MGI:2160550." []
-is_a: TGEMO:00027 ! NOD
+is_a: EFO:0002547
 
 [Term]
 id: TGEMO:00030
 name: NOD/ShiLt
 def: "Inbred Strain. MGI:2162728." []
 is_a: TGEMO:00029 ! NOD/Shi
-
-[Term]
-id: TGEMO:00031
-name: NOD/ShiLtJ
-def: "Inbred Strain. MGI:2162056." []
-is_a: TGEMO:00030 ! NOD/ShiLt
 
 [Term]
 id: TGEMO:00032
@@ -206,16 +158,10 @@ def: "Indicator for sample studies containing a collection of various cell lines
 is_a: TGEMO:00020 ! [Sample Study]
 
 [Term]
-id: TGEMO:00034
-name: 129
-def: "Inbred Strain. MGI:2160041." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
-
-[Term]
 id: TGEMO:00035
 name: 129S/Sv
 def: "Inbred Strain. MGI:2165020." []
-is_a: TGEMO:00034 ! 129
+is_a: EFO:0000597
 
 [Term]
 id: TGEMO:00036
@@ -224,34 +170,22 @@ def: "Inbred Strain. MGI:3050593." []
 is_a: TGEMO:00035 ! 129S/Sv
 
 [Term]
-id: TGEMO:00037
-name: C57BL/6J
-def: "Inbred Strain. MGI:3028467." []
-is_a: TGEMO:00016 ! C57BL/6
-
-[Term]
-id: TGEMO:00038
-name: TGEMO Hybrid Mouse Strains
-def: "Subsidiary parent node for all TGEMO hybrid mouse strains." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
-
-[Term]
 id: TGEMO:00039
 name: B6129SF?
 def: "Cross between C57BL/6 and 129S. Generation Unknown." []
-is_a: TGEMO:00038 ! TGEMO Hybrid Mouse Strains
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00040
 name: B6J129SF?
 def: "Cross between C57BL/6J and 129S. Generation Unknown." []
-is_a: TGEMO:00038 ! TGEMO Hybrid Mouse Strains
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00041
 name: FVB
 def: "Inbred Strain. MGI:3609372." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00042
@@ -260,34 +194,16 @@ def: "Inbred Strain. MGI:2160001." []
 is_a: TGEMO:00041 ! FVB
 
 [Term]
-id: TGEMO:00043
-name: FVB/NJ
-def: "Inbred Strain. MGI:2163709." []
-is_a: TGEMO:00042 ! FVB/N
-
-[Term]
-id: TGEMO:00044
-name: SPRET
-def: "Inbred Strain. MGI:2160669." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
-
-[Term]
 id: TGEMO:00045
 name: SPRET/Ei
 def: "Inbred Strain. MGI:3510421." []
-is_a: TGEMO:00044 ! SPRET
-
-[Term]
-id: TGEMO:00046
-name: SPRET/EiJ
-def: "Inbred Strain. MGI:2160671." []
-is_a: TGEMO:00045 ! SPRET/Ei
+is_a: NCBITaxon:10096 ! Mus spretus
 
 [Term]
 id: TGEMO:00047
 name: MMTV-PyMT
-def: "Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
+def: "Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul. MGI:002374" []
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00048
@@ -305,7 +221,7 @@ is_a: TGEMO:00035 ! 129S/Sv
 id: TGEMO:00050
 name: NOR
 def: "Inbred Strain. MGI:2160604." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00051
@@ -323,25 +239,13 @@ is_a: TGEMO:00051 ! NOR1/Lt
 id: TGEMO:00053
 name: C3H
 def: "Inbred Strain. MGI:2160217." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00054
 name: C3H/He
 def: "Inbred Strain. MGI:2159866." []
 is_a: TGEMO:00053 ! C3H
-
-[Term]
-id: TGEMO:00055
-name: C3H/HeJ
-def: "Inbred Strain. MGI:2159741." []
-is_a: TGEMO:00054 ! C3H/He
-
-[Term]
-id: TGEMO:00056
-name: NOD.CB17-Prkdc<scid>/NcrCrl
-def: "Congenic Strain. Charles River:NOD SCID." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
 
 [Term]
 id: TGEMO:00057
@@ -356,180 +260,12 @@ def: "Tissue that is spatially located adjacent to the tissue of interest. Adjac
 is_a: TGEMO:00057 ! TGEMO Unclassified
 
 [Term]
-id: TGEMO:00059
-name: Chromosome 1
-def: "Chromosome 1." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00060
-name: Chromosome 2
-def: "Chromosome 2." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00061
-name: Chromosome 3
-def: "Chromosome 3." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00062
-name: Chromosome 4
-def: "Chromosome 4." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00063
-name: Chromosome 5
-def: "Chromosome 5." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00064
-name: Chromosome 6
-def: "Chromosome 6." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00065
-name: Chromosome 7
-def: "Chromosome 7." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00066
-name: Chromosome 8
-def: "Chromosome 8." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00067
-name: Chromosome 9
-def: "Chromosome 9." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00068
-name: Chromosome 10
-def: "Chromosome 10." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00069
-name: Chromosome 11
-def: "Chromosome 11." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00070
-name: Chromosome 12
-def: "Chromosome 12." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00071
-name: Chromosome 13
-def: "Chromosome 13." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00072
-name: Chromosome 14
-def: "Chromosome 14." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00073
-name: Chromosome 15
-def: "Chromosome 15." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00074
-name: Chromosome 16
-def: "Chromosome 16." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00075
-name: Chromosome 17
-def: "Chromosome 17." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00076
-name: Chromosome 18
-def: "Chromosome 18." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00077
-name: Chromosome 19
-def: "Chromosome 19." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00078
-name: Chromosome 20
-def: "Chromosome 20." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00079
-name: Chromosome 21
-def: "Chromosome 21." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00080
-name: Chromosome 22
-def: "Chromosome 22." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00081
-name: Chromosome X
-def: "Chromosome X." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00082
-name: Chromosome Y
-def: "Chromosome Y." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00083
-name: Mitochondrial DNA
-def: "Mitochondrial DNA." []
-is_a: TGEMO:00087 ! TGEMO Chromosomes
-
-[Term]
-id: TGEMO:00084
-name: DBA/2J
-def: "Inbred Strain. MGI:2684695." []
-is_a: TGEMO:00017 ! DBA/2
-
-[Term]
 id: TGEMO:00085
 name: CFW
 def: "Inbred Strain. MGI:2161001." []
 synonym: "Crl:CFW(SW)." RELATED []
 synonym: "Swiss Webster." EXACT []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
-
-[Term]
-id: TGEMO:00086
-name: TGEMO Rat Strains
-def: "Parent node for all TGEMO rat strains." []
-is_a: TGEMO:00000 ! TGEMO Root
-
-[Term]
-id: TGEMO:00087
-name: TGEMO Chromosomes
-def: "Parent node for all Chromosome Numbers, regardless of originating taxa." []
-is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00088
@@ -541,7 +277,7 @@ is_a: TGEMO:00011 ! TGEMO Internals
 id: TGEMO:00089
 name: WSB
 def: "Inbred Strain. MGI:2160618." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00090
@@ -559,49 +295,19 @@ is_a: TGEMO:00090 ! WSB/Ei
 id: TGEMO:00092
 name: A
 def: "Inbred Strain. MGI:2159959." []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
-
-[Term]
-id: TGEMO:00093
-name: A/J
-def: "Inbred Strain. MGI:2159747." []
-is_a: TGEMO:00092 ! A
-
-[Term]
-id: TGEMO:00094
-name: C57BL/10
-def: "Inbred Strain. MGI:2159788." []
-is_a: TGEMO:00018 ! C57BL
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00095
 name: C57BL/10J
 def: "Inbred Strain. MGI:2159754." []
-is_a: TGEMO:00094 ! C57BL/10
-
-[Term]
-id: TGEMO:00096
-name: Wistar
-def: "Wistar Rat." []
-is_a: TGEMO:00086 ! TGEMO Rat Strains
+is_a: EFO:0000604
 
 [Term]
 id: TGEMO:00097
 name: Long Evans
 def: "Long Evans Rat." []
-is_a: TGEMO:00086 ! TGEMO Rat Strains
-
-[Term]
-id: TGEMO:00098
-name: Wistar-Kyoto
-def: "Wistar-Kyoto Rat." []
-is_a: TGEMO:00096 ! Wistar
-
-[Term]
-id: TGEMO:00099
-name: Sprague Dawley
-def: "Sprague Dawley Rat." []
-is_a: TGEMO:00086 ! TGEMO Rat Strains
+is_a: NCBITaxon:10116 ! Rattus norvegicus
 
 [Term]
 id: TGEMO:00100
@@ -623,25 +329,10 @@ def: "An experimental design where instead of rescue via genetic manipulation (e
 is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 
 [Term]
-id: TGEMO:00103
-name: Ribosomal profiling
-def: "A transcriptome analysis method based on the isolation of RNA associated wtih ribosomes." []
-synonym: "Ribo-Seq" EXACT []
-synonym: "Ribosome Immunoprecipitation" EXACT []
-synonym: "Ribosome-Associated mRNA" EXACT []
-is_a: TGEMO:00010 ! TGEMO Methods
-
-[Term]
 id: TGEMO:00104
 name: 129S1/SvlmJ
 def: "Inbred strain. MGI:3037980" []
-is_a: TGEMO:00034 ! 129
-
-[Term]
-id: TGEMO:00105
-name: 129X1/SvJ
-def: "Inbred strain. MGI:3044210" []
-is_a: TGEMO:00034 ! 129
+is_a: EFO:0000597
 
 [Term]
 id: TGEMO:00106
@@ -653,24 +344,19 @@ is_a: TGEMO:00019 ! DBA
 id: TGEMO:00107
 name: SJL
 def: "Strain family. MGI:2159833" []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00108
 name: CBA
 def: "Strain family. MGI:2159850" []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
-
-[Term]
-id: TGEMO:00109
-name: CBA/J
-def: "Inbred strain. MGI:2159756" []
-is_a: TGEMO:00108 ! CBA
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00110
 name: SJL/J
 def: "Inbred strain. MGI:2159739" []
+synonym: "MGI:2159739" EXACT [https://phenome.jax.org/strains/17]
 synonym: "SJL/J-Pde6b^rd1" EXACT []
 synonym: "Swiss Jim Lambert" EXACT []
 is_a: TGEMO:00107 ! SJL
@@ -681,14 +367,14 @@ name: 129T2/SvEmsJ
 def: "Inbred strain. MGI:2165253" []
 synonym: "129/SvEms-Ter+/J" EXACT []
 synonym: "129T2" EXACT []
-is_a: TGEMO:00034 ! 129
+is_a: EFO:0000597
 
 [Term]
 id: TGEMO:00112
 name: 129P3/J
 def: "Inbred strain, segregating inbred. MGI:2661783" []
 synonym: "129/J" EXACT []
-is_a: TGEMO:00034 ! 129
+is_a: EFO:0000597
 
 [Term]
 id: TGEMO:00113
@@ -697,7 +383,7 @@ def: "Inbred strain. MGI:2159873" []
 synonym: "C3Fe" EXACT []
 synonym: "C3H Fekete" EXACT []
 synonym: "HeB" EXACT []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00114
@@ -711,7 +397,8 @@ is_a: TGEMO:00092 ! A
 id: TGEMO:00115
 name: BXD
 def: "Strain family. Recombinant inbred (RI). MGI:2164899" []
-is_a: TGEMO:00015 ! TGEMO Mouse Strains
+synonym: "EFO:0004008" BROAD []
+is_a: EFO:0004008
 
 [Term]
 id: TGEMO:00122
