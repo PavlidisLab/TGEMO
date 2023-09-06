@@ -23,11 +23,13 @@
      xmlns:chebi5="http://purl.obolibrary.org/obo/chebi#2"
      xmlns:chebi6="http://purl.obolibrary.org/obo/chebi#3"
      xmlns:chebi7="http://purl.obolibrary.org/obo/chebi#1"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:patterns="http://www.co-ode.org/patterns#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO">
         <owl:versionIRI rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geno/releases/2023-02-21/geno.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/so/2021-11-22/so.owl"/>
         <owl:imports rdf:resource="http://www.geneontology.org/formats/oboInOwl"/>
         <owl:imports rdf:resource="https://www.ebi.ac.uk/efo/releases/v3.56.0/efo.owl"/>
@@ -158,7 +160,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00001 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00001">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000136"/>
         <obo:IAO_0000115>Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Nullizygous</oboInOwl:hasExactSynonym>
         <oboInOwl:id>TGEMO:00001</oboInOwl:id>
