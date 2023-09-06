@@ -19,6 +19,7 @@
      xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
      xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:vocab="https://w3id.org/semapv/vocab/"
      xmlns:chebi4="http://purl.obolibrary.org/obo/chebi#"
      xmlns:chebi5="http://purl.obolibrary.org/obo/chebi#2"
      xmlns:chebi6="http://purl.obolibrary.org/obo/chebi#3"
@@ -352,17 +353,6 @@
         <obo:IAO_0000115>Inbred Strain. MGI:2159767.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00023</oboInOwl:id>
         <rdfs:label>AKR</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00025 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Outbred Strain. Charles River:CD-1.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00025</oboInOwl:id>
-        <rdfs:label>Crl:CD1(ICR)</rdfs:label>
     </owl:Class>
     
 
