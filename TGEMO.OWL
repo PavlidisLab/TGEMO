@@ -357,17 +357,6 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00028 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00028">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000602"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159737.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00028</oboInOwl:id>
-        <rdfs:label>BALB/cJ</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00029 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00029">
@@ -474,17 +463,6 @@
         <obo:IAO_0000115>Inbred Strain. MGI:2160001.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00042</oboInOwl:id>
         <rdfs:label>FVB/N</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00045 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10096"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:3510421.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00045</oboInOwl:id>
-        <rdfs:label>SPRET/Ei</rdfs:label>
     </owl:Class>
     
 
@@ -641,28 +619,6 @@
         <obo:IAO_0000115>[Strain Not Recorded in MGI].</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00090</oboInOwl:id>
         <rdfs:label>WSB/Ei</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00091 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00091">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00090"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2160667.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00091</oboInOwl:id>
-        <rdfs:label>WSB/EiJ</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00092 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159959.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00092</oboInOwl:id>
-        <rdfs:label>A</rdfs:label>
     </owl:Class>
     
 
@@ -829,7 +785,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00114 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00114">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00092"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Inbred strain. MGI:2159897</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>A Heston</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>AHe</oboInOwl:hasExactSynonym>
