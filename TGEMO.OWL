@@ -956,6 +956,17 @@
         <obo:IAO_0000119>doi: 10.1016/S1470-2045(08)70339-5</obo:IAO_0000119>
         <rdfs:label xml:lang="en">TEL-AML1</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00164 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <obo:IAO_0000115>Fusion of the human TMPRSS2 and ERG genes, identified in some prostate cancers</obo:IAO_0000115>
+        <obo:IAO_0000119>doi: 10.1126/science.1117679</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">TMPRSS2-ERG</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
