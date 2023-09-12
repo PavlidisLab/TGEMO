@@ -9,7 +9,9 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:cito="http://purl.org/spar/cito/"
      xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:efo2="http://www.ebi.ac.uk/efo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:obo1="http://www.geneontology.org/formats/oboInOwl#http://purl.obolibrary.org/obo/"
@@ -18,6 +20,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
      xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:vocab="https://w3id.org/semapv/vocab/"
      xmlns:chebi4="http://purl.obolibrary.org/obo/chebi#"
@@ -25,6 +28,7 @@
      xmlns:chebi6="http://purl.obolibrary.org/obo/chebi#3"
      xmlns:chebi7="http://purl.obolibrary.org/obo/chebi#1"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:patterns="http://www.co-ode.org/patterns#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
@@ -32,6 +36,7 @@
         <owl:versionIRI rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geno.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2023-08-18/ro.owl"/>
         <owl:imports rdf:resource="http://www.geneontology.org/formats/oboInOwl"/>
         <owl:imports rdf:resource="https://www.ebi.ac.uk/efo/efo.owl"/>
     </owl:Ontology>
@@ -813,6 +818,121 @@
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00057"/>
         <obo:IAO_0000115>Used to signify that a particular factor has no specified value for a particular sample. Intended as a less ambiguous alternative to &quot;NA&quot;, &quot;null&quot; or &quot;none&quot;</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Unspecified factor value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00151 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <obo:IAO_0000115>Fusion of the human BCR and ABL1 genes</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>Philadelphia chromosome</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>BCR-ABL1</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">BCR-ABL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00152 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000288"/>
+        <obo:IAO_0000115>An engineered fusion of green fluorescent protein with another gene</obo:IAO_0000115>
+        <obo:IAO_0000232>Intention is that this would be related to a gene term via a predicate such as &apos;modified by&apos;</obo:IAO_0000232>
+        <oboInOwl:hasExactSynonym>GFP-tagged</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">GFP fusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00153 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <obo:IAO_0000115>Fusion of the human ETV6 and RUNX1 genes, associated with childhood acute lymphoblastic leukemia</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>E/R</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ETV6/RUNX1</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">ETV6-RUNX1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00154 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000288"/>
+        <obo:IAO_0000115>A conditionally active form of murine GATA-1 made by fusing its coding region to the ligand-binding domain of the human estrogen receptor (ER)</obo:IAO_0000115>
+        <obo:IAO_0000119>https://doi.org/10.1016/S0092-8674(00)80318-9</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>GATA1-ESR1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>GATA1/ER</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">GATA1-ER</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00155 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <obo:IAO_0000115>Fusion of the human MLL and AF9 genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">MLL-AF9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00156 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <obo:IAO_0000115>Fusion of the human NUP98 and HOXA9 genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
+        <obo:IAO_0000119>doi: 10.1093/emboj/20.3.350</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">NUP98-HOXA9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00157 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <obo:IAO_0000115>Fusion of the human PML and RARA genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
+        <obo:IAO_0000119>doi: 10.3390/cancers12030624</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">PML-RARA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00158 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <obo:IAO_0000115>Fusion of the human AML1 and ETO genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
+        <obo:IAO_0000119>DOI: 10.1182/blood-2005-04-1656</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>RUNX1- RUNX1T1</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">AML1-ETO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00159 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000288"/>
+        <obo:IAO_0000115>An engineered fusion of red fluorescent protein with another gene</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">RFP fusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00160 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000288"/>
+        <obo:IAO_0000115>An engineered fusion of the human interleukin (IL)-4 and IL-10 genes developed as an experimentallly to inhibit pro‐inflammatory activity in arthritis models</obo:IAO_0000115>
+        <obo:IAO_0000119>DOI: 10.1073/pnas.2009647118</obo:IAO_0000119>
+        <obo:IAO_0000119>doi: 10.1111/cei.13224</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">IL4-10 FP</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
