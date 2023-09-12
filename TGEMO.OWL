@@ -934,6 +934,28 @@
         <obo:IAO_0000119>doi: 10.1111/cei.13224</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IL4-10 FP</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00162 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <obo:IAO_0000115>fusion of the human E2A and PBX1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia</obo:IAO_0000115>
+        <obo:IAO_0000119>doi: 10.1016/S1470-2045(08)70339-5</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">E2A-PBX1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00163 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <obo:IAO_0000115>fusion of the human TEL and AML1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia</obo:IAO_0000115>
+        <obo:IAO_0000119>doi: 10.1016/S1470-2045(08)70339-5</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">TEL-AML1</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
