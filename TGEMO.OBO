@@ -1,9 +1,10 @@
 format-version: 1.2
 data-version: http://gemma.msl.ubc.ca/ont/TGEMO
-import: http://purl.obolibrary.org/obo/geno/releases/2023-02-21/geno.owl
-import: http://purl.obolibrary.org/obo/so/2021-11-22/so.owl
+import: http://purl.obolibrary.org/obo/geno.owl
+import: http://purl.obolibrary.org/obo/ro/releases/2023-08-18/ro.owl
+import: http://purl.obolibrary.org/obo/so.owl
 import: http://www.geneontology.org/formats/oboInOwl
-import: https://www.ebi.ac.uk/efo/releases/v3.56.0/efo.owl
+import: https://www.ebi.ac.uk/efo/efo.owl
 ontology: http://gemma.msl.ubc.ca/ont/TGEMO
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://gemma.msl.ubc.ca/ont/TGEMO_00008> \"TGEMO_00008\")\n)
 
@@ -122,18 +123,6 @@ def: "Inbred Strain. MGI:2159767." []
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
-id: TGEMO:00025
-name: Crl:CD1(ICR)
-def: "Outbred Strain. Charles River:CD-1." []
-is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
-id: TGEMO:00028
-name: BALB/cJ
-def: "Inbred Strain. MGI:2159737." []
-is_a: EFO:0000602
-
-[Term]
 id: TGEMO:00029
 name: NOD/Shi
 def: "Inbred Strain. MGI:2160550." []
@@ -184,20 +173,22 @@ is_a: NCBITaxon:10090 ! Mus musculus
 [Term]
 id: TGEMO:00041
 name: FVB
-def: "Inbred Strain. MGI:3609372." []
+def: "Strain family. MGI:3609372." []
+synonym: "Friend Virus B" EXACT []
+synonym: "Fv1^b" EXACT []
+synonym: "FVB/N" NARROW []
+xref: https://www.informatics.jax.org/strain/MGI\:3609372
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00042
 name: FVB/N
 def: "Inbred Strain. MGI:2160001." []
+synonym: "Friend Virus B NIH" EXACT []
+synonym: "FVB/N-Pde6b^rd1" EXACT []
+synonym: "FVBN" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2160001
 is_a: TGEMO:00041 ! FVB
-
-[Term]
-id: TGEMO:00045
-name: SPRET/Ei
-def: "Inbred Strain. MGI:3510421." []
-is_a: NCBITaxon:10096 ! Mus spretus
 
 [Term]
 id: TGEMO:00047
@@ -262,9 +253,10 @@ is_a: TGEMO:00057 ! TGEMO Unclassified
 [Term]
 id: TGEMO:00085
 name: CFW
-def: "Inbred Strain. MGI:2161001." []
-synonym: "Crl:CFW(SW)." RELATED []
-synonym: "Swiss Webster." EXACT []
+def: "Strain family. MGI:2161001." []
+synonym: "Crl:CFW(SW)" RELATED []
+synonym: "Swiss Webster" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2161001
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
@@ -284,18 +276,6 @@ id: TGEMO:00090
 name: WSB/Ei
 def: "[Strain Not Recorded in MGI]." []
 is_a: TGEMO:00089 ! WSB
-
-[Term]
-id: TGEMO:00091
-name: WSB/EiJ
-def: "Inbred Strain. MGI:2160667." []
-is_a: TGEMO:00090 ! WSB/Ei
-
-[Term]
-id: TGEMO:00092
-name: A
-def: "Inbred Strain. MGI:2159959." []
-is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00095
@@ -350,6 +330,7 @@ is_a: NCBITaxon:10090 ! Mus musculus
 id: TGEMO:00108
 name: CBA
 def: "Strain family. MGI:2159850" []
+xref: https://www.informatics.jax.org/strain/MGI\:2159850
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
@@ -391,7 +372,7 @@ name: A/HeJ
 def: "Inbred strain. MGI:2159897" []
 synonym: "A Heston" EXACT []
 synonym: "AHe" EXACT []
-is_a: TGEMO:00092 ! A
+is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00115
@@ -405,4 +386,101 @@ id: TGEMO:00122
 name: Unspecified factor value
 def: "Used to signify that a particular factor has no specified value for a particular sample. Intended as a less ambiguous alternative to \"NA\", \"null\" or \"none\"" []
 is_a: TGEMO:00057 ! TGEMO Unclassified
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00151
+name: BCR-ABL
+def: "Fusion of the human BCR and ABL1 genes" []
+synonym: "BCR-ABL1" EXACT []
+synonym: "Philadelphia chromosome" BROAD []
+is_a: SO:0000287 ! fusion_gene
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00152
+name: GFP fusion
+def: "An engineered fusion of green fluorescent protein with another gene" []
+synonym: "GFP-tagged" EXACT []
+is_a: SO:0000288 ! engineered_fusion_gene
+property_value: IAO:0000232 "Intention is that this would be related to a gene term via a predicate such as 'modified by'" xsd:string
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00153
+name: ETV6-RUNX1
+def: "Fusion of the human ETV6 and RUNX1 genes, associated with childhood acute lymphoblastic leukemia" []
+synonym: "E/R" EXACT []
+synonym: "ETV6/RUNX1" EXACT []
+is_a: SO:0000287 ! fusion_gene
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00154
+name: GATA1-ER
+def: "A conditionally active form of murine GATA-1 made by fusing its coding region to the ligand-binding domain of the human estrogen receptor (ER)" []
+synonym: "GATA1-ESR1" EXACT []
+synonym: "GATA1/ER" EXACT []
+is_a: SO:0000288 ! engineered_fusion_gene
+property_value: IAO:0000119 https://doi.org/10.1016/S0092-8674(00)80318-9 xsd:string
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00155
+name: MLL-AF9
+def: "Fusion of the human MLL and AF9 genes, associated with acute myeloid leukemia (AML)" []
+is_a: SO:0000287 ! fusion_gene
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00156
+name: NUP98-HOXA9
+def: "Fusion of the human NUP98 and HOXA9 genes, associated with acute myeloid leukemia (AML)" []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "doi: 10.1093/emboj/20.3.350" xsd:string
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00157
+name: PML-RARA
+def: "Fusion of the human PML and RARA genes, associated with acute myeloid leukemia (AML)" []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "doi: 10.3390/cancers12030624" xsd:string
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00158
+name: AML1-ETO
+def: "Fusion of the human AML1 and ETO genes, associated with acute myeloid leukemia (AML)" []
+synonym: "RUNX1- RUNX1T1" EXACT []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "DOI: 10.1182/blood-2005-04-1656" xsd:string
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00159
+name: RFP fusion
+def: "An engineered fusion of red fluorescent protein with another gene" []
+is_a: SO:0000288 ! engineered_fusion_gene
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00160
+name: IL4-10 FP
+def: "An engineered fusion of the human interleukin (IL)-4 and IL-10 genes developed as an experimentallly to inhibit pro‐inflammatory activity in arthritis models" []
+is_a: SO:0000288 ! engineered_fusion_gene
+property_value: IAO:0000119 "DOI: 10.1073/pnas.2009647118" xsd:string
+property_value: IAO:0000119 "doi: 10.1111/cei.13224" xsd:string
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00162
+name: E2A-PBX1
+def: "fusion of the human E2A and PBX1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia" []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "doi: 10.1016/S1470-2045(08)70339-5" xsd:string
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00163
+name: TEL-AML1
+def: "fusion of the human TEL and AML1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia" []
+synonym: "ETV6-CBFA2" EXACT []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "doi: 10.1016/S1470-2045(08)70339-5" xsd:string
+
+[Term]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00164
+name: TMPRSS2-ERG
+def: "Fusion of the human TMPRSS2 and ERG genes, identified in some prostate cancers" []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "doi: 10.1126/science.1117679" xsd:string
 
