@@ -357,7 +357,8 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00029">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002547"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2160550.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00029</oboInOwl:id>
+        <obo:IAO_0000232>Other IDs: MGI:2159774, MGI:3769688, JAX:001289</obo:IAO_0000232>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2160550</oboInOwl:hasDbXref>
         <rdfs:label>NOD/Shi</rdfs:label>
     </owl:Class>
     
@@ -368,7 +369,9 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00030">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00029"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2162728.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00030</oboInOwl:id>
+        <oboInOwl:hasBroadSynonym>Non-obese Diabetic</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2162728</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>NOD/Lt</oboInOwl:hasExactSynonym>
         <rdfs:label>NOD/ShiLt</rdfs:label>
     </owl:Class>
     
