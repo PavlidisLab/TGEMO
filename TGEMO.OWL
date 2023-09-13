@@ -772,7 +772,7 @@
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004008"/>
         <obo:IAO_0000115>Strain family. Recombinant inbred (RI). MGI:2164899</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004008"/>
-        <oboInOwl:id>TGEMO:00115</oboInOwl:id>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2164899</oboInOwl:hasDbXref>
         <rdfs:label>BXD</rdfs:label>
     </owl:Class>
     
