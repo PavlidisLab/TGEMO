@@ -685,6 +685,7 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Strain family. MGI:2159833</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159833</oboInOwl:hasDbXref>
         <rdfs:label>SJL</rdfs:label>
     </owl:Class>
     
