@@ -395,7 +395,7 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00035">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000597"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2165020.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00035</oboInOwl:id>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2165020</oboInOwl:hasDbXref>
         <rdfs:label>129S/Sv</rdfs:label>
     </owl:Class>
     
@@ -406,7 +406,10 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00036">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00035"/>
         <obo:IAO_0000115>Inbred Strain. MGI:3050593.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00036</oboInOwl:id>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:3050593</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>129 Sv/Ev</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>129/SvEv</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>129S6/SvEv</oboInOwl:hasExactSynonym>
         <rdfs:label>129S/SvEv</rdfs:label>
     </owl:Class>
     
@@ -472,23 +475,16 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00048 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00048">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00036"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:3044417.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00048</oboInOwl:id>
-        <rdfs:label>129S6/SvEvTac</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00049 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00049">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00035"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2161070.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00049</oboInOwl:id>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2161070</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>129/SvPas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>129S2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>129S2/SvPas-Oca2+ Tyr+ Kitl+</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>129S2/SvPas-p+ Tyr+ Kitl+</oboInOwl:hasExactSynonym>
         <rdfs:label>129S2/SvPas</rdfs:label>
     </owl:Class>
     
@@ -620,6 +616,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
         <obo:IAO_0000115>Long Evans Rat.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>https://www.criver.com/products-services/find-model/long-evans-rat</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Long-Evans</oboInOwl:hasExactSynonym>
         <rdfs:label>Long Evans</rdfs:label>
     </owl:Class>
     
@@ -661,7 +658,11 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00104">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000597"/>
         <obo:IAO_0000115>Inbred strain. MGI:3037980</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00104</oboInOwl:id>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:3037980</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>129/SvImJ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>129S1/Sv-p+ Tyr+ Kitl+</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>129S3/SvIm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>129S3/SvImJ</oboInOwl:hasExactSynonym>
         <rdfs:label>129S1/SvlmJ</rdfs:label>
     </owl:Class>
     
@@ -721,9 +722,9 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00111">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000597"/>
         <obo:IAO_0000115>Inbred strain. MGI:2165253</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2165253</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>129/SvEms-Ter+/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>129T2</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>TGEMO:00111</oboInOwl:id>
         <rdfs:label>129T2/SvEmsJ</rdfs:label>
     </owl:Class>
     
