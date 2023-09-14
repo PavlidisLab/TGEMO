@@ -296,7 +296,9 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00017">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00019"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159768.</obo:IAO_0000115>
+        <obo:IAO_0000115>Strain family. MGI:2159768.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159768</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>D2</oboInOwl:hasExactSynonym>
         <rdfs:label>DBA/2</rdfs:label>
     </owl:Class>
     
@@ -307,6 +309,7 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159849.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159849</oboInOwl:hasDbXref>
         <rdfs:label>DBA</rdfs:label>
     </owl:Class>
     
@@ -338,16 +341,6 @@
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
         <obo:IAO_0000115>Indicator (Temporary Placeholder) for experiments that are a collection of studies, and will be separated internally.</obo:IAO_0000115>
         <rdfs:label>SUBSET</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00023 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159767.</obo:IAO_0000115>
-        <rdfs:label>AKR</rdfs:label>
     </owl:Class>
     
 
@@ -679,6 +672,8 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00106">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00019"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159784</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2160500</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>DBA/1Lac</oboInOwl:hasExactSynonym>
         <rdfs:label>DBA/1LacJ</rdfs:label>
     </owl:Class>
     
@@ -699,6 +694,10 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00108">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Strain family. MGI:2159850</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159850</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>C</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>XXXIX</oboInOwl:hasExactSynonym>
         <rdfs:label>CBA</rdfs:label>
     </owl:Class>
     
@@ -735,8 +734,8 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00112">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000597"/>
         <obo:IAO_0000115>Inbred strain, segregating inbred. MGI:2661783</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2661783</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>129/J</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>TGEMO:00112</oboInOwl:id>
         <rdfs:label>129P3/J</rdfs:label>
     </owl:Class>
     
