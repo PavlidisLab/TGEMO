@@ -145,6 +145,49 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00166 -->
+
+    <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00166">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+        <oboInOwl:hasDefinition>Used to indicate that the bearer was a substance provided to a subject (whether it be human, animal or cells in vitro) at the specified dose</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>has dose</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">delivered at dose</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00167 -->
+
+    <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00167">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+        <oboInOwl:hasDefinition>Expresses that the bearer (a treatment or other manipulation) was applied for the stated amount of time.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>has duration</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">delivered for duration</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00168 -->
+
+    <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00168">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+        <oboInOwl:hasDefinition>Indicates that the bearer (e.g. an organism or part) was at the given stage of development</oboInOwl:hasDefinition>
+        <rdfs:label xml:lang="en">has developmental stage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
