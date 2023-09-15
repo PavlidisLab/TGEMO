@@ -604,7 +604,11 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00095">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000604"/>
         <obo:IAO_0000115>Inbred Strain. MGI:2159754.</obo:IAO_0000115>
-        <oboInOwl:id>TGEMO:00095</oboInOwl:id>
+        <oboInOwl:hasBroadSynonym>B10</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>Black 10</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>C57BL10</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159754</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Black 10 J</oboInOwl:hasExactSynonym>
         <rdfs:label>C57BL/10J</rdfs:label>
     </owl:Class>
     
