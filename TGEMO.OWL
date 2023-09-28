@@ -27,13 +27,18 @@
      xmlns:chebi5="http://purl.obolibrary.org/obo/chebi#2"
      xmlns:chebi6="http://purl.obolibrary.org/obo/chebi#3"
      xmlns:chebi7="http://purl.obolibrary.org/obo/chebi#1"
+     xmlns:refont="http://purl.obolibrary.org/obo/uberon/refont/"
+     xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+     xmlns:cellline="http://www.ebi.ac.uk/cellline#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:patterns="http://www.co-ode.org/patterns#"
+     xmlns:cellline1="http://www.ebi.ac.uk/cellline/"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO">
         <owl:versionIRI rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geno.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2023-08-18/ro.owl"/>
@@ -181,6 +186,37 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
         <oboInOwl:hasDefinition>Indicates that the bearer (e.g. an organism or part) was at the given stage of development</oboInOwl:hasDefinition>
         <rdfs:label xml:lang="en">has developmental stage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00169 -->
+
+    <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00169">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+        <obo:IAO_0000115>Used to indicate that the subject (generally a cell type) expressed the product of the object (a gene). Example: CD133+ cancer cell.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">positive for product of gene</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00170 -->
+
+    <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00170">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+        <obo:IAO_0000115>Used to indicate that the subject (generally a cell type) does not express the product of the object (a gene). Example: CD133- cancer cell.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">negative for product of gene</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00171 -->
+
+    <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00171">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002566"/>
+        <obo:IAO_0000115>Indicates that the Subject (typically a disease or condition) was caused to occur or be present by the specified means. Examples: spinal cord injury induced by partial transection; Myocardial infarction induced by ligation of the proximal left coronary artery.</obo:IAO_0000115>
+        <obo:IAO_0000232>&quot;Causal relationship with disease as subject&quot; looks at first glance to be this kind of thing, but the TGEMO term is used to indicate induction in a particular experiment, not a general statement about diseases.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">induced by</rdfs:label>
     </owl:ObjectProperty>
     
 
