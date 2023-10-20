@@ -248,7 +248,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000136"/>
         <obo:IAO_0000115>Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>Nullizygous</oboInOwl:hasExactSynonym>
+        <oboInOwl:replacedBy rdf:resource="http://purl.obolibrary.org/obo/GENO_0000978"/>
         <rdfs:label>Homozygous negative</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -259,6 +261,7 @@
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00000"/>
         <obo:IAO_0000115>Parent node for all TGEMO genetic and mutation descriptors.</obo:IAO_0000115>
         <rdfs:label>TGEMO Genetics/Mutations</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -321,7 +324,7 @@
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00000"/>
         <obo:IAO_0000115>Parent node for all TGEMO internal descriptors. Used primarily for behind-the-scenes standardization.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00011</oboInOwl:id>
-        <rdfs:label>TGEMO Internals</rdfs:label>
+        <rdfs:label>Gemma Internals</rdfs:label>
     </owl:Class>
     
 
@@ -410,6 +413,7 @@
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
         <obo:IAO_0000115>Indicator for studies that have a complex experimental design, and are currently incompletely curated.</obo:IAO_0000115>
         <rdfs:label>Complex Design</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -453,8 +457,8 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00032">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
-        <obo:IAO_0000115>Indicator for studies that are benchmarking two methods against each other, and are unlikely to be informative in terms of differential expression.</obo:IAO_0000115>
-        <rdfs:label>Benchmark Study</rdfs:label>
+        <obo:IAO_0000115>Indicator for studies that contain a technical comparison, e.g. of methodological approaches to sample preparation, rather than (or in addition to) biological ones.</obo:IAO_0000115>
+        <rdfs:label>Technique comparison study</rdfs:label>
     </owl:Class>
     
 
@@ -643,7 +647,9 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00058">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00057"/>
         <obo:IAO_0000115>Tissue that is spatially located adjacent to the tissue of interest. Adjacent tissue are assumed to be normal, but that is not necessarily always the case.</obo:IAO_0000115>
+        <oboInOwl:replacedBy>Use &quot;adjacent&quot; relation</oboInOwl:replacedBy>
         <rdfs:label>Adjacent tissue</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -674,6 +680,7 @@
         <obo:IAO_0000115>Indicator (Temporary Placeholder) for experiments that are identified to be time consuming for curation, and will be revisited at a later time.</obo:IAO_0000115>
         <oboInOwl:id>TGEMO:00088</oboInOwl:id>
         <rdfs:label>Time Consuming</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -705,17 +712,6 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00100 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00100">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
-        <obo:IAO_0000115>Indicator for studies that are considered unusable and are blacklisted to avoid reloading into Gemma.</obo:IAO_0000115>
-        <oboInOwl:creation_date>2018-04-18T15:52:43Z</oboInOwl:creation_date>
-        <rdfs:label>BLACKLIST</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00101 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00101">
@@ -730,8 +726,9 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00102">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00002"/>
-        <obo:IAO_0000115>An experimental design where instead of rescue via genetic manipulation (e.g. a transgene), a protein is directly introduced.</obo:IAO_0000115>
+        <obo:IAO_0000115>An experimental procedure using direct introduction of a protein to test rescue of a phenotype rather than genetic manipulation (e.g. a transgene).</obo:IAO_0000115>
         <rdfs:label>Rescue by external protein</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
