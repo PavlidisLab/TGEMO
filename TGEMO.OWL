@@ -872,64 +872,27 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO#OVE26 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00172 -->
 
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO#OVE26">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00041"/>
-        <obo:IAO_0000115>Type 1 diabetes disease model. Expresses a chicken calmodulin minigene (CALM1) controlled by the rat insulin II promoter (Ins2)(Referred to as BIC). In addition, these mice express a truncated SV40 T antigen (TAg) controlled by a lens specific alpha A crystallin (Cryaa) promoter (referred to as GR19).</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.jax.org/strain/005564</obo:IAO_0000119>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3576672</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://www.jax.org/strain/005564</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>FVB(Cg)-Tg(Cryaa-Tag,Ins2-CALM1)26Ove/PneJ</oboInOwl:hasExactSynonym>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO#PS19 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO#PS19">
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Alzheimer disease model. P301S Tg mice express the P301S mutant form of human microtubule-associated protein tau (MAPT), under the direction of the mouse prion protein promoter (Prnp).</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.jax.org/strain/008169</obo:IAO_0000119>
-        <oboInOwl:hasDbXref>https://www.alzforum.org/research-models/tau-p301s-line-ps19</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:5553124</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://www.jax.org/strain/008169</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>B6N.Cg-Tg(Prnp-MAPT*P301S)PS19Vle/J</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Tau P301S</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Alzheimer disease model. Overexpresses both mutant human amyloid beta (A4) precursor protein 695 (APP)) with the Swedish (K670N, M671L), Florida (I716V), and London (V717I) Familial Alzheimer&apos;s Disease (FAD) mutations and human PS1 harboring two FAD mutations, M146L and L286V.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.jax.org/strain/008730</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3693208</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>5XFAD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>5XFAD APP/PS1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>5XFAD line Tg6799</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tg(APP*Swe*Fl*Lon,PSEN1*M146L*L286V)6799Vas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tg-5xFAD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tg6799</oboInOwl:hasExactSynonym>
+        <rdfs:label>5xFAD</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO#Ts65Dn -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00173 -->
 
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO#Ts65Dn">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Down Syndrome disease model. Ts65Dn mice have three copies of most of the genes on mouse Chr 16 that are homologues of human Chr 21 genes. These extra genes, along with the centromere and about 5% of proximal Chr 17 are contained in a small extra chromosome derived from a reciprocal translocation.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.jax.org/strain/001924</obo:IAO_0000119>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2163627</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://www.jax.org/strain/001924</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>B6EiC3Sn a/A-Ts(1716)65Dn</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>B6EiC3Sn a/A-Ts(1716)65Dn/J</oboInOwl:hasExactSynonym>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO#mdx -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO#mdx">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000604"/>
-        <obo:IAO_0000115>Duchenne muscular dystrophy disease model. Point mutation in Dmd gene results in a termination codon (TAA) in place of a glutamine codon.This allele is predicted to produce a truncated protein.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.jax.org/strain/001801</obo:IAO_0000119>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2162540</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://www.jax.org/strain/001801</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>C57BL/10ScSn-Dmdmdx/J</oboInOwl:hasExactSynonym>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO#3xTg-AD -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO#3xTg-AD">
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Alzheimer disease model. Triple transgenic homozygous with genotype APP Swedish, MAPT P301L, and PSEN1 M146V.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/004807</obo:IAO_0000119>
@@ -942,30 +905,14 @@
         <oboInOwl:hasExactSynonym>C57BL/6-Psen1tm1Mpm Tg(APPSwe, tauP301L)1Lfa/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>C57BL/6-Psen1tm1Mpm Tg(APPSwe,tauP301L)1Lfa/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>The LaFerla mouse</oboInOwl:hasExactSynonym>
+        <rdfs:label>3xTg-AD</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO#5xFAD -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00174 -->
 
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO#5xFAD">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Alzheimer disease model. Overexpresses both mutant human amyloid beta (A4) precursor protein 695 (APP)) with the Swedish (K670N, M671L), Florida (I716V), and London (V717I) Familial Alzheimer&apos;s Disease (FAD) mutations and human PS1 harboring two FAD mutations, M146L and L286V.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://www.jax.org/strain/008730</obo:IAO_0000119>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3693208</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>5XFAD</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>5XFAD APP/PS1</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>5XFAD line Tg6799</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Tg(APP*Swe*Fl*Lon,PSEN1*M146L*L286V)6799Vas</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Tg-5xFAD</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Tg6799</oboInOwl:hasExactSynonym>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO#APP/PS1 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO#APP/PS1">
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Alzheimer disease model. Double transgenic mice expressing a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9), both directed to CNS neurons.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/005864</obo:IAO_0000119>
@@ -973,13 +920,44 @@
         <oboInOwl:hasDbXref>https://www.jax.org/strain/005864</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6.Cg-Tg(APPswe,PSEN1dE9)85Dbo/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6.Cg-Tg(APPswe,PSEN1dE9)85Dbo/Mmjax</oboInOwl:hasExactSynonym>
+        <rdfs:label>APP/PS1</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO#R6/1 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00175 -->
 
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO#R6/1">
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00175">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00041"/>
+        <obo:IAO_0000115>Type 1 diabetes disease model. Expresses a chicken calmodulin minigene (CALM1) controlled by the rat insulin II promoter (Ins2)(Referred to as BIC). In addition, these mice express a truncated SV40 T antigen (TAg) controlled by a lens specific alpha A crystallin (Cryaa) promoter (referred to as GR19).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.jax.org/strain/005564</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3576672</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.jax.org/strain/005564</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>FVB(Cg)-Tg(Cryaa-Tag,Ins2-CALM1)26Ove/PneJ</oboInOwl:hasExactSynonym>
+        <rdfs:label>OVE26</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00176 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <obo:IAO_0000115>Alzheimer disease model. P301S Tg mice express the P301S mutant form of human microtubule-associated protein tau (MAPT), under the direction of the mouse prion protein promoter (Prnp).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.jax.org/strain/008169</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>https://www.alzforum.org/research-models/tau-p301s-line-ps19</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:5553124</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.jax.org/strain/008169</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>B6N.Cg-Tg(Prnp-MAPT*P301S)PS19Vle/J</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tau P301S</oboInOwl:hasExactSynonym>
+        <rdfs:label>PS19</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00177 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Huntington&apos;s Disease model. Are transgenic for the 5&apos; end of the human HD gene carrying (CAG)115-(CAG)150 repeat expansions.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/006471</obo:IAO_0000119>
@@ -988,13 +966,14 @@
         <oboInOwl:hasExactSynonym>B6-R6/1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6.Cg-Tg(HDexon1)61Gpb/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>HD R6/1</oboInOwl:hasExactSynonym>
+        <rdfs:label>R6/1</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO#R6/2 -->
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00178 -->
 
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO#R6/2">
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Huntington&apos;s Disease model. Transgenic for the 5&apos; end of the human HD gene carrying approximately 120 +/- 5 CAG repeat expansions. The transgene is ubiquitously expressed.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/006494</obo:IAO_0000119>
@@ -1003,6 +982,70 @@
         <oboInOwl:hasDbXref>https://www.jax.org/strain/006494</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6CBA-R6/2 (CAG 120 +/- 5)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6CBA-Tg(HDexon1)62Gpb/3J</oboInOwl:hasExactSynonym>
+        <rdfs:label>R6/2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00179 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <obo:IAO_0000115>Down Syndrome disease model. Ts65Dn mice have three copies of most of the genes on mouse Chr 16 that are homologues of human Chr 21 genes. These extra genes, along with the centromere and about 5% of proximal Chr 17 are contained in a small extra chromosome derived from a reciprocal translocation.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.jax.org/strain/001924</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2163627</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.jax.org/strain/001924</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>B6EiC3Sn a/A-Ts(1716)65Dn</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B6EiC3Sn a/A-Ts(1716)65Dn/J</oboInOwl:hasExactSynonym>
+        <rdfs:label>Ts65Dn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00180 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00180">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000604"/>
+        <obo:IAO_0000115>Duchenne muscular dystrophy disease model. Point mutation in Dmd gene results in a termination codon (TAA) in place of a glutamine codon.This allele is predicted to produce a truncated protein.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.jax.org/strain/001801</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2162540</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.jax.org/strain/001801</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>C57BL/10ScSn-Dmdmdx/J</oboInOwl:hasExactSynonym>
+        <rdfs:label>mdx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00181 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <obo:IAO_0000115>Down syndrome disease model. Trisomic for the mouse chromosome segment orthologus to the human chromosome 21 Down syndrome critical region (DSCR). The borders of the 3.9 Mb region are defined by the carbonyl reductase 1 gene and a site adjacent to the myxovirus (influenza virus) resistance 2 locus.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.jax.org/strain/005383</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:3574387</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.jax.org/strain/005383</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>B6.129S6-Dp(16Cbr1-Fam3b)1Rhr/J</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B6.129S6-Dp(16Cbr1-ORF9)1Rhr/J</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B6.129S6-Is(16Cbr1-ORF9)1Rhr</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B6.129S6-Is(16Cbr1-ORF9)1Rhr/J</oboInOwl:hasExactSynonym>
+        <rdfs:label>Ts1Rhr</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00182 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <obo:IAO_0000115>Down syndrome disease model. Mice have partial trisomy of chromosome 16.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.jax.org/strain/004861</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2680524</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.jax.org/strain/004861</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>B6Ei;C3Sn-Ts(1216C-tel)1Cje</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B6EiC3Sn-Ts(1216C-tel)1Cje</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B6EiC3Sn-Ts(16C-tel)1Cje</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B6EiC3Sn-Ts(16C-tel)1Cje/DnJ</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Ts1Cje</rdfs:label>
     </owl:Class>
     
 
@@ -1200,6 +1243,20 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0005181 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005181"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO#5xFAD">
+        <rdfs:label>5xFAD</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
 
 
