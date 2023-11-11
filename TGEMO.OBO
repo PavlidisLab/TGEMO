@@ -1,5 +1,6 @@
 format-version: 1.2
 data-version: http://gemma.msl.ubc.ca/ont/TGEMO
+import: http://purl.obolibrary.org/obo/clo.owl
 import: http://purl.obolibrary.org/obo/geno.owl
 import: http://purl.obolibrary.org/obo/ro/releases/2023-08-18/ro.owl
 import: http://purl.obolibrary.org/obo/so.owl
@@ -19,12 +20,15 @@ name: Homozygous negative
 def: "Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also." []
 synonym: "Nullizygous" EXACT []
 is_a: GENO:0000136 ! homozygous
+property_value: replacedBy GENO:0000978
+is_obsolete: true
 
 [Term]
 id: TGEMO:00002
 name: TGEMO Genetics/Mutations
 def: "Parent node for all TGEMO genetic and mutation descriptors." []
 is_a: TGEMO:00000 ! TGEMO Root
+is_obsolete: true
 
 [Term]
 id: TGEMO:00004
@@ -58,104 +62,117 @@ is_a: TGEMO:00000 ! TGEMO Root
 
 [Term]
 id: TGEMO:00011
-name: TGEMO Internals
+name: Gemma Internals
 def: "Parent node for all TGEMO internal descriptors. Used primarily for behind-the-scenes standardization." []
 is_a: TGEMO:00000 ! TGEMO Root
 
 [Term]
 id: TGEMO:00012
 name: Immunodepletion
-def: "Removal of proteins using antibodies." []
+def: "The removal of certain proteins by the use of antibodies" []
 is_a: EFO:0002694
+property_value: IAO:0000119 "https://en.wiktionary.org/wiki/immunodepletion" xsd:string
 
 [Term]
 id: TGEMO:00013
 name: DE_Include
 def: "Samples to include in Differential Expression Analysis." []
-is_a: TGEMO:00011 ! TGEMO Internals
+is_a: TGEMO:00011 ! Gemma Internals
 
 [Term]
 id: TGEMO:00014
 name: DE_Exclude
 def: "Samples to exclude in Differential Expression Analysis." []
-is_a: TGEMO:00011 ! TGEMO Internals
+is_a: TGEMO:00011 ! Gemma Internals
 
 [Term]
 id: TGEMO:00016
 name: C57BL/6
-def: "Inbred Strain. MGI:2159769." []
+def: "Strain family. MGI:2159769." []
+synonym: "B6" EXACT []
+synonym: "Black 6" EXACT []
+synonym: "C57BL/6-Mx1^s1" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2159769
 is_a: EFO:0005181
 
 [Term]
 id: TGEMO:00017
 name: DBA/2
-def: "Inbred Strain. MGI:2159768." []
+def: "Strain family. MGI:2159768." []
+synonym: "D2" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2159768
 is_a: TGEMO:00019 ! DBA
 
 [Term]
 id: TGEMO:00019
 name: DBA
 def: "Inbred Strain. MGI:2159849." []
+xref: https://www.informatics.jax.org/strain/MGI\:2159849
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00020
-name: [Sample Study]
-def: "Indicator for studies containing a collection of samples without an obvious experimental design." []
-is_a: TGEMO:00011 ! TGEMO Internals
+name: Sample Study
+def: "Indicator for studies containing a collection of samples rather than a designed experiment with known covariates or pre-defined experimental groups." []
+is_a: TGEMO:00011 ! Gemma Internals
 
 [Term]
 id: TGEMO:00021
-name: [Complex Design]
+name: Complex Design
 def: "Indicator for studies that have a complex experimental design, and are currently incompletely curated." []
-is_a: TGEMO:00011 ! TGEMO Internals
+is_a: TGEMO:00011 ! Gemma Internals
+is_obsolete: true
 
 [Term]
 id: TGEMO:00022
-name: [SUBSET]
+name: SUBSET
 def: "Indicator (Temporary Placeholder) for experiments that are a collection of studies, and will be separated internally." []
-is_a: TGEMO:00011 ! TGEMO Internals
-
-[Term]
-id: TGEMO:00023
-name: AKR
-def: "Inbred Strain. MGI:2159767." []
-is_a: NCBITaxon:10090 ! Mus musculus
+is_a: TGEMO:00011 ! Gemma Internals
 
 [Term]
 id: TGEMO:00029
 name: NOD/Shi
 def: "Inbred Strain. MGI:2160550." []
+xref: https://www.informatics.jax.org/strain/MGI\:2160550
 is_a: EFO:0002547
+property_value: IAO:0000232 "Other IDs: MGI:2159774, MGI:3769688, JAX:001289" xsd:string
 
 [Term]
 id: TGEMO:00030
 name: NOD/ShiLt
 def: "Inbred Strain. MGI:2162728." []
+synonym: "NOD/Lt" EXACT []
+synonym: "Non-obese Diabetic" BROAD []
+xref: https://www.informatics.jax.org/strain/MGI\:2162728
 is_a: TGEMO:00029 ! NOD/Shi
 
 [Term]
 id: TGEMO:00032
-name: [Benchmark Study]
-def: "Indicator for studies that are benchmarking two methods against each other, and are unlikely to be informative in terms of differential expression." []
-is_a: TGEMO:00011 ! TGEMO Internals
+name: Technique comparison study
+def: "Indicator for studies that contain a technical comparison, e.g. of methodological approaches to sample preparation, rather than (or in addition to) biological ones." []
+is_a: TGEMO:00011 ! Gemma Internals
 
 [Term]
 id: TGEMO:00033
-name: [Cell Line Sample Study]
+name: Cell Line Sample Study
 def: "Indicator for sample studies containing a collection of various cell lines." []
-is_a: TGEMO:00020 ! [Sample Study]
+is_a: TGEMO:00020 ! Sample Study
 
 [Term]
 id: TGEMO:00035
 name: 129S/Sv
 def: "Inbred Strain. MGI:2165020." []
+xref: https://www.informatics.jax.org/strain/MGI\:2165020
 is_a: EFO:0000597
 
 [Term]
 id: TGEMO:00036
 name: 129S/SvEv
 def: "Inbred Strain. MGI:3050593." []
+synonym: "129 Sv/Ev" EXACT []
+synonym: "129/SvEv" EXACT []
+synonym: "129S6/SvEv" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:3050593
 is_a: TGEMO:00035 ! 129S/Sv
 
 [Term]
@@ -179,6 +196,7 @@ synonym: "Fv1^b" EXACT []
 synonym: "FVB/N" NARROW []
 xref: https://www.informatics.jax.org/strain/MGI\:3609372
 is_a: NCBITaxon:10090 ! Mus musculus
+property_value: IAO:0000232 "FVB/N is reported as a synonym by MGI but FVB/N is also a separate strain entry in MGI." xsd:string
 
 [Term]
 id: TGEMO:00042
@@ -186,56 +204,64 @@ name: FVB/N
 def: "Inbred Strain. MGI:2160001." []
 synonym: "Friend Virus B NIH" EXACT []
 synonym: "FVB/N-Pde6b^rd1" EXACT []
-synonym: "FVBN" EXACT []
 xref: https://www.informatics.jax.org/strain/MGI\:2160001
 is_a: TGEMO:00041 ! FVB
 
 [Term]
 id: TGEMO:00047
 name: MMTV-PyMT
-def: "Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul. MGI:002374" []
+def: "Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul. RRID:IMSR_JAX:002374. Does not appear to be listed in MGI." []
+synonym: "FVB/N-Tg(MMTV-PyVT)634Mul/J" EXACT []
+xref: https://www.jax.org/strain/002374
 is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
-id: TGEMO:00048
-name: 129S6/SvEvTac
-def: "Inbred Strain. MGI:3044417." []
-is_a: TGEMO:00036 ! 129S/SvEv
 
 [Term]
 id: TGEMO:00049
 name: 129S2/SvPas
 def: "Inbred Strain. MGI:2161070." []
+synonym: "129/SvPas" EXACT []
+synonym: "129S2" EXACT []
+synonym: "129S2/SvPas-Oca2+ Tyr+ Kitl+" EXACT []
+synonym: "129S2/SvPas-p+ Tyr+ Kitl+" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2161070
 is_a: TGEMO:00035 ! 129S/Sv
 
 [Term]
 id: TGEMO:00050
 name: NOR
-def: "Inbred Strain. MGI:2160604." []
+def: "strain family. MGI:2160604." []
+xref: https://www.informatics.jax.org/strain/MGI\:2160604
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00051
 name: NOR1/Lt
 def: "Inbred Strain. MGI:2162611." []
+xref: https://www.informatics.jax.org/strain/MGI\:2162611
 is_a: TGEMO:00050 ! NOR
 
 [Term]
 id: TGEMO:00052
 name: NOR/LtJ
 def: "Inbred Strain. MGI:2162087." []
+synonym: "NOR" BROAD []
+xref: https://www.informatics.jax.org/strain/MGI\:2162087
 is_a: TGEMO:00051 ! NOR1/Lt
 
 [Term]
 id: TGEMO:00053
 name: C3H
-def: "Inbred Strain. MGI:2160217." []
+def: "Strain family. MGI:2160217." []
+synonym: "C3" EXACT []
+synonym: "C3Hf" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2160217
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00054
 name: C3H/He
 def: "Inbred Strain. MGI:2159866." []
+xref: https://www.informatics.jax.org/strain/MGI\:2159866
 is_a: TGEMO:00053 ! C3H
 
 [Term]
@@ -249,52 +275,43 @@ id: TGEMO:00058
 name: Adjacent tissue
 def: "Tissue that is spatially located adjacent to the tissue of interest. Adjacent tissue are assumed to be normal, but that is not necessarily always the case." []
 is_a: TGEMO:00057 ! TGEMO Unclassified
+property_value: replacedBy "Use \"adjacent\" relation" xsd:string
+is_obsolete: true
 
 [Term]
 id: TGEMO:00085
 name: CFW
 def: "Strain family. MGI:2161001." []
-synonym: "Crl:CFW(SW)" RELATED []
-synonym: "Swiss Webster" EXACT []
+synonym: "Crl:CFW(SW)" EXACT []
+synonym: "Swiss Webster" EXACT [https://www.criver.com/products-services/find-model/swiss-webster-cfw-mouse?region=24]
 xref: https://www.informatics.jax.org/strain/MGI\:2161001
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00088
-name: [Time Consuming]
+name: Time Consuming
 def: "Indicator (Temporary Placeholder) for experiments that are identified to be time consuming for curation, and will be revisited at a later time." []
-is_a: TGEMO:00011 ! TGEMO Internals
-
-[Term]
-id: TGEMO:00089
-name: WSB
-def: "Inbred Strain. MGI:2160618." []
-is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
-id: TGEMO:00090
-name: WSB/Ei
-def: "[Strain Not Recorded in MGI]." []
-is_a: TGEMO:00089 ! WSB
+is_a: TGEMO:00011 ! Gemma Internals
+is_obsolete: true
 
 [Term]
 id: TGEMO:00095
 name: C57BL/10J
 def: "Inbred Strain. MGI:2159754." []
+synonym: "B10" BROAD []
+synonym: "Black 10" BROAD []
+synonym: "Black 10 J" EXACT []
+synonym: "C57BL10" BROAD []
+xref: https://www.informatics.jax.org/strain/MGI\:2159754
 is_a: EFO:0000604
 
 [Term]
 id: TGEMO:00097
 name: Long Evans
 def: "Long Evans Rat." []
+synonym: "Long-Evans" EXACT []
+xref: https://www.criver.com/products-services/find-model/long-evans-rat
 is_a: NCBITaxon:10116 ! Rattus norvegicus
-
-[Term]
-id: TGEMO:00100
-name: [BLACKLIST]
-def: "Indicator for studies that are considered unusable and are blacklisted to avoid reloading into Gemma." []
-is_a: TGEMO:00011 ! TGEMO Internals
-creation_date: 2018-04-18T15:52:43Z
 
 [Term]
 id: TGEMO:00101
@@ -305,31 +322,43 @@ is_a: TGEMO:00010 ! TGEMO Methods
 [Term]
 id: TGEMO:00102
 name: Rescue by external protein
-def: "An experimental design where instead of rescue via genetic manipulation (e.g. a transgene), a protein is directly introduced." []
+def: "An experimental procedure using direct introduction of a protein to test rescue of a phenotype rather than genetic manipulation (e.g. a transgene)." []
 is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
+is_obsolete: true
 
 [Term]
 id: TGEMO:00104
 name: 129S1/SvlmJ
 def: "Inbred strain. MGI:3037980" []
+synonym: "129/SvImJ" EXACT []
+synonym: "129S1/Sv-p+ Tyr+ Kitl+" EXACT []
+synonym: "129S3/SvIm" EXACT []
+synonym: "129S3/SvImJ" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:3037980
 is_a: EFO:0000597
 
 [Term]
 id: TGEMO:00106
 name: DBA/1LacJ
 def: "Inbred Strain. MGI:2159784" []
+synonym: "DBA/1Lac" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2160500
 is_a: TGEMO:00019 ! DBA
 
 [Term]
 id: TGEMO:00107
 name: SJL
 def: "Strain family. MGI:2159833" []
+xref: https://www.informatics.jax.org/strain/MGI\:2159833
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
 id: TGEMO:00108
 name: CBA
 def: "Strain family. MGI:2159850" []
+synonym: "C" EXACT []
+synonym: "CB" EXACT []
+synonym: "XXXIX" EXACT []
 xref: https://www.informatics.jax.org/strain/MGI\:2159850
 is_a: NCBITaxon:10090 ! Mus musculus
 
@@ -337,9 +366,9 @@ is_a: NCBITaxon:10090 ! Mus musculus
 id: TGEMO:00110
 name: SJL/J
 def: "Inbred strain. MGI:2159739" []
-synonym: "MGI:2159739" EXACT [https://phenome.jax.org/strains/17]
 synonym: "SJL/J-Pde6b^rd1" EXACT []
 synonym: "Swiss Jim Lambert" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2159739
 is_a: TGEMO:00107 ! SJL
 
 [Term]
@@ -348,6 +377,7 @@ name: 129T2/SvEmsJ
 def: "Inbred strain. MGI:2165253" []
 synonym: "129/SvEms-Ter+/J" EXACT []
 synonym: "129T2" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2165253
 is_a: EFO:0000597
 
 [Term]
@@ -355,6 +385,7 @@ id: TGEMO:00112
 name: 129P3/J
 def: "Inbred strain, segregating inbred. MGI:2661783" []
 synonym: "129/J" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2661783
 is_a: EFO:0000597
 
 [Term]
@@ -364,6 +395,7 @@ def: "Inbred strain. MGI:2159873" []
 synonym: "C3Fe" EXACT []
 synonym: "C3H Fekete" EXACT []
 synonym: "HeB" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2159873
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
@@ -372,6 +404,7 @@ name: A/HeJ
 def: "Inbred strain. MGI:2159897" []
 synonym: "A Heston" EXACT []
 synonym: "AHe" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2159897
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
@@ -379,6 +412,7 @@ id: TGEMO:00115
 name: BXD
 def: "Strain family. Recombinant inbred (RI). MGI:2164899" []
 synonym: "EFO:0004008" BROAD []
+xref: https://www.informatics.jax.org/strain/MGI\:2164899
 is_a: EFO:0004008
 
 [Term]
@@ -386,6 +420,140 @@ id: TGEMO:00122
 name: Unspecified factor value
 def: "Used to signify that a particular factor has no specified value for a particular sample. Intended as a less ambiguous alternative to \"NA\", \"null\" or \"none\"" []
 is_a: TGEMO:00057 ! TGEMO Unclassified
+
+[Term]
+id: TGEMO:00172
+name: 5xFAD
+def: "Alzheimer disease model. Overexpresses both mutant human amyloid beta (A4) precursor protein 695 (APP)) with the Swedish (K670N, M671L), Florida (I716V), and London (V717I) Familial Alzheimer's Disease (FAD) mutations and human PS1 harboring two FAD mutations, M146L and L286V." []
+synonym: "5XFAD" EXACT []
+synonym: "5XFAD APP/PS1" EXACT []
+synonym: "5XFAD line Tg6799" EXACT []
+synonym: "Tg(APP*Swe*Fl*Lon,PSEN1*M146L*L286V)6799Vas" EXACT []
+synonym: "Tg-5xFAD" EXACT []
+synonym: "Tg6799" EXACT []
+xref: https://www.informatics.jax.org/allele/MGI\:3693208
+is_a: NCBITaxon:10090 ! Mus musculus
+property_value: IAO:0000119 "https://www.jax.org/strain/008730" xsd:string
+
+[Term]
+id: TGEMO:00173
+name: 3xTg-AD
+def: "Alzheimer disease model. Triple transgenic homozygous with genotype APP Swedish, MAPT P301L, and PSEN1 M146V." []
+synonym: "B6.Cg-Psen1tm1Mpm Tg(APPSwe,tauP301L)1Lfa/J" EXACT []
+synonym: "B6;129-Psen1tm1Mpm Tg(APPSwe,tauP301L)1Lfa/J" EXACT []
+synonym: "B6;129-Psen1tm1Mpm Tg(APPSwe,tauP301L)1Lfa/Mmjax" EXACT []
+synonym: "C57BL/6-Psen1tm1Mpm Tg(APPSwe, tauP301L)1Lfa/J" EXACT []
+synonym: "C57BL/6-Psen1tm1Mpm Tg(APPSwe,tauP301L)1Lfa/J" EXACT []
+synonym: "The LaFerla mouse" EXACT []
+xref: https://www.alzforum.org/research-models/3xtg
+xref: https://www.informatics.jax.org/strain/MGI\:2673730
+xref: https://www.jax.org/strain/004807
+is_a: NCBITaxon:10090 ! Mus musculus
+property_value: IAO:0000119 "https://www.jax.org/strain/004807" xsd:string
+
+[Term]
+id: TGEMO:00174
+name: APP/PS1
+def: "Alzheimer disease model. Double transgenic mice expressing a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9), both directed to CNS neurons." []
+synonym: "B6.Cg-Tg(APPswe,PSEN1dE9)85Dbo/J" EXACT []
+synonym: "B6.Cg-Tg(APPswe,PSEN1dE9)85Dbo/Mmjax" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:3611279
+xref: https://www.jax.org/strain/005864
+is_a: NCBITaxon:10090 ! Mus musculus
+property_value: IAO:0000119 "https://www.jax.org/strain/005864" xsd:string
+
+[Term]
+id: TGEMO:00175
+name: OVE26
+def: "Type 1 diabetes disease model. Expresses a chicken calmodulin minigene (CALM1) controlled by the rat insulin II promoter (Ins2)(Referred to as BIC). In addition, these mice express a truncated SV40 T antigen (TAg) controlled by a lens specific alpha A crystallin (Cryaa) promoter (referred to as GR19)." []
+synonym: "FVB(Cg)-Tg(Cryaa-Tag,Ins2-CALM1)26Ove/PneJ" EXACT []
+xref: https://www.informatics.jax.org/allele/MGI\:3576672
+xref: https://www.jax.org/strain/005564
+is_a: TGEMO:00041 ! FVB
+property_value: IAO:0000119 "https://www.jax.org/strain/005564" xsd:string
+
+[Term]
+id: TGEMO:00176
+name: PS19
+def: "Alzheimer disease model. P301S Tg mice express the P301S mutant form of human microtubule-associated protein tau (MAPT), under the direction of the mouse prion protein promoter (Prnp)." []
+synonym: "B6N.Cg-Tg(Prnp-MAPT*P301S)PS19Vle/J" EXACT []
+synonym: "Tau P301S" EXACT []
+xref: https://www.alzforum.org/research-models/tau-p301s-line-ps19
+xref: https://www.informatics.jax.org/strain/MGI\:5553124
+xref: https://www.jax.org/strain/008169
+is_a: NCBITaxon:10090 ! Mus musculus
+property_value: IAO:0000119 "https://www.jax.org/strain/008169" xsd:string
+
+[Term]
+id: TGEMO:00177
+name: R6/1
+def: "Huntington's Disease model. Are transgenic for the 5' end of the human HD gene carrying (CAG)115-(CAG)150 repeat expansions." []
+synonym: "B6-R6/1" EXACT []
+synonym: "B6.Cg-Tg(HDexon1)61Gpb/J" EXACT []
+synonym: "HD R6/1" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:3692955
+xref: https://www.jax.org/strain/006471
+is_a: NCBITaxon:10090 ! Mus musculus
+property_value: IAO:0000119 "https://www.jax.org/strain/006471" xsd:string
+
+[Term]
+id: TGEMO:00178
+name: R6/2
+def: "Huntington's Disease model. Transgenic for the 5' end of the human HD gene carrying approximately 120 +/- 5 CAG repeat expansions. The transgene is ubiquitously expressed." []
+synonym: "B6CBA-R6/2 (CAG 120 +/- 5)" EXACT []
+synonym: "B6CBA-Tg(HDexon1)62Gpb/3J" EXACT []
+xref: https://qpsneuro.com/in-vivo-services/animal-models/huntingtons-disease-mouse-models/r6-2-transgenic-mouse-model/
+xref: https://www.informatics.jax.org/strain/MGI\:3688746
+xref: https://www.jax.org/strain/006494
+is_a: NCBITaxon:10090 ! Mus musculus
+property_value: IAO:0000119 "https://www.jax.org/strain/006494" xsd:string
+
+[Term]
+id: TGEMO:00179
+name: Ts65Dn
+def: "Down Syndrome disease model. Ts65Dn mice have three copies of most of the genes on mouse Chr 16 that are homologues of human Chr 21 genes. These extra genes, along with the centromere and about 5% of proximal Chr 17 are contained in a small extra chromosome derived from a reciprocal translocation." []
+synonym: "B6EiC3Sn a/A-Ts(1716)65Dn" EXACT []
+synonym: "B6EiC3Sn a/A-Ts(1716)65Dn/J" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2163627
+xref: https://www.jax.org/strain/001924
+is_a: NCBITaxon:10090 ! Mus musculus
+property_value: IAO:0000119 "https://www.jax.org/strain/001924" xsd:string
+
+[Term]
+id: TGEMO:00180
+name: mdx
+def: "Duchenne muscular dystrophy disease model. Point mutation in Dmd gene results in a termination codon (TAA) in place of a glutamine codon.This allele is predicted to produce a truncated protein." []
+synonym: "C57BL/10ScSn-Dmdmdx/J" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2162540
+xref: https://www.jax.org/strain/001801
+is_a: EFO:0000604
+property_value: IAO:0000119 "https://www.jax.org/strain/001801" xsd:string
+
+[Term]
+id: TGEMO:00181
+name: Ts1Rhr
+def: "Down syndrome disease model. Trisomic for the mouse chromosome segment orthologus to the human chromosome 21 Down syndrome critical region (DSCR). The borders of the 3.9 Mb region are defined by the carbonyl reductase 1 gene and a site adjacent to the myxovirus (influenza virus) resistance 2 locus." []
+synonym: "B6.129S6-Dp(16Cbr1-Fam3b)1Rhr/J" EXACT []
+synonym: "B6.129S6-Dp(16Cbr1-ORF9)1Rhr/J" EXACT []
+synonym: "B6.129S6-Is(16Cbr1-ORF9)1Rhr" EXACT []
+synonym: "B6.129S6-Is(16Cbr1-ORF9)1Rhr/J" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:3574387
+xref: https://www.jax.org/strain/005383
+is_a: NCBITaxon:10090 ! Mus musculus
+property_value: IAO:0000119 "https://www.jax.org/strain/005383" xsd:string
+
+[Term]
+id: TGEMO:00182
+name: Ts1Cje
+def: "Down syndrome disease model. Mice have partial trisomy of chromosome 16." []
+synonym: "B6Ei;C3Sn-Ts(1216C-tel)1Cje" EXACT []
+synonym: "B6EiC3Sn-Ts(1216C-tel)1Cje" EXACT []
+synonym: "B6EiC3Sn-Ts(16C-tel)1Cje" EXACT []
+synonym: "B6EiC3Sn-Ts(16C-tel)1Cje/DnJ" EXACT []
+xref: https://www.informatics.jax.org/strain/MGI\:2680524
+xref: https://www.jax.org/strain/004861
+is_a: NCBITaxon:10090 ! Mus musculus
+property_value: IAO:0000119 "https://www.jax.org/strain/004861" xsd:string
 
 [Term]
 id: http://gemma.msl.ubc.ca/ont/TGEMO:00151
@@ -418,7 +586,7 @@ def: "A conditionally active form of murine GATA-1 made by fusing its coding reg
 synonym: "GATA1-ESR1" EXACT []
 synonym: "GATA1/ER" EXACT []
 is_a: SO:0000288 ! engineered_fusion_gene
-property_value: IAO:0000119 https://doi.org/10.1016/S0092-8674(00)80318-9 xsd:string
+property_value: IAO:0000119 "https://doi.org/10.1016/S0092-8674(00)80318-9" xsd:string
 
 [Term]
 id: http://gemma.msl.ubc.ca/ont/TGEMO:00155
@@ -473,7 +641,6 @@ property_value: IAO:0000119 "doi: 10.1016/S1470-2045(08)70339-5" xsd:string
 id: http://gemma.msl.ubc.ca/ont/TGEMO:00163
 name: TEL-AML1
 def: "fusion of the human TEL and AML1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia" []
-synonym: "ETV6-CBFA2" EXACT []
 is_a: SO:0000287 ! fusion_gene
 property_value: IAO:0000119 "doi: 10.1016/S1470-2045(08)70339-5" xsd:string
 
@@ -483,4 +650,43 @@ name: TMPRSS2-ERG
 def: "Fusion of the human TMPRSS2 and ERG genes, identified in some prostate cancers" []
 is_a: SO:0000287 ! fusion_gene
 property_value: IAO:0000119 "doi: 10.1126/science.1117679" xsd:string
+
+[Typedef]
+id: TGEMO:00166
+name: delivered at dose
+synonym: "has dose" EXACT []
+property_value: hasDefinition "Used to indicate that the bearer was a substance provided to a subject (whether it be human, animal or cells in vitro) at the specified dose" xsd:string
+is_a: RO:0000086 ! has quality
+
+[Typedef]
+id: TGEMO:00167
+name: delivered for duration
+synonym: "has duration" EXACT []
+property_value: hasDefinition "Expresses that the bearer (a treatment or other manipulation) was applied for the stated amount of time." xsd:string
+is_a: RO:0000086 ! has quality
+
+[Typedef]
+id: TGEMO:00168
+name: has developmental stage
+property_value: hasDefinition "Indicates that the bearer (e.g. an organism or part) was at the given stage of development" xsd:string
+is_a: RO:0000086 ! has quality
+
+[Typedef]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00169
+name: positive for product of gene
+def: "Used to indicate that the subject (generally a cell type) expressed the product of the object (a gene). Example: CD133+ cancer cell." []
+is_a: RO:0000086 ! has quality
+
+[Typedef]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00170
+name: negative for product of gene
+def: "Used to indicate that the subject (generally a cell type) does not express the product of the object (a gene). Example: CD133- cancer cell." []
+is_a: RO:0000086 ! has quality
+
+[Typedef]
+id: http://gemma.msl.ubc.ca/ont/TGEMO:00171
+name: induced by
+def: "Indicates that the Subject (typically a disease or condition) was caused to occur or be present by the specified means. Examples: spinal cord injury induced by partial transection; Myocardial infarction induced by ligation of the proximal left coronary artery." []
+property_value: IAO:0000232 "\"Causal relationship with disease as subject\" looks at first glance to be this kind of thing, but the TGEMO term is used to indicate induction in a particular experiment, not a general statement about diseases." xsd:string
+is_a: RO:0002566 ! causally influences
 
