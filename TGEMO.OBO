@@ -672,6 +672,12 @@ property_value: hasDefinition "Indicates that the bearer (e.g. an organism or pa
 is_a: RO:0000086 ! has quality
 
 [Typedef]
+id: TGEMO_00173
+name: delivered to
+def: "Used to specify that a treatment or procedure was performed at a specific location or organism part" []
+is_a: RO:0000086 ! has quality
+
+[Typedef]
 id: http://gemma.msl.ubc.ca/ont/TGEMO:00169
 name: positive for product of gene
 def: "Used to indicate that the subject (generally a cell type) expressed the product of the object (a gene). Example: CD133+ cancer cell." []
