@@ -190,6 +190,16 @@
     
 
 
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00183 -->
+
+    <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00183">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+        <oboInOwl:hasDefinition>Used to specify that a treatment or procedure was performed at a specific location or organism part</oboInOwl:hasDefinition>
+        <rdfs:label xml:lang="fr">delivered to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00169 -->
 
     <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00169">

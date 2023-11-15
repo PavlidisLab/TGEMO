@@ -672,9 +672,9 @@ property_value: hasDefinition "Indicates that the bearer (e.g. an organism or pa
 is_a: RO:0000086 ! has quality
 
 [Typedef]
-id: TGEMO_00173
+id: TGEMO:00183
 name: delivered to
-def: "Used to specify that a treatment or procedure was performed at a specific location or organism part" []
+property_value: hasDefinition "Used to specify that a treatment or procedure was performed at a specific location or organism part" xsd:string
 is_a: RO:0000086 ! has quality
 
 [Typedef]
