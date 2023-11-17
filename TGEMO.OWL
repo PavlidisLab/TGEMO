@@ -360,43 +360,6 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00016 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00016">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005181"/>
-        <obo:IAO_0000115>Strain family. MGI:2159769.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159769</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>B6</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Black 6</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>C57BL/6-Mx1^s1</oboInOwl:hasExactSynonym>
-        <rdfs:label>C57BL/6</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00017 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00017">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00019"/>
-        <obo:IAO_0000115>Strain family. MGI:2159768.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159768</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>D2</oboInOwl:hasExactSynonym>
-        <rdfs:label>DBA/2</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00019 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159849.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159849</oboInOwl:hasDbXref>
-        <rdfs:label>DBA</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00020 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00020">
@@ -428,31 +391,6 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00029 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00029">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002547"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2160550.</obo:IAO_0000115>
-        <obo:IAO_0000232>Other IDs: MGI:2159774, MGI:3769688, JAX:001289</obo:IAO_0000232>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2160550</oboInOwl:hasDbXref>
-        <rdfs:label>NOD/Shi</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00030 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00030">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00029"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2162728.</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym>Non-obese Diabetic</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2162728</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>NOD/Lt</oboInOwl:hasExactSynonym>
-        <rdfs:label>NOD/ShiLt</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00032 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00032">
@@ -473,31 +411,6 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00035 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00035">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000597"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2165020.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2165020</oboInOwl:hasDbXref>
-        <rdfs:label>129S/Sv</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00036 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00036">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00035"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:3050593.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:3050593</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>129 Sv/Ev</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>129/SvEv</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>129S6/SvEv</oboInOwl:hasExactSynonym>
-        <rdfs:label>129S/SvEv</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00039 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00039">
@@ -514,119 +427,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
         <obo:IAO_0000115>Cross between C57BL/6J and 129S. Generation Unknown.</obo:IAO_0000115>
         <rdfs:label>B6J129SF?</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00041 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Strain family. MGI:3609372.</obo:IAO_0000115>
-        <obo:IAO_0000232>FVB/N is reported as a synonym by MGI but FVB/N is also a separate strain entry in MGI.</obo:IAO_0000232>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:3609372</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Friend Virus B</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Fv1^b</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>FVB/N</oboInOwl:hasNarrowSynonym>
-        <rdfs:label>FVB</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00042 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00042">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00041"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2160001.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2160001</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>FVB/N-Pde6b^rd1</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Friend Virus B NIH</oboInOwl:hasExactSynonym>
-        <rdfs:label>FVB/N</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00047 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul. RRID:IMSR_JAX:002374. Does not appear to be listed in MGI.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.jax.org/strain/002374</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>FVB/N-Tg(MMTV-PyVT)634Mul/J</oboInOwl:hasExactSynonym>
-        <rdfs:label>MMTV-PyMT</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00049 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00049">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00035"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2161070.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2161070</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>129/SvPas</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>129S2</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>129S2/SvPas-Oca2+ Tyr+ Kitl+</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>129S2/SvPas-p+ Tyr+ Kitl+</oboInOwl:hasExactSynonym>
-        <rdfs:label>129S2/SvPas</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00050 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>strain family. MGI:2160604.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2160604</oboInOwl:hasDbXref>
-        <rdfs:label>NOR</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00051 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00051">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00050"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2162611.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2162611</oboInOwl:hasDbXref>
-        <rdfs:label>NOR1/Lt</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00052 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00052">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00051"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2162087.</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym>NOR</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2162087</oboInOwl:hasDbXref>
-        <rdfs:label>NOR/LtJ</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00053 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Strain family. MGI:2160217.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2160217</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>C3</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>C3Hf</oboInOwl:hasExactSynonym>
-        <rdfs:label>C3H</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00054 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00054">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00053"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159866.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159866</oboInOwl:hasDbXref>
-        <rdfs:label>C3H/He</rdfs:label>
     </owl:Class>
     
 
@@ -654,25 +454,6 @@
     
 
 
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00085 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Strain family. MGI:2161001.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2161001</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Crl:CFW(SW)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Swiss Webster</oboInOwl:hasExactSynonym>
-        <rdfs:label>CFW</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00085"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Swiss Webster</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.criver.com/products-services/find-model/swiss-webster-cfw-mouse?region=24</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00088 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00088">
@@ -681,33 +462,6 @@
         <oboInOwl:id>TGEMO:00088</oboInOwl:id>
         <rdfs:label>Time Consuming</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00095 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00095">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000604"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159754.</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym>B10</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym>Black 10</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasBroadSynonym>C57BL10</oboInOwl:hasBroadSynonym>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159754</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Black 10 J</oboInOwl:hasExactSynonym>
-        <rdfs:label>C57BL/10J</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00097 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
-        <obo:IAO_0000115>Long Evans Rat.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.criver.com/products-services/find-model/long-evans-rat</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Long-Evans</oboInOwl:hasExactSynonym>
-        <rdfs:label>Long Evans</rdfs:label>
     </owl:Class>
     
 
@@ -729,135 +483,6 @@
         <obo:IAO_0000115>An experimental procedure using direct introduction of a protein to test rescue of a phenotype rather than genetic manipulation (e.g. a transgene).</obo:IAO_0000115>
         <rdfs:label>Rescue by external protein</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00104 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00104">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000597"/>
-        <obo:IAO_0000115>Inbred strain. MGI:3037980</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:3037980</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>129/SvImJ</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>129S1/Sv-p+ Tyr+ Kitl+</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>129S3/SvIm</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>129S3/SvImJ</oboInOwl:hasExactSynonym>
-        <rdfs:label>129S1/SvlmJ</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00106 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00106">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00019"/>
-        <obo:IAO_0000115>Inbred Strain. MGI:2159784</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2160500</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>DBA/1Lac</oboInOwl:hasExactSynonym>
-        <rdfs:label>DBA/1LacJ</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00107 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00107">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Strain family. MGI:2159833</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159833</oboInOwl:hasDbXref>
-        <rdfs:label>SJL</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00108 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00108">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Strain family. MGI:2159850</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159850</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>C</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>CB</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>XXXIX</oboInOwl:hasExactSynonym>
-        <rdfs:label>CBA</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00110 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00110">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00107"/>
-        <obo:IAO_0000115>Inbred strain. MGI:2159739</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159739</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>SJL/J-Pde6b^rd1</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Swiss Jim Lambert</oboInOwl:hasExactSynonym>
-        <rdfs:label>SJL/J</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00111 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00111">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000597"/>
-        <obo:IAO_0000115>Inbred strain. MGI:2165253</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2165253</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>129/SvEms-Ter+/J</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>129T2</oboInOwl:hasExactSynonym>
-        <rdfs:label>129T2/SvEmsJ</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00112 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00112">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000597"/>
-        <obo:IAO_0000115>Inbred strain, segregating inbred. MGI:2661783</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2661783</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>129/J</oboInOwl:hasExactSynonym>
-        <rdfs:label>129P3/J</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00113 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00113">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Inbred strain. MGI:2159873</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159873</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>C3Fe</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>C3H Fekete</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>HeB</oboInOwl:hasExactSynonym>
-        <rdfs:label>C3HeB/FeJ</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00114 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00114">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115>Inbred strain. MGI:2159897</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159897</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>A Heston</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>AHe</oboInOwl:hasExactSynonym>
-        <rdfs:label>A/HeJ</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00115 -->
-
-    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00115">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004008"/>
-        <obo:IAO_0000115>Strain family. Recombinant inbred (RI). MGI:2164899</obo:IAO_0000115>
-        <oboInOwl:hasBroadSynonym rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004008"/>
-        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2164899</oboInOwl:hasDbXref>
-        <rdfs:label>BXD</rdfs:label>
     </owl:Class>
     
 
@@ -928,7 +553,7 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00175 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00175">
-        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00041"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0022483"/>
         <obo:IAO_0000115>Type 1 diabetes disease model. Expresses a chicken calmodulin minigene (CALM1) controlled by the rat insulin II promoter (Ins2)(Referred to as BIC). In addition, these mice express a truncated SV40 T antigen (TAg) controlled by a lens specific alpha A crystallin (Cryaa) promoter (referred to as GR19).</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/005564</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3576672</oboInOwl:hasDbXref>
