@@ -868,20 +868,6 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0005181 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005181"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO#5xFAD">
-        <rdfs:label>5xFAD</rdfs:label>
-    </rdf:Description>
 </rdf:RDF>
 
 
