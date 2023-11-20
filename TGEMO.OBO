@@ -86,31 +86,6 @@ def: "Samples to exclude in Differential Expression Analysis." []
 is_a: TGEMO:00011 ! Gemma Internals
 
 [Term]
-id: TGEMO:00016
-name: C57BL/6
-def: "Strain family. MGI:2159769." []
-synonym: "B6" EXACT []
-synonym: "Black 6" EXACT []
-synonym: "C57BL/6-Mx1^s1" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2159769
-is_a: EFO:0005181
-
-[Term]
-id: TGEMO:00017
-name: DBA/2
-def: "Strain family. MGI:2159768." []
-synonym: "D2" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2159768
-is_a: TGEMO:00019 ! DBA
-
-[Term]
-id: TGEMO:00019
-name: DBA
-def: "Inbred Strain. MGI:2159849." []
-xref: https://www.informatics.jax.org/strain/MGI\:2159849
-is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
 id: TGEMO:00020
 name: Sample Study
 def: "Indicator for studies containing a collection of samples rather than a designed experiment with known covariates or pre-defined experimental groups." []
@@ -130,23 +105,6 @@ def: "Indicator (Temporary Placeholder) for experiments that are a collection of
 is_a: TGEMO:00011 ! Gemma Internals
 
 [Term]
-id: TGEMO:00029
-name: NOD/Shi
-def: "Inbred Strain. MGI:2160550." []
-xref: https://www.informatics.jax.org/strain/MGI\:2160550
-is_a: EFO:0002547
-property_value: IAO:0000232 "Other IDs: MGI:2159774, MGI:3769688, JAX:001289" xsd:string
-
-[Term]
-id: TGEMO:00030
-name: NOD/ShiLt
-def: "Inbred Strain. MGI:2162728." []
-synonym: "NOD/Lt" EXACT []
-synonym: "Non-obese Diabetic" BROAD []
-xref: https://www.informatics.jax.org/strain/MGI\:2162728
-is_a: TGEMO:00029 ! NOD/Shi
-
-[Term]
 id: TGEMO:00032
 name: Technique comparison study
 def: "Indicator for studies that contain a technical comparison, e.g. of methodological approaches to sample preparation, rather than (or in addition to) biological ones." []
@@ -159,23 +117,6 @@ def: "Indicator for sample studies containing a collection of various cell lines
 is_a: TGEMO:00020 ! Sample Study
 
 [Term]
-id: TGEMO:00035
-name: 129S/Sv
-def: "Inbred Strain. MGI:2165020." []
-xref: https://www.informatics.jax.org/strain/MGI\:2165020
-is_a: EFO:0000597
-
-[Term]
-id: TGEMO:00036
-name: 129S/SvEv
-def: "Inbred Strain. MGI:3050593." []
-synonym: "129 Sv/Ev" EXACT []
-synonym: "129/SvEv" EXACT []
-synonym: "129S6/SvEv" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:3050593
-is_a: TGEMO:00035 ! 129S/Sv
-
-[Term]
 id: TGEMO:00039
 name: B6129SF?
 def: "Cross between C57BL/6 and 129S. Generation Unknown." []
@@ -186,83 +127,6 @@ id: TGEMO:00040
 name: B6J129SF?
 def: "Cross between C57BL/6J and 129S. Generation Unknown." []
 is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
-id: TGEMO:00041
-name: FVB
-def: "Strain family. MGI:3609372." []
-synonym: "Friend Virus B" EXACT []
-synonym: "Fv1^b" EXACT []
-synonym: "FVB/N" NARROW []
-xref: https://www.informatics.jax.org/strain/MGI\:3609372
-is_a: NCBITaxon:10090 ! Mus musculus
-property_value: IAO:0000232 "FVB/N is reported as a synonym by MGI but FVB/N is also a separate strain entry in MGI." xsd:string
-
-[Term]
-id: TGEMO:00042
-name: FVB/N
-def: "Inbred Strain. MGI:2160001." []
-synonym: "Friend Virus B NIH" EXACT []
-synonym: "FVB/N-Pde6b^rd1" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2160001
-is_a: TGEMO:00041 ! FVB
-
-[Term]
-id: TGEMO:00047
-name: MMTV-PyMT
-def: "Mouse strain carrying the transgenic allele Tg(MMTV-PyVT)634Mul. RRID:IMSR_JAX:002374. Does not appear to be listed in MGI." []
-synonym: "FVB/N-Tg(MMTV-PyVT)634Mul/J" EXACT []
-xref: https://www.jax.org/strain/002374
-is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
-id: TGEMO:00049
-name: 129S2/SvPas
-def: "Inbred Strain. MGI:2161070." []
-synonym: "129/SvPas" EXACT []
-synonym: "129S2" EXACT []
-synonym: "129S2/SvPas-Oca2+ Tyr+ Kitl+" EXACT []
-synonym: "129S2/SvPas-p+ Tyr+ Kitl+" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2161070
-is_a: TGEMO:00035 ! 129S/Sv
-
-[Term]
-id: TGEMO:00050
-name: NOR
-def: "strain family. MGI:2160604." []
-xref: https://www.informatics.jax.org/strain/MGI\:2160604
-is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
-id: TGEMO:00051
-name: NOR1/Lt
-def: "Inbred Strain. MGI:2162611." []
-xref: https://www.informatics.jax.org/strain/MGI\:2162611
-is_a: TGEMO:00050 ! NOR
-
-[Term]
-id: TGEMO:00052
-name: NOR/LtJ
-def: "Inbred Strain. MGI:2162087." []
-synonym: "NOR" BROAD []
-xref: https://www.informatics.jax.org/strain/MGI\:2162087
-is_a: TGEMO:00051 ! NOR1/Lt
-
-[Term]
-id: TGEMO:00053
-name: C3H
-def: "Strain family. MGI:2160217." []
-synonym: "C3" EXACT []
-synonym: "C3Hf" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2160217
-is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
-id: TGEMO:00054
-name: C3H/He
-def: "Inbred Strain. MGI:2159866." []
-xref: https://www.informatics.jax.org/strain/MGI\:2159866
-is_a: TGEMO:00053 ! C3H
 
 [Term]
 id: TGEMO:00057
@@ -279,39 +143,11 @@ property_value: replacedBy "Use \"adjacent\" relation" xsd:string
 is_obsolete: true
 
 [Term]
-id: TGEMO:00085
-name: CFW
-def: "Strain family. MGI:2161001." []
-synonym: "Crl:CFW(SW)" EXACT []
-synonym: "Swiss Webster" EXACT [https://www.criver.com/products-services/find-model/swiss-webster-cfw-mouse?region=24]
-xref: https://www.informatics.jax.org/strain/MGI\:2161001
-is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
 id: TGEMO:00088
 name: Time Consuming
 def: "Indicator (Temporary Placeholder) for experiments that are identified to be time consuming for curation, and will be revisited at a later time." []
 is_a: TGEMO:00011 ! Gemma Internals
 is_obsolete: true
-
-[Term]
-id: TGEMO:00095
-name: C57BL/10J
-def: "Inbred Strain. MGI:2159754." []
-synonym: "B10" BROAD []
-synonym: "Black 10" BROAD []
-synonym: "Black 10 J" EXACT []
-synonym: "C57BL10" BROAD []
-xref: https://www.informatics.jax.org/strain/MGI\:2159754
-is_a: EFO:0000604
-
-[Term]
-id: TGEMO:00097
-name: Long Evans
-def: "Long Evans Rat." []
-synonym: "Long-Evans" EXACT []
-xref: https://www.criver.com/products-services/find-model/long-evans-rat
-is_a: NCBITaxon:10116 ! Rattus norvegicus
 
 [Term]
 id: TGEMO:00101
@@ -327,99 +163,106 @@ is_a: TGEMO:00002 ! TGEMO Genetics/Mutations
 is_obsolete: true
 
 [Term]
-id: TGEMO:00104
-name: 129S1/SvlmJ
-def: "Inbred strain. MGI:3037980" []
-synonym: "129/SvImJ" EXACT []
-synonym: "129S1/Sv-p+ Tyr+ Kitl+" EXACT []
-synonym: "129S3/SvIm" EXACT []
-synonym: "129S3/SvImJ" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:3037980
-is_a: EFO:0000597
-
-[Term]
-id: TGEMO:00106
-name: DBA/1LacJ
-def: "Inbred Strain. MGI:2159784" []
-synonym: "DBA/1Lac" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2160500
-is_a: TGEMO:00019 ! DBA
-
-[Term]
-id: TGEMO:00107
-name: SJL
-def: "Strain family. MGI:2159833" []
-xref: https://www.informatics.jax.org/strain/MGI\:2159833
-is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
-id: TGEMO:00108
-name: CBA
-def: "Strain family. MGI:2159850" []
-synonym: "C" EXACT []
-synonym: "CB" EXACT []
-synonym: "XXXIX" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2159850
-is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
-id: TGEMO:00110
-name: SJL/J
-def: "Inbred strain. MGI:2159739" []
-synonym: "SJL/J-Pde6b^rd1" EXACT []
-synonym: "Swiss Jim Lambert" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2159739
-is_a: TGEMO:00107 ! SJL
-
-[Term]
-id: TGEMO:00111
-name: 129T2/SvEmsJ
-def: "Inbred strain. MGI:2165253" []
-synonym: "129/SvEms-Ter+/J" EXACT []
-synonym: "129T2" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2165253
-is_a: EFO:0000597
-
-[Term]
-id: TGEMO:00112
-name: 129P3/J
-def: "Inbred strain, segregating inbred. MGI:2661783" []
-synonym: "129/J" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2661783
-is_a: EFO:0000597
-
-[Term]
-id: TGEMO:00113
-name: C3HeB/FeJ
-def: "Inbred strain. MGI:2159873" []
-synonym: "C3Fe" EXACT []
-synonym: "C3H Fekete" EXACT []
-synonym: "HeB" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2159873
-is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
-id: TGEMO:00114
-name: A/HeJ
-def: "Inbred strain. MGI:2159897" []
-synonym: "A Heston" EXACT []
-synonym: "AHe" EXACT []
-xref: https://www.informatics.jax.org/strain/MGI\:2159897
-is_a: NCBITaxon:10090 ! Mus musculus
-
-[Term]
-id: TGEMO:00115
-name: BXD
-def: "Strain family. Recombinant inbred (RI). MGI:2164899" []
-synonym: "EFO:0004008" BROAD []
-xref: https://www.informatics.jax.org/strain/MGI\:2164899
-is_a: EFO:0004008
-
-[Term]
 id: TGEMO:00122
 name: Unspecified factor value
 def: "Used to signify that a particular factor has no specified value for a particular sample. Intended as a less ambiguous alternative to \"NA\", \"null\" or \"none\"" []
 is_a: TGEMO:00057 ! TGEMO Unclassified
+
+[Term]
+id: TGEMO:00151
+name: BCR-ABL
+def: "Fusion of the human BCR and ABL1 genes" []
+synonym: "BCR-ABL1" EXACT []
+synonym: "Philadelphia chromosome" BROAD []
+is_a: SO:0000287 ! fusion_gene
+
+[Term]
+id: TGEMO:00152
+name: GFP fusion
+def: "An engineered fusion of green fluorescent protein with another gene" []
+synonym: "GFP-tagged" EXACT []
+is_a: SO:0000288 ! engineered_fusion_gene
+property_value: IAO:0000232 "Intention is that this would be related to a gene term via a predicate such as 'modified by'" xsd:string
+
+[Term]
+id: TGEMO:00153
+name: ETV6-RUNX1
+def: "Fusion of the human ETV6 and RUNX1 genes, associated with childhood acute lymphoblastic leukemia" []
+synonym: "E/R" EXACT []
+synonym: "ETV6/RUNX1" EXACT []
+is_a: SO:0000287 ! fusion_gene
+
+[Term]
+id: TGEMO:00154
+name: GATA1-ER
+def: "A conditionally active form of murine GATA-1 made by fusing its coding region to the ligand-binding domain of the human estrogen receptor (ER)" []
+synonym: "GATA1-ESR1" EXACT []
+synonym: "GATA1/ER" EXACT []
+is_a: SO:0000288 ! engineered_fusion_gene
+property_value: IAO:0000119 "https://doi.org/10.1016/S0092-8674(00)80318-9" xsd:string
+
+[Term]
+id: TGEMO:00155
+name: MLL-AF9
+def: "Fusion of the human MLL and AF9 genes, associated with acute myeloid leukemia (AML)" []
+is_a: SO:0000287 ! fusion_gene
+
+[Term]
+id: TGEMO:00156
+name: NUP98-HOXA9
+def: "Fusion of the human NUP98 and HOXA9 genes, associated with acute myeloid leukemia (AML)" []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "doi: 10.1093/emboj/20.3.350" xsd:string
+
+[Term]
+id: TGEMO:00157
+name: PML-RARA
+def: "Fusion of the human PML and RARA genes, associated with acute myeloid leukemia (AML)" []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "doi: 10.3390/cancers12030624" xsd:string
+
+[Term]
+id: TGEMO:00158
+name: AML1-ETO
+def: "Fusion of the human AML1 and ETO genes, associated with acute myeloid leukemia (AML)" []
+synonym: "RUNX1- RUNX1T1" EXACT []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "DOI: 10.1182/blood-2005-04-1656" xsd:string
+
+[Term]
+id: TGEMO:00159
+name: RFP fusion
+def: "An engineered fusion of red fluorescent protein with another gene" []
+is_a: SO:0000288 ! engineered_fusion_gene
+
+[Term]
+id: TGEMO:00160
+name: IL4-10 FP
+def: "An engineered fusion of the human interleukin (IL)-4 and IL-10 genes developed as an experimentallly to inhibit pro‐inflammatory activity in arthritis models" []
+is_a: SO:0000288 ! engineered_fusion_gene
+property_value: IAO:0000119 "DOI: 10.1073/pnas.2009647118" xsd:string
+property_value: IAO:0000119 "doi: 10.1111/cei.13224" xsd:string
+
+[Term]
+id: TGEMO:00162
+name: E2A-PBX1
+def: "fusion of the human E2A and PBX1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia" []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "doi: 10.1016/S1470-2045(08)70339-5" xsd:string
+
+[Term]
+id: TGEMO:00163
+name: TEL-AML1
+def: "fusion of the human TEL and AML1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia" []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "doi: 10.1016/S1470-2045(08)70339-5" xsd:string
+
+[Term]
+id: TGEMO:00164
+name: TMPRSS2-ERG
+def: "Fusion of the human TMPRSS2 and ERG genes, identified in some prostate cancers" []
+is_a: SO:0000287 ! fusion_gene
+property_value: IAO:0000119 "doi: 10.1126/science.1117679" xsd:string
 
 [Term]
 id: TGEMO:00172
@@ -469,7 +312,7 @@ def: "Type 1 diabetes disease model. Expresses a chicken calmodulin minigene (CA
 synonym: "FVB(Cg)-Tg(Cryaa-Tag,Ins2-CALM1)26Ove/PneJ" EXACT []
 xref: https://www.informatics.jax.org/allele/MGI\:3576672
 xref: https://www.jax.org/strain/005564
-is_a: TGEMO:00041 ! FVB
+is_a: EFO:0022483
 property_value: IAO:0000119 "https://www.jax.org/strain/005564" xsd:string
 
 [Term]
@@ -555,102 +398,6 @@ xref: https://www.jax.org/strain/004861
 is_a: NCBITaxon:10090 ! Mus musculus
 property_value: IAO:0000119 "https://www.jax.org/strain/004861" xsd:string
 
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00151
-name: BCR-ABL
-def: "Fusion of the human BCR and ABL1 genes" []
-synonym: "BCR-ABL1" EXACT []
-synonym: "Philadelphia chromosome" BROAD []
-is_a: SO:0000287 ! fusion_gene
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00152
-name: GFP fusion
-def: "An engineered fusion of green fluorescent protein with another gene" []
-synonym: "GFP-tagged" EXACT []
-is_a: SO:0000288 ! engineered_fusion_gene
-property_value: IAO:0000232 "Intention is that this would be related to a gene term via a predicate such as 'modified by'" xsd:string
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00153
-name: ETV6-RUNX1
-def: "Fusion of the human ETV6 and RUNX1 genes, associated with childhood acute lymphoblastic leukemia" []
-synonym: "E/R" EXACT []
-synonym: "ETV6/RUNX1" EXACT []
-is_a: SO:0000287 ! fusion_gene
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00154
-name: GATA1-ER
-def: "A conditionally active form of murine GATA-1 made by fusing its coding region to the ligand-binding domain of the human estrogen receptor (ER)" []
-synonym: "GATA1-ESR1" EXACT []
-synonym: "GATA1/ER" EXACT []
-is_a: SO:0000288 ! engineered_fusion_gene
-property_value: IAO:0000119 "https://doi.org/10.1016/S0092-8674(00)80318-9" xsd:string
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00155
-name: MLL-AF9
-def: "Fusion of the human MLL and AF9 genes, associated with acute myeloid leukemia (AML)" []
-is_a: SO:0000287 ! fusion_gene
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00156
-name: NUP98-HOXA9
-def: "Fusion of the human NUP98 and HOXA9 genes, associated with acute myeloid leukemia (AML)" []
-is_a: SO:0000287 ! fusion_gene
-property_value: IAO:0000119 "doi: 10.1093/emboj/20.3.350" xsd:string
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00157
-name: PML-RARA
-def: "Fusion of the human PML and RARA genes, associated with acute myeloid leukemia (AML)" []
-is_a: SO:0000287 ! fusion_gene
-property_value: IAO:0000119 "doi: 10.3390/cancers12030624" xsd:string
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00158
-name: AML1-ETO
-def: "Fusion of the human AML1 and ETO genes, associated with acute myeloid leukemia (AML)" []
-synonym: "RUNX1- RUNX1T1" EXACT []
-is_a: SO:0000287 ! fusion_gene
-property_value: IAO:0000119 "DOI: 10.1182/blood-2005-04-1656" xsd:string
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00159
-name: RFP fusion
-def: "An engineered fusion of red fluorescent protein with another gene" []
-is_a: SO:0000288 ! engineered_fusion_gene
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00160
-name: IL4-10 FP
-def: "An engineered fusion of the human interleukin (IL)-4 and IL-10 genes developed as an experimentallly to inhibit pro‐inflammatory activity in arthritis models" []
-is_a: SO:0000288 ! engineered_fusion_gene
-property_value: IAO:0000119 "DOI: 10.1073/pnas.2009647118" xsd:string
-property_value: IAO:0000119 "doi: 10.1111/cei.13224" xsd:string
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00162
-name: E2A-PBX1
-def: "fusion of the human E2A and PBX1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia" []
-is_a: SO:0000287 ! fusion_gene
-property_value: IAO:0000119 "doi: 10.1016/S1470-2045(08)70339-5" xsd:string
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00163
-name: TEL-AML1
-def: "fusion of the human TEL and AML1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia" []
-is_a: SO:0000287 ! fusion_gene
-property_value: IAO:0000119 "doi: 10.1016/S1470-2045(08)70339-5" xsd:string
-
-[Term]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00164
-name: TMPRSS2-ERG
-def: "Fusion of the human TMPRSS2 and ERG genes, identified in some prostate cancers" []
-is_a: SO:0000287 ! fusion_gene
-property_value: IAO:0000119 "doi: 10.1126/science.1117679" xsd:string
-
 [Typedef]
 id: TGEMO:00166
 name: delivered at dose
@@ -672,27 +419,27 @@ property_value: hasDefinition "Indicates that the bearer (e.g. an organism or pa
 is_a: RO:0000086 ! has quality
 
 [Typedef]
-id: TGEMO:00183
-name: delivered to
-property_value: hasDefinition "Used to specify that a treatment or procedure was performed at a specific location or organism part" xsd:string
-is_a: RO:0000086 ! has quality
-
-[Typedef]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00169
+id: TGEMO:00169
 name: positive for product of gene
 def: "Used to indicate that the subject (generally a cell type) expressed the product of the object (a gene). Example: CD133+ cancer cell." []
 is_a: RO:0000086 ! has quality
 
 [Typedef]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00170
+id: TGEMO:00170
 name: negative for product of gene
 def: "Used to indicate that the subject (generally a cell type) does not express the product of the object (a gene). Example: CD133- cancer cell." []
 is_a: RO:0000086 ! has quality
 
 [Typedef]
-id: http://gemma.msl.ubc.ca/ont/TGEMO:00171
+id: TGEMO:00171
 name: induced by
 def: "Indicates that the Subject (typically a disease or condition) was caused to occur or be present by the specified means. Examples: spinal cord injury induced by partial transection; Myocardial infarction induced by ligation of the proximal left coronary artery." []
 property_value: IAO:0000232 "\"Causal relationship with disease as subject\" looks at first glance to be this kind of thing, but the TGEMO term is used to indicate induction in a particular experiment, not a general statement about diseases." xsd:string
 is_a: RO:0002566 ! causally influences
+
+[Typedef]
+id: TGEMO:00183
+name: delivered to
+property_value: hasDefinition "Used to specify that a treatment or procedure was performed at a specific location or organism part" xsd:string
+is_a: RO:0000086 ! has quality
 
