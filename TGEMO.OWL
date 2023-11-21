@@ -44,11 +44,11 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
         <owl:imports rdf:resource="http://www.geneontology.org/formats/oboInOwl"/>
         <owl:imports rdf:resource="https://www.ebi.ac.uk/efo/efo.owl"/>
-        <dc:creator>Alice Ma</dc:creator>
-        <dc:creator>Guillaume Poirier-Morency</dc:creator>
-        <dc:creator>Mahan Rafieenaini</dc:creator>
+        <dc:contributor>Guillaume Poirier-Morency</dc:contributor>
+        <dc:contributor>Mahan Rafieenaini</dc:contributor>
+        <dc:contributor>Paul Pavlidis</dc:contributor>
         <dc:creator>Nathaniel Lim</dc:creator>
-        <dc:creator>Paul Pavlidis</dc:creator>
+        <dc:language>en</dc:language>
     </owl:Ontology>
     
 
