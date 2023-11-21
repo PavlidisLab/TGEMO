@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL#"
-     xml:base="http://raw.githubusercontent.com/PavlidisLab/TGEMO/master/TGEMO.OWL"
+<rdf:RDF xmlns="http://gemma.msl.ubc.ca/ont/TGEMO#"
+     xml:base="http://gemma.msl.ubc.ca/ont/TGEMO"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:so="http://purl.obolibrary.org/obo/so#"
      xmlns:efo="http://www.ebi.ac.uk/efo/#"
