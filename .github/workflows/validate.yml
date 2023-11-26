@@ -1,0 +1,11 @@
+name: Validate TGEMO.OWL
+on: [push]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.1
+      - name: Download ROBOT
+        run: wget -O robot.jar https://github.com/ontodev/robot/releases/download/v1.9.5/robot.jar
+      - name: Validate TGEMO.OWL
+        run: make check
