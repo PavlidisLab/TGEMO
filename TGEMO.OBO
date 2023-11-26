@@ -7,11 +7,13 @@ import: http://purl.obolibrary.org/obo/so.owl
 import: http://www.geneontology.org/formats/oboInOwl
 import: https://www.ebi.ac.uk/efo/efo.owl
 ontology: http://gemma.msl.ubc.ca/ont/TGEMO
-property_value: http://purl.org/dc/elements/1.1/creator "Alice Ma" xsd:string
-property_value: http://purl.org/dc/elements/1.1/creator "Guillaume Poirier-Morency" xsd:string
-property_value: http://purl.org/dc/elements/1.1/creator "Mahan Rafieenaini" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor "Guillaume Poirier-Morency" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor "Mahan Rafieenaini" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor "Paul Pavlidis" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Nathaniel Lim" xsd:string
-property_value: http://purl.org/dc/elements/1.1/creator "Paul Pavlidis" xsd:string
+property_value: http://purl.org/dc/elements/1.1/language "en" xsd:string
+property_value: http://purl.org/dc/elements/1.1/license "Creative Commons Attribution Non Commercial 4.0 International" xsd:string
+property_value: http://purl.org/dc/elements/1.1/rights "Copyright 2015-2023 University of British Columbia" xsd:string
 owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#id>))\n\n\nAnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://gemma.msl.ubc.ca/ont/TGEMO_00008> \"TGEMO_00008\")\n)
 
 [Term]
