@@ -28,6 +28,10 @@ name: FVB
 is_a: NCBITaxon:10090 ! Mus musculus
 
 [Term]
+id: GENO:0000136
+name: homozygous
+
+[Term]
 id: NCBITaxon:10090
 name: Mus musculus
 
@@ -53,7 +57,7 @@ id: TGEMO:00001
 name: Homozygous negative
 def: "Double negative allele. Refers both to genetic null (missing gene/knock out) and phenotypic/functional null (inactive gene product). May be overloaded for severe loss-of-function alleles also." []
 synonym: "Nullizygous" EXACT []
-is_a: GENO:0000136
+is_a: GENO:0000136 ! homozygous
 property_value: replacedBy GENO:0000978
 is_obsolete: true
 

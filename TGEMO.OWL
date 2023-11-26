@@ -917,7 +917,9 @@
 
     <!-- http://purl.obolibrary.org/obo/GENO_0000136 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000136"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000136">
+        <rdfs:label>homozygous</rdfs:label>
+    </owl:Class>
     
 
 
