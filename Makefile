@@ -7,5 +7,6 @@ TGEMO.OBO: TGEMO.OWL
 
 check: TGEMO.OWL
 	$(ROBOT) validate-profile --profile Full --input $^
+	$(ROBOT) report --fail-on error --input $^
 
 .PHONY: all check
