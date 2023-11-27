@@ -4,3 +4,5 @@ TGEMO-Interim.OBO
 TGEMO-Interim.OWL
 .DS_Store
 catalog-v001.xml
+*.properties
+robot.jar
