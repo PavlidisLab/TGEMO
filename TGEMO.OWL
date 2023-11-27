@@ -358,6 +358,15 @@
     
 
 
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00003 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002054"/>
+        <rdfs:label>Constitutive inactive mutation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00004 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00004">
@@ -951,6 +960,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002053">
         <rdfs:label>gain_of_function_variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002054">
+        <rdfs:label>loss_of_function_variant</rdfs:label>
     </owl:Class>
     
 
