@@ -170,7 +170,7 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
         <oboInOwl:hasDefinition>Used to indicate that the bearer was a substance provided to a subject (whether it be human, animal or cells in vitro) at the specified dose</oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>has dose</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">delivered at dose</rdfs:label>
+        <rdfs:label>delivered at dose</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -181,7 +181,7 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
         <oboInOwl:hasDefinition>Expresses that the bearer (a treatment or other manipulation) was applied for the stated amount of time.</oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>has duration</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">delivered for duration</rdfs:label>
+        <rdfs:label>delivered for duration</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -191,7 +191,7 @@
     <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00168">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
         <oboInOwl:hasDefinition>Indicates that the bearer (e.g. an organism or part) was at the given stage of development</oboInOwl:hasDefinition>
-        <rdfs:label xml:lang="en">has developmental stage</rdfs:label>
+        <rdfs:label>has developmental stage</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -201,7 +201,7 @@
     <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00169">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
         <obo:IAO_0000115>Used to indicate that the subject (generally a cell type) expressed the product of the object (a gene). Example: CD133+ cancer cell.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">positive for product of gene</rdfs:label>
+        <rdfs:label>positive for product of gene</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -211,7 +211,7 @@
     <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00170">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
         <obo:IAO_0000115>Used to indicate that the subject (generally a cell type) does not express the product of the object (a gene). Example: CD133- cancer cell.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">negative for product of gene</rdfs:label>
+        <rdfs:label>negative for product of gene</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -222,7 +222,7 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002566"/>
         <obo:IAO_0000115>Indicates that the Subject (typically a disease or condition) was caused to occur or be present by the specified means. Examples: spinal cord injury induced by partial transection; Myocardial infarction induced by ligation of the proximal left coronary artery.</obo:IAO_0000115>
         <obo:IAO_0000232>&quot;Causal relationship with disease as subject&quot; looks at first glance to be this kind of thing, but the TGEMO term is used to indicate induction in a particular experiment, not a general statement about diseases.</obo:IAO_0000232>
-        <rdfs:label xml:lang="en">induced by</rdfs:label>
+        <rdfs:label>induced by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -318,7 +318,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0002053"/>
         <obo:IAO_0000115>A variant rendering the activity of the gene product (i.e. adoption of an active protein confirmation) independent of the need for activation such as ligand binding</obo:IAO_0000115>
         <oboInOwl:id>TGEMO_00008</oboInOwl:id>
-        <rdfs:label xml:lang="en">Constitutive active mutation</rdfs:label>
+        <rdfs:label>Constitutive active mutation</rdfs:label>
     </owl:Class>
     
 
@@ -508,7 +508,7 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00122">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00057"/>
         <obo:IAO_0000115>Used to signify that a particular factor has no specified value for a particular sample. Intended as a less ambiguous alternative to &quot;NA&quot;, &quot;null&quot; or &quot;none&quot;</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Unspecified factor value</rdfs:label>
+        <rdfs:label>Unspecified factor value</rdfs:label>
     </owl:Class>
     
 
@@ -520,7 +520,7 @@
         <obo:IAO_0000115>Fusion of the human BCR and ABL1 genes</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>Philadelphia chromosome</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym>BCR-ABL1</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">BCR-ABL</rdfs:label>
+        <rdfs:label>BCR-ABL</rdfs:label>
     </owl:Class>
     
 
@@ -532,7 +532,7 @@
         <obo:IAO_0000115>An engineered fusion of green fluorescent protein with another gene</obo:IAO_0000115>
         <obo:IAO_0000232>Intention is that this would be related to a gene term via a predicate such as &apos;modified by&apos;</obo:IAO_0000232>
         <oboInOwl:hasExactSynonym>GFP-tagged</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">GFP fusion</rdfs:label>
+        <rdfs:label>GFP fusion</rdfs:label>
     </owl:Class>
     
 
@@ -544,7 +544,7 @@
         <obo:IAO_0000115>Fusion of the human ETV6 and RUNX1 genes, associated with childhood acute lymphoblastic leukemia</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>E/R</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ETV6/RUNX1</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">ETV6-RUNX1</rdfs:label>
+        <rdfs:label>ETV6-RUNX1</rdfs:label>
     </owl:Class>
     
 
@@ -557,7 +557,7 @@
         <obo:IAO_0000119>https://doi.org/10.1016/S0092-8674(00)80318-9</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>GATA1-ESR1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>GATA1/ER</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">GATA1-ER</rdfs:label>
+        <rdfs:label>GATA1-ER</rdfs:label>
     </owl:Class>
     
 
@@ -567,7 +567,7 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00155">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
         <obo:IAO_0000115>Fusion of the human MLL and AF9 genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">MLL-AF9</rdfs:label>
+        <rdfs:label>MLL-AF9</rdfs:label>
     </owl:Class>
     
 
@@ -578,7 +578,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
         <obo:IAO_0000115>Fusion of the human NUP98 and HOXA9 genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
         <obo:IAO_0000119>doi: 10.1093/emboj/20.3.350</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">NUP98-HOXA9</rdfs:label>
+        <rdfs:label>NUP98-HOXA9</rdfs:label>
     </owl:Class>
     
 
@@ -589,7 +589,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
         <obo:IAO_0000115>Fusion of the human PML and RARA genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
         <obo:IAO_0000119>doi: 10.3390/cancers12030624</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">PML-RARA</rdfs:label>
+        <rdfs:label>PML-RARA</rdfs:label>
     </owl:Class>
     
 
@@ -601,7 +601,7 @@
         <obo:IAO_0000115>Fusion of the human AML1 and ETO genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1182/blood-2005-04-1656</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>RUNX1- RUNX1T1</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">AML1-ETO</rdfs:label>
+        <rdfs:label>AML1-ETO</rdfs:label>
     </owl:Class>
     
 
@@ -611,7 +611,7 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000288"/>
         <obo:IAO_0000115>An engineered fusion of red fluorescent protein with another gene</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">RFP fusion</rdfs:label>
+        <rdfs:label>RFP fusion</rdfs:label>
     </owl:Class>
     
 
@@ -623,7 +623,7 @@
         <obo:IAO_0000115>An engineered fusion of the human interleukin (IL)-4 and IL-10 genes developed as an experimentallly to inhibit pro‐inflammatory activity in arthritis models</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1073/pnas.2009647118</obo:IAO_0000119>
         <obo:IAO_0000119>doi: 10.1111/cei.13224</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">IL4-10 FP</rdfs:label>
+        <rdfs:label>IL4-10 FP</rdfs:label>
     </owl:Class>
     
 
@@ -634,7 +634,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
         <obo:IAO_0000115>fusion of the human E2A and PBX1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia</obo:IAO_0000115>
         <obo:IAO_0000119>doi: 10.1016/S1470-2045(08)70339-5</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">E2A-PBX1</rdfs:label>
+        <rdfs:label>E2A-PBX1</rdfs:label>
     </owl:Class>
     
 
@@ -645,7 +645,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
         <obo:IAO_0000115>fusion of the human TEL and AML1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia</obo:IAO_0000115>
         <obo:IAO_0000119>doi: 10.1016/S1470-2045(08)70339-5</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">TEL-AML1</rdfs:label>
+        <rdfs:label>TEL-AML1</rdfs:label>
     </owl:Class>
     
 
@@ -656,7 +656,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
         <obo:IAO_0000115>Fusion of the human TMPRSS2 and ERG genes, identified in some prostate cancers</obo:IAO_0000115>
         <obo:IAO_0000119>doi: 10.1126/science.1117679</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">TMPRSS2-ERG</rdfs:label>
+        <rdfs:label>TMPRSS2-ERG</rdfs:label>
     </owl:Class>
     
 
@@ -834,7 +834,7 @@
         <oboInOwl:hasExactSynonym>B6EiC3Sn-Ts(1216C-tel)1Cje</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6EiC3Sn-Ts(16C-tel)1Cje</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6EiC3Sn-Ts(16C-tel)1Cje/DnJ</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">Ts1Cje</rdfs:label>
+        <rdfs:label>Ts1Cje</rdfs:label>
     </owl:Class>
     
 
