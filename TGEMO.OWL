@@ -2,47 +2,15 @@
 <rdf:RDF xmlns="http://gemma.msl.ubc.ca/ont/TGEMO#"
      xml:base="http://gemma.msl.ubc.ca/ont/TGEMO"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:so="http://purl.obolibrary.org/obo/so#"
-     xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:cito="http://purl.org/spar/cito/"
-     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
-     xmlns:doap="http://usefulinc.com/ns/doap#"
-     xmlns:efo3="http://www.ebi.ac.uk/efo/#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:obo1="http://purl.obolibrary.org/obo#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
-     xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
-     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:vocab="https://w3id.org/semapv/vocab/"
-     xmlns:chebi2="http://purl.obolibrary.org/obo/chebi#"
-     xmlns:chebi5="http://purl.obolibrary.org/obo/chebi#2"
-     xmlns:chebi6="http://purl.obolibrary.org/obo/chebi#3"
-     xmlns:chebi7="http://purl.obolibrary.org/obo/chebi#1"
-     xmlns:refont="http://purl.obolibrary.org/obo/uberon/refont/"
-     xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
-     xmlns:cellline="http://www.ebi.ac.uk/cellline#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:patterns="http://www.co-ode.org/patterns#"
-     xmlns:cellline4="http://www.ebi.ac.uk/cellline/"
-     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO">
         <owl:versionIRI rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/geno.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/so.owl"/>
-        <owl:imports rdf:resource="http://www.geneontology.org/formats/oboInOwl"/>
-        <owl:imports rdf:resource="https://www.ebi.ac.uk/efo/efo.owl"/>
         <dc:contributor>Guillaume Poirier-Morency</dc:contributor>
         <dc:contributor>Mahan Rafieenaini</dc:contributor>
         <dc:contributor>Paul Pavlidis</dc:contributor>
@@ -73,6 +41,48 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/license"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
@@ -100,6 +110,24 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDefinition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDefinition"/>
     
 
 
@@ -138,6 +166,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#replacedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#replacedBy"/>
     
 
 
@@ -233,6 +267,22 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
         <oboInOwl:hasDefinition>Used to specify that a treatment or procedure was performed at a specific location or organism part</oboInOwl:hasDefinition>
         <rdfs:label>delivered to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086">
+        <rdfs:label>has quality</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002566 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002566">
+        <rdfs:label>causally influences</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -839,51 +889,76 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10116 -->
+    <!-- http://purl.obolibrary.org/obo/GENO_0000136 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10116"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000136">
+        <rdfs:label>homozygous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10090">
+        <rdfs:label>Mus musculus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000287">
+        <rdfs:label>fusion_gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000288">
+        <rdfs:label>engineered_fusion_gene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0002053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0002053">
+        <rdfs:label>gain_of_function_variant</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://www.ebi.ac.uk/efo/EFO_0000510 -->
 
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000510"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0000597 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000597"/>
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000510">
+        <rdfs:label>genetic modification</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://www.ebi.ac.uk/efo/EFO_0000604 -->
 
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000604"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0002547 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002547"/>
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000604">
+        <rdfs:label>C57BL/10</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://www.ebi.ac.uk/efo/EFO_0002694 -->
 
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002694"/>
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002694">
+        <rdfs:label>experimental process</rdfs:label>
+    </owl:Class>
     
 
 
-    <!-- http://www.ebi.ac.uk/efo/EFO_0004008 -->
+    <!-- http://www.ebi.ac.uk/efo/EFO_0022483 -->
 
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004008"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_0005181 -->
-
-    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005181"/>
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0022483">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:label>FVB</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
