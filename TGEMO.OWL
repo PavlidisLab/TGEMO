@@ -19,6 +19,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
      xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
+     xmlns:sssom="https://w3id.org/sssom/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:vocab="https://w3id.org/semapv/vocab/"
@@ -34,7 +35,8 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:patterns="http://www.co-ode.org/patterns#"
      xmlns:cellline4="http://www.ebi.ac.uk/cellline/"
-     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
+     xmlns:mondo-base="http://purl.obolibrary.org/obo/mondo/mondo-base#">
     <owl:Ontology rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO">
         <owl:versionIRI rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
@@ -233,6 +235,15 @@
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
         <oboInOwl:hasDefinition>Used to specify that a treatment or procedure was performed at a specific location or organism part</oboInOwl:hasDefinition>
         <rdfs:label>delivered to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00201 -->
+
+    <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00201">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000086"/>
+        <rdfs:label xml:lang="en">has_child_with_disease</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1076,6 +1087,20 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0005181 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005181"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENO_0000207">
+        <obo:IAO_0000115>A relation linking a parent and their child possessing a specified disease.</obo:IAO_0000115>
+    </rdf:Description>
 </rdf:RDF>
 
 
