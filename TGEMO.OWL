@@ -242,8 +242,8 @@
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00201 -->
 
     <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00201">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000086"/>
-        <rdfs:label xml:lang="en">has_child_with_disease</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+        <rdfs:label xml:lang="en">has child with disease</rdfs:label>
     </owl:ObjectProperty>
     
 
