@@ -1059,6 +1059,7 @@
         <oboInOwl:hasNarrowSynonym rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008891"/>
         <oboInOwl:hasNarrowSynonym rdf:resource="http://www.ebi.ac.uk/efo/EFO_0008975"/>
         <rdfs:label xml:lang="en">Ribosome-associated RNA profiling</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO:00173"/>
     </owl:Class>
     
 
