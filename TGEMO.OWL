@@ -1055,8 +1055,8 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00204">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005181"/>
-        <obo:IAO_0000115>A substrain of C57BL/6 mice.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>https://pmc.ncbi.nlm.nih.gov/articles/PMC6398090/</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A substrain of C57BL/6 mice with unknown supplier.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159965</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">C57BL/6N</rdfs:label>
     </owl:Class>
     
