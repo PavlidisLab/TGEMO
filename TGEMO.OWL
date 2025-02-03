@@ -1075,6 +1075,34 @@
     
 
 
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00206 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <obo:IAO_0000115>Down&apos;s syndrome model. Cre mediated chromosomal rearrangement between loxP sites in regions proximal to Prmt2 and distal to Pdxk results in duplication of the genes, including Prmt2 and Pdxk, in this approximately 2.3 Mb region that is syntenic with the distal part of human 21q22.3.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/marker/MGI:4461397</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Dp(10)1Yey</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dp(10Prmt2-Pdxk)1Yey</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dp(10Prmt2-Pdxk)2Yey</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ts2Yey</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Dp(10)2Yey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00207 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <obo:IAO_0000115>Retinitis pigmentosa model. Retinal degeneration 10 (rd10) is a spontaneous missense point mutation in Pde6b (cGMP phosphodiesterase 6B, rod receptor, beta polypeptide). Although similar to rd1, the rd10 phenotype has a later onset and milder retinal degeneration and may provide a better experimental drug therapy model for retinitis pigmentosa.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2173852</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>B6.CXB1-Pde6brd10/J</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Pde6brd1-J</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">rd10</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00103 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00103">
