@@ -1103,6 +1103,18 @@
     
 
 
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00208 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00208">
+        <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
+        <obo:IAO_0000115>An experiment where an identified transcription regulator has been perturbed.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>TF Pert</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Transcription Factor Perturbation Experiment</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Transcriptional Regulator Perturbation Experiment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00103 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00103">
