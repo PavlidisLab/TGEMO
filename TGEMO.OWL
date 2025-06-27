@@ -1115,6 +1115,22 @@
     
 
 
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00209 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <obo:IAO_0000115></obo:IAO_0000115>
+        <obo:IAO_0000115>The zQ175 neo-deleted knock-in allele (zQ175DN KI) has the mouse Htt exon 1 replaced by the human HTT exon 1 sequence with a ~190 CAG repeat tract. These B6J.zQ175DN KI mice (Stock No. 029928) are useful for studying Huntington&apos;s disease pathogenesis and for the assessment of potential therapeutic interventions.
+This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 027410), with the exception that this zQ175DN KI has had the floxed neo cassette removed. It is not specifically characterized if deletion of the neo cassette alters the zQ175DN KI phenotype compared to the zQ175 KI phenotype.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>https://www.jax.org/strain/029928#</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>B6.129S1-Htttm1.1Mfc/190ChdiJ</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>B6J.zQ175DN KI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>zQ175 neo-deleted knock-in</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">zQ175DN KI</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00103 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00103">
