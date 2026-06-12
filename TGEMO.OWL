@@ -1128,7 +1128,22 @@ This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 0274
         <oboInOwl:hasExactSynonym>zQ175 neo-deleted knock-in</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">zQ175DN KI</rdfs:label>
     </owl:Class>
-    
+
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00210 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00210">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000470"/>
+        <obo:IAO_0000115>A behavioural or psychological stressor applied to an experimental subject. Combines with severity modifiers (mild / moderate / severe), temporal-pattern modifiers (acute / chronic), and `delivered for duration` for the experimental time course. Parent EFO:0000470 is provisional; the concept is a stressor / protocol rather than a treatment effect and may move to a more appropriate parent in a future revision.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>behavioral stress</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>psychological stress</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>stress</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>stressor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>stressful experience</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">behavioural stress</rdfs:label>
+    </owl:Class>
+
 
 
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00103 -->
