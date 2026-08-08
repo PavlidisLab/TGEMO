@@ -1156,7 +1156,6 @@ This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 0274
         <oboInOwl:hasExactSynonym>allogeneic graft</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>allogeneic transplant</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>homograft</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>allogeneic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>allogeneic transplantation</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">allograft</rdfs:label>
     </owl:Class>
@@ -1172,7 +1171,6 @@ This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 0274
         <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/NCIT_C122939</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>isograft</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>syngeneic transplant</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>syngeneic</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>syngraft</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">syngeneic graft</rdfs:label>
     </owl:Class>
@@ -1187,7 +1185,6 @@ This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 0274
         <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/NCIT_C75339</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>autologous graft</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>autotransplant</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>autologous</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>autologous transplantation</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">autograft</rdfs:label>
     </owl:Class>
