@@ -1150,13 +1150,12 @@ This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 0274
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00211 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00211">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002571"/>
-        <obo:IAO_0000115>Transplantation of cells, tissues or organs between genetically non-identical individuals of the same species. Sibling of EFO:0003942 (xenograft), which is transplantation between different species; use this term when donor and recipient are the same species. The donor is frequently not recorded as a sample attribute in clinical transplant cohorts, so the allogeneic relationship cannot be derived from the annotation and is stated here directly. Minted in TGEMO because EFO has no standalone allograft class (2026-08-08: EFO carries `Xenograft` EFO:0003942 but uses "allograft" only inside compound labels such as EFO:0008497 chronic lung allograft dysfunction), while NCIT, SNOMED and MeSH all define it.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A material entity which results from the transplantation of living cells, tissues or organs between genetically non-identical individuals of the same species. Sibling of OBI:0100058 (xenograft), which is the equivalent material entity for transplantation between different species; use this term when donor and recipient are the same species. The donor is frequently not recorded as a sample attribute in clinical transplant cohorts, so the allogeneic relationship cannot be derived from the annotation and is stated here directly. Minted in TGEMO because no standalone allograft class exists in the ontologies Gemma loads (2026-08-08: OBI carries `xenograft` OBI:0100058 and EFO uses "allograft" only inside compound labels such as EFO:0008497 chronic lung allograft dysfunction), while NCIT, SNOMED and MeSH all define it.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/NCIT_C60701</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>allogeneic graft</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>allogeneic transplant</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>homograft</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>allogeneic transplantation</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">allograft</rdfs:label>
     </owl:Class>
 
@@ -1166,8 +1165,8 @@ This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 0274
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00212 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00212">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002571"/>
-        <obo:IAO_0000115>Transplantation of cells, tissues or organs between individuals of the same species with an identical, or immunologically compatible, genetic profile — for example between animals of the same inbred strain. Narrower than TGEMO:00211 (allograft), where donor and recipient are genetically non-identical. Minted in TGEMO because EFO defines no graft-relationship class other than Xenograft (EFO:0003942).</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A material entity which results from the transplantation of living cells, tissues or organs between individuals of the same species with an identical, or immunologically compatible, genetic profile — for example between animals of the same inbred strain. Narrower than TGEMO:00211 (allograft), where donor and recipient are genetically non-identical. Sibling of OBI:0100058 (xenograft). Minted in TGEMO because no such class exists in the ontologies Gemma loads.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/NCIT_C122939</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>isograft</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>syngeneic transplant</oboInOwl:hasExactSynonym>
@@ -1180,12 +1179,11 @@ This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 0274
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00213 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00213">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002571"/>
-        <obo:IAO_0000115>Transplantation of cells, tissues or organs from one location to another within the same individual, so that donor and recipient are the same organism. Minted in TGEMO because EFO defines no graft-relationship class other than Xenograft (EFO:0003942).</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A material entity which results from the transplantation of living cells, tissues or organs from one location to another within the same individual, so that donor and recipient are the same organism. Sibling of OBI:0100058 (xenograft). Minted in TGEMO because no such class exists in the ontologies Gemma loads.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/NCIT_C75339</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>autologous graft</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>autotransplant</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>autologous transplantation</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">autograft</rdfs:label>
     </owl:Class>
 
