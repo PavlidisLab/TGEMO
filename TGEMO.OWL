@@ -230,6 +230,19 @@
     
 
 
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00215 -->
+
+    <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00215">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+        <obo:IAO_0000115>Indicates that the Subject (a perturbed gene) was altered only within the cell type or tissue named by the Object, rather than throughout the organism. Used for conditional / Cre-lox knockouts, cell-type-specific knockdowns and tissue-specific overexpression. The Object is a Cell Ontology (CL) cell type or an UBERON tissue. Example: Sipr1 targeted towards astrocyte (CL:0000127), from a study of an astrocyte-specific S1P1 knockout.</obo:IAO_0000115>
+        <obo:IAO_0000232>The target of the perturbation is INDEPENDENT of the cell type the experiment profiled; the two are frequently the same and must still be stated separately, because a perturbation restricted to one population is routinely assayed in another. Minted in TGEMO because no existing relation carries this meaning: RO:0002503 (&quot;towards&quot;) relates a relational quality to what it is a quality toward, and RO:0001025 (&quot;located in&quot;) would assert the gene&apos;s own anatomical location rather than where the alteration acts. TGEMO:00183 (&quot;delivered to&quot;) is the nearest sibling and deliberately not reused: it presupposes an administration event at a site, which a germline conditional allele does not have.</obo:IAO_0000232>
+        <oboInOwl:hasExactSynonym>restricted to cell type</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">targeted towards</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00183 -->
 
     <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00183">
