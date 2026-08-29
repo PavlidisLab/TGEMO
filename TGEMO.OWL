@@ -246,6 +246,21 @@
 
 
 
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00216 -->
+
+    <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00216">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+        <obo:IAO_0000115>Indicates that the Subject &#8212; a cell line, an animal strain, or an engineered genotype &#8212; was derived on, or is maintained on, the genetic background named by the Object. The Object is a strain or cell line term, e.g. C57BL/6. Used to state the background separately from the thing that carries it, so that a background the submitter wrote as a constant characteristic is not recorded as the experimental strain or line itself. Example: a knockout line on an inbred background asserts, of the subject line, `has background` C57BL/6.</obo:IAO_0000115>
+        <obo:IAO_0000232>Minted rather than adopting BCGO:0000015 (has_genetic_background_of), which asserts the SAME direction &#8212; the Object is the background of the Subject &#8212; but is defined over strains only (&quot;strain a is derived from strain b&quot;), and Gemma applies this to cell lines as well. BCGO:0000015 is recorded as an xref and its label as a related synonym, so a statement written against either resolves here. 🛑 Two pairs is the ceiling: a Gemma statement holds predicate/object and secondPredicate/secondObject, so a genotype subject already carrying `has_genotype` is full once this is added and a third assertion needs its own statement.</obo:IAO_0000232>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000015"/>
+        <oboInOwl:hasRelatedSynonym>has genetic background of</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>strain background</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">has background</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00183 -->
 
     <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00183">
