@@ -7,5 +7,6 @@ TGEMO.OBO: TGEMO.OWL
 
 check: TGEMO.OWL
 	$(ROBOT) validate-profile --profile Full --input $^
+	python3 check_axiom_fillers.py $^
 
 .PHONY: all check
