@@ -585,6 +585,56 @@
     
 
 
+    <!-- Classes referenced by the disease axioms above. Declared, but deliberately NOT
+         labelled or defined here: MONDO is the authority on what these are called, and a
+         copy in this file would drift from it. The declaration is required because a
+         someValuesFrom filler that is not a declared class reads back as a plain resource,
+         which is not a class expression, so the class carrying the axiom then fails to read
+         at all rather than failing to resolve one target. -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000870"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000872"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005147"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005574"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0007650"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0007739"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0008315"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0008608"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0010643"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0010679"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0012817"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0012883"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0015759"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0018871"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0018874"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0018905"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019200"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019458"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0020511"/>
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0850340"/>
+
+
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00151 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00151">
