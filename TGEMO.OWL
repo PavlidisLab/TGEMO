@@ -167,6 +167,26 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0016002 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0016002">
+        <obo:IAO_0000115>A relationship that holds between an organism and a disease.</obo:IAO_0000115>
+        <obo:IAO_0000232>Used here between a fusion gene and the disease it is associated with, following the existing Gemma usage of this relation for gene-to-disease (SNCA implies Parkinson). Declared rather than imported, as RO is not loaded. The label is RO&apos;s own and must stay exact.</obo:IAO_0000232>
+        <rdfs:label>has disease</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003301 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003301">
+        <obo:IAO_0000115>A relation between a biological, experimental, or computational artifact and an entity it is used to study, in virtue of its replicating or approximating features of the studied entity.</obo:IAO_0000115>
+        <obo:IAO_0000232>Declared here rather than imported: TGEMO does not import RO, and Gemma loads it with processImports off, so a referenced-but-undeclared property has nothing to carry its label. The label is RO&apos;s own and must stay exact -- Gemma validates a supplied predicate label against this string.</obo:IAO_0000232>
+        <rdfs:label>has role in modeling</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00166 -->
 
     <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00166">
@@ -593,6 +613,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000870"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human ETV6 and RUNX1 genes, associated with childhood acute lymphoblastic leukemia</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>E/R</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ETV6/RUNX1</oboInOwl:hasExactSynonym>
@@ -618,6 +644,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00155">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human MLL and AF9 genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
         <rdfs:label>MLL-AF9</rdfs:label>
     </owl:Class>
@@ -628,6 +660,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00156">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human NUP98 and HOXA9 genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
         <obo:IAO_0000119>doi: 10.1093/emboj/20.3.350</obo:IAO_0000119>
         <rdfs:label>NUP98-HOXA9</rdfs:label>
@@ -639,6 +677,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00157">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human PML and RARA genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
         <obo:IAO_0000119>doi: 10.3390/cancers12030624</obo:IAO_0000119>
         <rdfs:label>PML-RARA</rdfs:label>
@@ -650,6 +694,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00158">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human AML1 and ETO genes, associated with acute myeloid leukemia (AML)</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1182/blood-2005-04-1656</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>RUNX1- RUNX1T1</oboInOwl:hasExactSynonym>
@@ -684,6 +734,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000872"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>fusion of the human E2A and PBX1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia</obo:IAO_0000115>
         <obo:IAO_0000119>doi: 10.1016/S1470-2045(08)70339-5</obo:IAO_0000119>
         <rdfs:label>E2A-PBX1</rdfs:label>
@@ -695,6 +751,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000872"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>fusion of the human TEL and AML1 genes, associated with prognostically favorable precursor B-subtypes of childhood acute lymphoblastic leukemia</obo:IAO_0000115>
         <obo:IAO_0000119>doi: 10.1016/S1470-2045(08)70339-5</obo:IAO_0000119>
         <rdfs:label>TEL-AML1</rdfs:label>
@@ -706,6 +768,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008315"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human TMPRSS2 and ERG genes, identified in some prostate cancers</obo:IAO_0000115>
         <obo:IAO_0000119>doi: 10.1126/science.1117679</obo:IAO_0000119>
         <rdfs:label>TMPRSS2-ERG</rdfs:label>
@@ -717,6 +785,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Alzheimer disease model. Overexpresses both mutant human amyloid beta (A4) precursor protein 695 (APP)) with the Swedish (K670N, M671L), Florida (I716V), and London (V717I) Familial Alzheimer&apos;s Disease (FAD) mutations and human PS1 harboring two FAD mutations, M146L and L286V.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/008730</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3693208</oboInOwl:hasDbXref>
@@ -735,11 +809,19 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Alzheimer disease model. Triple transgenic homozygous with genotype APP Swedish, MAPT P301L, and PSEN1 M146V.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/004807</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://www.alzforum.org/research-models/3xtg</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2673730</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.jax.org/strain/004807</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:2672831</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:1930937</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6.Cg-Psen1tm1Mpm Tg(APPSwe,tauP301L)1Lfa/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6;129-Psen1tm1Mpm Tg(APPSwe,tauP301L)1Lfa/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6;129-Psen1tm1Mpm Tg(APPSwe,tauP301L)1Lfa/Mmjax</oboInOwl:hasExactSynonym>
@@ -755,10 +837,17 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Alzheimer disease model. Double transgenic mice expressing a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9), both directed to CNS neurons.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/005864</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:3611279</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.jax.org/strain/005864</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3524957</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6.Cg-Tg(APPswe,PSEN1dE9)85Dbo/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6.Cg-Tg(APPswe,PSEN1dE9)85Dbo/Mmjax</oboInOwl:hasExactSynonym>
         <rdfs:label>APP/PS1</rdfs:label>
@@ -770,6 +859,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00175">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0022483"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Type 1 diabetes disease model. Expresses a chicken calmodulin minigene (CALM1) controlled by the rat insulin II promoter (Ins2)(Referred to as BIC). In addition, these mice express a truncated SV40 T antigen (TAg) controlled by a lens specific alpha A crystallin (Cryaa) promoter (referred to as GR19).</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/005564</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3576672</oboInOwl:hasDbXref>
@@ -784,11 +879,24 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005574"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Alzheimer disease model. P301S Tg mice express the P301S mutant form of human microtubule-associated protein tau (MAPT), under the direction of the mouse prion protein promoter (Prnp).</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/008169</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://www.alzforum.org/research-models/tau-p301s-line-ps19</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:5553124</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.jax.org/strain/008169</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3768407</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6N.Cg-Tg(Prnp-MAPT*P301S)PS19Vle/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Tau P301S</oboInOwl:hasExactSynonym>
         <rdfs:label>PS19</rdfs:label>
@@ -800,10 +908,17 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007739"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Huntington&apos;s Disease model. Are transgenic for the 5&apos; end of the human HD gene carrying (CAG)115-(CAG)150 repeat expansions.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/006471</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:3692955</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.jax.org/strain/006471</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:2389466</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6-R6/1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6.Cg-Tg(HDexon1)61Gpb/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>HD R6/1</oboInOwl:hasExactSynonym>
@@ -816,11 +931,18 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007739"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Huntington&apos;s Disease model. Transgenic for the 5&apos; end of the human HD gene carrying approximately 120 +/- 5 CAG repeat expansions. The transgene is ubiquitously expressed.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/006494</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://qpsneuro.com/in-vivo-services/animal-models/huntingtons-disease-mouse-models/r6-2-transgenic-mouse-model/</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:3688746</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.jax.org/strain/006494</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:2386951</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6CBA-R6/2 (CAG 120 +/- 5)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6CBA-Tg(HDexon1)62Gpb/3J</oboInOwl:hasExactSynonym>
         <rdfs:label>R6/2</rdfs:label>
@@ -832,10 +954,17 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00179">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Down Syndrome disease model. Ts65Dn mice have three copies of most of the genes on mouse Chr 16 that are homologues of human Chr 21 genes. These extra genes, along with the centromere and about 5% of proximal Chr 17 are contained in a small extra chromosome derived from a reciprocal translocation.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/001924</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2163627</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.jax.org/strain/001924</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3512067</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6EiC3Sn a/A-Ts(1716)65Dn</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6EiC3Sn a/A-Ts(1716)65Dn/J</oboInOwl:hasExactSynonym>
         <rdfs:label>Ts65Dn</rdfs:label>
@@ -847,10 +976,17 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00180">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000604"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0010679"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Duchenne muscular dystrophy disease model. Point mutation in Dmd gene results in a termination codon (TAA) in place of a glutamine codon.This allele is predicted to produce a truncated protein.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/001801</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2162540</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.jax.org/strain/001801</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:1856328</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>C57BL/10ScSn-Dmdmdx/J</oboInOwl:hasExactSynonym>
         <rdfs:label>mdx</rdfs:label>
     </owl:Class>
@@ -861,10 +997,17 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Down syndrome disease model. Trisomic for the mouse chromosome segment orthologus to the human chromosome 21 Down syndrome critical region (DSCR). The borders of the 3.9 Mb region are defined by the carbonyl reductase 1 gene and a site adjacent to the myxovirus (influenza virus) resistance 2 locus.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/005383</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:3574387</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.jax.org/strain/005383</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3487283</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6.129S6-Dp(16Cbr1-Fam3b)1Rhr/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6.129S6-Dp(16Cbr1-ORF9)1Rhr/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6.129S6-Is(16Cbr1-ORF9)1Rhr</oboInOwl:hasExactSynonym>
@@ -878,10 +1021,17 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Down syndrome disease model. Mice have partial trisomy of chromosome 16.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.jax.org/strain/004861</obo:IAO_0000119>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2680524</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.jax.org/strain/004861</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:3623022</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6Ei;C3Sn-Ts(1216C-tel)1Cje</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6EiC3Sn-Ts(1216C-tel)1Cje</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6EiC3Sn-Ts(16C-tel)1Cje</oboInOwl:hasExactSynonym>
@@ -895,8 +1045,15 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>There are two mouse models referred to by the name “PS2APP” to in the literature. This entry refers to the model that was generated by co-injecting two constructs into C57/BL/6 zygotes, and is also known by the name B6.152H. The other PS2APP line was generated by crossing two single transgenic animals (PS2(N141I) x APPswe) (Richards et al., 2003). Both lines of double transgenic animals express the same transgenes and both develop a similar level of cerebral pathology (Weidensteiner et al., 2009), but only the B6.152H mice show enhanced LTP. The reasons for this are not entirely clear, but differing levels of transgene expression may be partly responsible. B6.152H mice have higher expression of transgenic human APP mRNA (1.45-fold) compared to PS2APP mice and approximately 30-fold higher levels of PSEN2 mRNA. They also have about 2-fold higher Aβ levels than PS2APP mice (Poirier et al., 2010). The B6.152H line is maintained as a homozygote line. It is on a pure C57BL/6 background and shows less variability in pathology expression. It has been used to generate the TauPS2APP triple transgenic line by crossing with the Tau-overexpressing pR5 line (Grueninger et al., 2010).</obo:IAO_0000115>
         <oboInOwl:hasDbXref>https://www.alzforum.org/research-models/ps2app</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:4412048</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6.152H</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6.PS2APP</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>TG B6.PS2APP mice (line B6.152H)</oboInOwl:hasExactSynonym>
@@ -909,6 +1066,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00185">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000872"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human TCF3 and PBX1 genes. Associated with B-cell childhood lymphoblastic lymphoma.</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1182/blood-2009-12-253419</obo:IAO_0000119>
         <rdfs:label xml:lang="en">TCF3-PBX1</rdfs:label>
@@ -920,6 +1083,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019458"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human MYB and GATA1 genes. Associated with acute basophilic leukaemia.</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1002/path.4908</obo:IAO_0000119>
         <rdfs:label xml:lang="en">MYB-GATA1</rdfs:label>
@@ -931,6 +1100,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00187">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0012883"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human ZBTB16 and RARA genes. Associated with acute promyelocytic leukemia.</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1038/nm.3441</obo:IAO_0000119>
         <rdfs:label xml:lang="en">ZBTB16-RARA</rdfs:label>
@@ -942,6 +1117,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018905"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human IRF4 and SPIB genes. Associated with the activated B cell-like (ABC) subtype of diffuse large B cell lymphoma (DLBCL).</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1016/j.ccr.2012.05.024</obo:IAO_0000119>
         <rdfs:label xml:lang="en">IRF4-SPIB</rdfs:label>
@@ -953,6 +1134,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0012817"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000119>DOI: 10.4161/15592294.2014.988048</obo:IAO_0000119>
         <obo:IAO_0000119>Fusion of the human EWS and FLI1 genes. Associated with Ewing sarcoma.</obo:IAO_0000119>
         <rdfs:label xml:lang="en">EWS-FLI1</rdfs:label>
@@ -964,6 +1151,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00190">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human RUNX1 and ETO genes. Associated with acute myeloid leukemia.</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1038/leu.2012.49</obo:IAO_0000119>
         <rdfs:label xml:lang="en">RUNX1-ETO</rdfs:label>
@@ -975,6 +1168,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0850340"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human YAP1 and MAMLD1 genes. Associated with supratentorial ependymoma.</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1038/s41556-022-01069-6</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>MAMLD1-YAP1</oboInOwl:hasExactSynonym>
@@ -987,6 +1186,18 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00192">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0015759"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007650"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human BIRC3 and MALT1 genes. Associated with B-cell non Hodgkin lymphoma and MALT lymphoma.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">BIRC3-MALT1</rdfs:label>
     </owl:Class>
@@ -997,8 +1208,15 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>APP23 transgenic mice have the 6.7 kbp murine Thy1 cassette driving expression of human APP isoform 751, containing the Swedish double mutation (APP751*K670N/M671L) associated with Alzheimer&apos;s disease.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>https://www.jax.org/strain/030504</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:2447146</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>APP K670N/M671L</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">APP23</rdfs:label>
     </owl:Class>
@@ -1031,6 +1249,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00196">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0012817"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human EWSR1 and FLI1 genes. Associated with Ewing Sarcoma.</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.3390/cancers13153783</obo:IAO_0000119>
         <rdfs:label xml:lang="en">EWSR1-FLI1</rdfs:label>
@@ -1042,6 +1266,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00197">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0010643"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human CALM and AF10 genes. Associated with acute leukemia.</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1038/sj.leu.2405074</obo:IAO_0000119>
         <rdfs:label xml:lang="en">CALM-AF10</rdfs:label>
@@ -1053,6 +1283,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00198">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0020511"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human AF4 and MLL genes. Associated with infant pro-B acute lymphoblastic leukemia.</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.18632/oncotarget.19567</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>MLL-AF4</oboInOwl:hasExactSynonym>
@@ -1065,6 +1301,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00199">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018874"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human MOZ and TIF2 genes. Associated with acute myeloid leukemia.</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1016/s1535-6108(03)00051-5</obo:IAO_0000119>
         <rdfs:label xml:lang="en">MOZ-TIF2</rdfs:label>
@@ -1076,6 +1318,12 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000287"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0016002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0018871"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Fusion of the human CBFB and MYH11 genes. Associated with acute myeloid leukemia subtype M4Eo, which is characterized by the presence of myelomonocytic blasts and atypical eosinophils.</obo:IAO_0000115>
         <obo:IAO_0000119>DOI: 10.1097/00062752-200107000-00004</obo:IAO_0000119>
         <rdfs:label xml:lang="en">CBFB-MYH11</rdfs:label>
@@ -1110,8 +1358,15 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00206">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Down&apos;s syndrome model. Cre mediated chromosomal rearrangement between loxP sites in regions proximal to Prmt2 and distal to Pdxk results in duplication of the genes, including Prmt2 and Pdxk, in this approximately 2.3 Mb region that is syntenic with the distal part of human 21q22.3.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/marker/MGI:4461397</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:4461400</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Dp(10)1Yey</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Dp(10Prmt2-Pdxk)1Yey</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Dp(10Prmt2-Pdxk)2Yey</oboInOwl:hasExactSynonym>
@@ -1125,8 +1380,15 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00207">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Retinitis pigmentosa model. Retinal degeneration 10 (rd10) is a spontaneous missense point mutation in Pde6b (cGMP phosphodiesterase 6B, rod receptor, beta polypeptide). Although similar to rd1, the rd10 phenotype has a later onset and milder retinal degeneration and may provide a better experimental drug therapy model for retinitis pigmentosa.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2173852</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:2388259</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6.CXB1-Pde6brd10/J</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Pde6brd1-J</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">rd10</rdfs:label>
@@ -1150,10 +1412,16 @@
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00209">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
-        <obo:IAO_0000115></obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003301"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007739"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>The zQ175 neo-deleted knock-in allele (zQ175DN KI) has the mouse Htt exon 1 replaced by the human HTT exon 1 sequence with a ~190 CAG repeat tract. These B6J.zQ175DN KI mice (Stock No. 029928) are useful for studying Huntington&apos;s disease pathogenesis and for the assessment of potential therapeutic interventions.
 This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 027410), with the exception that this zQ175DN KI has had the floxed neo cassette removed. It is not specifically characterized if deletion of the neo cassette alters the zQ175DN KI phenotype compared to the zQ175 KI phenotype.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>https://www.jax.org/strain/029928#</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/allele/MGI:5789600</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>B6.129S1-Htttm1.1Mfc/190ChdiJ</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>B6J.zQ175DN KI</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>zQ175 neo-deleted knock-in</oboInOwl:hasExactSynonym>
