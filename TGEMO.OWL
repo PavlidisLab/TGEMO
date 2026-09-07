@@ -1621,6 +1621,173 @@ This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 0274
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENO_0000207">
         <obo:IAO_0000115>A relation linking a parent and their child possessing a specified disease.</obo:IAO_0000115>
     </rdf:Description>
+
+    <!-- ==========================================================================
+         ECTO exposure terms, imported so Gemma can ground them.
+
+         🛑 UNLIKE THE MONDO DECLARATIONS ABOVE, THESE CARRY LABELS AND DEFINITIONS,
+         and the difference is load-bearing. MONDO is one of Gemma's loaded
+         ontologies, so a bare declaration is enough — Gemma names those classes
+         from the loaded MONDO. **ECTO is NOT loaded** (it is not among the 20
+         ontologies `/admin/ontologies` reports), so nothing else can supply a
+         name, and Gemma's `getTerms` DROPS a term whose label is null. A bare
+         ECTO declaration would resolve to something unrenderable.
+
+         WHY THESE TERMS. Gemma has no way to say an exposure EVENT, only the
+         resulting quality or the measured quantity, and curators have been
+         reaching for whichever of those is loaded:
+           * `treatment: exposure temperature` (EFO_0000718) on GSE228218.1,
+             where the submitter wrote "Cold exposure at 8C for 1 week";
+           * `treatment: noise exposure` on GSE241529, left FREE TEXT because
+             the only EFO hit is `noise exposure measurement` (EFO_0600015),
+             a quantification;
+           * and corpus-wide, measured 2026-09-07 against gemd:
+             1,668 rows grounded to PATO_0001744 `irradiated` — a PATO QUALITY,
+             one term for every modality — beside 2,642 free-text rows over 364
+             distinct values that DO name the modality and dose
+             (`10 Gy ionizing radiation` 285, `6Gray Ionizing Radiation` 164,
+             `external beam radiation therapy (EBRT)` 60, `4Gy X-ray` 40).
+             The corpus knows X-ray from gamma in its strings and cannot say so
+             in its URIs.
+
+         SCOPE. Fourteen terms: the radiation subtree, radiation therapy, and the
+         two temperature directions. Deliberately NOT the rest of ECTO's
+         thousands of `exposure to ...` classes — unusable vocabulary in front of
+         the resolver is its own cost.
+
+         HIERARCHY. `rdfs:subClassOf` is asserted ONLY where the parent is also
+         imported here, copied from ECTO (checked against OLS4, 2026-09-07). Terms
+         whose real ECTO parent lies outside this set are left without one rather
+         than being re-parented to something convenient: `exposure to radiation`
+         (under ECTO:8000000), `exposure to radiation therapy` (ECTO:2000000), and
+         the two temperature terms (ECTO:0010001 / ECTO:0010003).
+
+         REFRESHING. These are copies. If ECTO moves a term or changes a label,
+         this file drifts silently — re-check against ECTO when touching them.
+         ========================================================================== -->
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_0000001">
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to radiation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to radiation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECTO_0000001"/>
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to electromagnetic radiation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to electromagnetic radiation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECTO_0000002"/>
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to ultraviolet radiation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to ultraviolet radiation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_7000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_7000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECTO_0000002"/>
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to ionizing radiation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to ionizing radiation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_8000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_8000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECTO_7000047"/>
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to gamma-ray radiation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to gamma radiation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_8000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_8000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECTO_7000047"/>
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to X-ray radiation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to x-ray radiation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_8000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_8000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECTO_0000002"/>
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to infrared radiation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to infrared radiation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_8000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_8000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECTO_0000002"/>
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to microwave radiation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to microwave radiation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_7000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_7000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECTO_0000001"/>
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to particle radiation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to particle radiation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_8000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_8000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECTO_0000001"/>
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to acoustic radiation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to sound radiation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_8000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_8000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ECTO_8000044"/>
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to ultrasound radiation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to ultrasound radiation</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_2000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_2000079">
+        <obo:IAO_0000115>An exposure to radiation therapy.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to radiation therapy</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_0001057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_0001057">
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to decreased temperature.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to decreased temperature</rdfs:label>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/ECTO_4000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ECTO_4000001">
+        <obo:IAO_0000115>A exposure event involving the interaction of an exposure receptor to increased temperature.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">exposure to increased temperature</rdfs:label>
+    </owl:Class>
+
+
 </rdf:RDF>
 
 
