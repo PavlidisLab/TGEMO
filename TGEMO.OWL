@@ -474,7 +474,9 @@
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00022">
         <rdfs:subClassOf rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00011"/>
         <obo:IAO_0000115>Indicator (Temporary Placeholder) for experiments that are a collection of studies, and will be separated internally.</obo:IAO_0000115>
+        <oboInOwl:replacedBy>Use the factor-level subsetRelevance field; what was actually subset is recorded on the differential expression analysis.</oboInOwl:replacedBy>
         <rdfs:label>SUBSET</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
