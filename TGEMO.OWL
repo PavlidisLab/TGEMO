@@ -271,10 +271,9 @@
     <owl:ObjectProperty rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00216">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
         <obo:IAO_0000115>Indicates that the Subject &#8212; a cell line, an animal strain, or an engineered genotype &#8212; was derived on, or is maintained on, the genetic background named by the Object. The Object is a strain or cell line term, e.g. C57BL/6. Used to state the background separately from the thing that carries it, so that a background the submitter wrote as a constant characteristic is not recorded as the experimental strain or line itself. Example: a knockout line on an inbred background asserts, of the subject line, `has background` C57BL/6.</obo:IAO_0000115>
-        <obo:IAO_0000232>Minted rather than adopting BCGO:0000015 (has_genetic_background_of), which asserts the SAME direction &#8212; the Object is the background of the Subject &#8212; but is defined over strains only (&quot;strain a is derived from strain b&quot;), and Gemma applies this to cell lines as well. BCGO:0000015 is recorded as an xref and its label as a related synonym, so a statement written against either resolves here. 🛑 Two pairs is the ceiling: a Gemma statement holds predicate/object and secondPredicate/secondObject, so a genotype subject already carrying `has_genotype` is full once this is added and a third assertion needs its own statement.</obo:IAO_0000232>
+        <obo:IAO_0000232>Minted rather than adopting BCGO:0000015 (has_genetic_background_of), which asserts the SAME direction &#8212; the Object is the background of the Subject &#8212; but is defined over strains only (&quot;strain a is derived from strain b&quot;), and Gemma applies this to cell lines as well. BCGO:0000015 is recorded as an xref and its label as a related synonym, so a statement written against either resolves here. 🛑 Two pairs is the ceiling: a Gemma statement holds predicate/object and secondPredicate/secondObject, so a genotype subject already carrying `has_genotype` is full once this is added and a third assertion needs its own statement. The related synonym &quot;strain background&quot; was REMOVED when TGEMO_00217 was minted with that label: a relation-shaped string belongs on a property and a noun-shaped one on a class, and one string on both puts them side by side in the curation picker with nothing to tell them apart. This property is for a SUBJECT that has a background; the class is for a characteristic whose category is the background and whose value is the strain. Gemma&apos;s plain characteristics carry no subject, so the two are not interchangeable.</obo:IAO_0000232>
         <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/BCGO_0000015"/>
         <oboInOwl:hasRelatedSynonym>has genetic background of</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>strain background</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">has background</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1536,6 +1535,58 @@ This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 0274
         <oboInOwl:hasExactSynonym>autologous graft</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>autotransplant</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">autograft</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005135 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005135">
+        <rdfs:label xml:lang="en">strain</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000031">
+        <rdfs:label xml:lang="en">cell line</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00217 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00217">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005135"/>
+        <obo:IAO_0000115>The strain on which an experimental line, genotype or animal was derived or is maintained, recorded as a characteristic in its own right. The VALUE is a strain, e.g. C57BL/6. Used as a CATEGORY, where the submitter stated the background separately from the experimental strain or line that carries it.</obo:IAO_0000115>
+        <obo:IAO_0000232>A nuance of strain, and used the way `strain` itself is used: as a category whose value is a strain term. Parented at EFO_0005135 rather than beside the strain values, because EFO_0005135 has no children and the particular strains do not hang off it (C57BL/6 EFO_0022397 sits under C57BL EFO_0005181, BALB/c EFO_0000602 under NCBITaxon_10090). The same shape EFO already uses for `population` OBI_0000181 -&gt; `strain`, both of which Gemma lists as categories. 🛑 NOT expressible with TGEMO_00216 (`has background`): that is a relation and needs a SUBJECT, and a plain Gemma characteristic has only a category and a value. Minted 2026-09-15 against 24,179 corpus rows whose category is a spelling of this and whose CATEGORY_URI is NULL. Cell lines are the sibling TGEMO_00218, not this class, because the parents differ.</obo:IAO_0000232>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.obolibrary.org/obo/ExO_0000035"/>
+        <oboInOwl:hasDbXref rdf:resource="http://id.nlm.nih.gov/mesh/D000068617"/>
+        <oboInOwl:hasExactSynonym>background strain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>genetic background</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>strain/background</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>background/strain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>background mouse strain</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mouse background</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>host strain background</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>background</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">strain background</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00218"/>
+    </owl:Class>
+
+
+
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00218 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+        <obo:IAO_0000115>The cell line from which an experimental line was derived, recorded as a characteristic in its own right. The VALUE is a cell line, e.g. HEK-293. Used as a CATEGORY, where the submitter stated the parental line separately from the line the experiment used.</obo:IAO_0000115>
+        <obo:IAO_0000232>Sibling of TGEMO_00217 (`strain background`), split from it rather than folded in because the two parent at different categories: this one at CLO_0000031 (`cell line`), that one at EFO_0005135 (`strain`). One class could not sit under both without asserting that a cell line is a strain. Minted 2026-09-15 against 759 corpus rows. 🛑 `background cell type` is NOT a synonym: its values are cell types, not lines, and it would pull them under a cell-line category.</obo:IAO_0000232>
+        <oboInOwl:hasExactSynonym>background cell line</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cell background</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">cell line background</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://gemma.msl.ubc.ca/ont/TGEMO_00217"/>
     </owl:Class>
 
 
