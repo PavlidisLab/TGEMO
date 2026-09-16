@@ -1591,6 +1591,19 @@ This zQ175DN KI allele is the same design as the zQ175 KI allele (Stock No. 0274
 
 
 
+    <!-- http://gemma.msl.ubc.ca/ont/TGEMO_00017 -->
+
+    <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO_00017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+        <obo:IAO_0000115>Strain family. MGI:2159768.</obo:IAO_0000115>
+        <obo:IAO_0000232>RESTORED 2026-09-16. Removed in 0702ecf as a strain &quot;recently added to EFO 3.60.0&quot;, but EFO added the SUBSTRAIN DBA/2J (EFO_0005184), not this family, and no ontology OLS indexes carries DBA/2 at all. So the retirement swapped a family for one of its substrains and left the family with no term: the corpus holds 80 rows valued plain `DBA/2`, plus DBA/2NTac, DBA/2Crl and DBA2/J variants that EFO_0005184 would misground. MGI:2159768 resolves and is titled &quot;DBA/2 Strain Detail&quot;, so the original xref was correct. 🛑 Re-parented to NCBITaxon_10090 because its former parent TGEMO_00019 (&quot;DBA&quot;, the strain group) went in the same commit; that is also how the surviving strain terms here are parented, e.g. TGEMO_00172. 🛑 NOT the term for `C57BL/6 x DBA/2`: that is a B6D2 F1 hybrid, not this family, and the three corpus rows bound to this URI under that label were mis-bound before the removal. No ontology has a term for the hybrid.</obo:IAO_0000232>
+        <oboInOwl:hasDbXref>https://www.informatics.jax.org/strain/MGI:2159768</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>D2</oboInOwl:hasExactSynonym>
+        <rdfs:label>DBA/2</rdfs:label>
+    </owl:Class>
+
+
+
     <!-- http://gemma.msl.ubc.ca/ont/TGEMO:00103 -->
 
     <owl:Class rdf:about="http://gemma.msl.ubc.ca/ont/TGEMO:00103">
